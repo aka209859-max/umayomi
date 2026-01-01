@@ -1,0 +1,64 @@
+以下の2つの異なる評価指標【RGS1.0】および【AAS】を計算してください。
+これらは計算ロジックが全く異なるため、必ず区別して処理すること。
+
+---
+
+## 【RGS1.0】Race Grade Score (絶対収益力評価)
+
+**概要:**
+基準回収率(80%)からの乖離を、データ件数による信頼度で補正した絶対評価スコア。
+
+### 1. 入力変数 (Inputs)
+* `cnt_win`: 単勝投票件数 (H列)
+* `cnt_plc`: 複勝投票件数 (L列)
+* `rate_win_ret`: 単勝補正回収率 (Q列)
+* `rate_plc_ret`: 複勝補正回収率 (T列)
+
+### 2. 計算ロジック (Logic)
+1.  **信頼度係数 (Reliability)**
+    * 計算式: `MIN(1, SQRT((cnt_win + cnt_plc) / 500))`
+    * *意図: 件数が500件以上で信頼度MAX(1.0)とする。*
+2.  **加重平均乖離 (Weighted Diff)**
+    * 計算式: `((rate_win_ret * 0.3) + (rate_plc_ret * 0.7)) - 80`
+    * *意図: 複勝重視(7:3)で回収率を計算し、分岐点80を引く。*
+3.  **最終RGSスコア**
+    * 計算式: `10 * TANH((Weighted Diff * Reliability) / 25)`
+    * *出力: -10 ～ +10 の範囲に正規化された数値。*
+
+---
+
+## 【AAS】Advanced Analysis Score (相対偏差値評価)
+
+**概要:**
+同一レース内での相対的な強さ（偏差値）を算出し、ベイズ的アプローチで信頼度補正を行う高度分析スコア。
+
+### 1. 入力変数 (Inputs)
+* `group_id`: レースID (E列) ※グループ化キー
+* `cnt_win`, `cnt_plc`: 単勝/複勝件数 (H列, L列)
+* `rate_win_hit`, `rate_plc_hit`: 単勝/複勝的中率 (J列, N列)
+* `rate_win_ret`, `rate_plc_ret`: 単勝/複勝回収率 (Q列, T列)
+
+### 2. 計算ロジック (Logic)
+**Step 1: 基礎値 (Raw Values) の算出**
+各馬について以下を計算する。
+* `N_min` (安定件数) = `MIN(cnt_win, cnt_plc)`
+* `Hit_raw` (命中強度) = `0.65 * rate_win_hit + 0.35 * rate_plc_hit`
+* `Ret_raw` (収益強度) = `0.35 * rate_win_ret + 0.65 * rate_plc_ret`
+
+**Step 2: グループ統計 (Group Stats) の算出**
+同一 `group_id` 内の全馬を使って統計をとる。
+* `μH`, `σH`: Hit_raw の平均と標準偏差
+* `μR`, `σR`: Ret_raw の平均と標準偏差
+
+**Step 3: Zスコア (Standardization) の算出**
+各馬の偏差値を計算する。
+* `ZH` = `(Hit_raw - μH) / σH` (標準偏差0の場合は0)
+* `ZR` = `(Ret_raw - μR) / σR` (標準偏差0の場合は0)
+
+**Step 4: 信頼度収縮 (Shrinkage)**
+件数が少ないデータの評価を抑制する係数。
+* `Shr` = `SQRT(N_min / (N_min + 400))`
+
+**Step 5: 最終AASスコア**
+* ベース計算: `0.55 * ZH + 0.45 * ZR`
+* 最終式: `ROUND(12 * TANH(ベース計算) * Shr, 1)`
