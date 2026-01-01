@@ -1,0 +1,1820 @@
+{
+  "metadata": {
+    "source_file": "UKC250601.txt",
+    "extracted_at": "2025-12-31T07:48:06.513641",
+    "total_records": 362,
+    "error_count": 0
+  },
+  "records": [
+    {
+      "pedigree_id": "22103083セン",
+      "horse_name": "ジュコスモス　　　　　　　　　　20100グレーターロンドン",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "22102011アー",
+      "horse_name": "クエタニティ　　　　　　　　　　20700ルヴァンスレーヴ",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "22101012イザ",
+      "horse_name": "ベルソレイユ　　　　　　　　　　20100ニューイヤーズデイ",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "22105463ルー",
+      "horse_name": "ジュミネルバ　　　　　　　　　　20100マインドユアビスケッツ",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "22101535キタ",
+      "horse_name": "ノラータム　　　　　　　　　　　20300ビッグアーサー",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "22101490スカ",
+      "horse_name": "イビート　　　　　　　　　　　　20100ハクサンムーン",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "22100848ベリ",
+      "horse_name": "ーズブルー　　　　　　　　　　　20500フィエールマン",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "22100270ニー",
+      "horse_name": "ケアイリス　　　　　　　　　　　20700ダノンレジェンド",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "22106659スパ",
+      "horse_name": "ークルノヴァ　　　　　　　　　　20300オーセンティック",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "22104881エウ",
+      "horse_name": "テルペ　　　　　　　　　　　　　20300アドマイヤマーズ",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "22107260ルー",
+      "horse_name": "ジュフレイヤ　　　　　　　　　　20400モーリス",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "22100568カワ",
+      "horse_name": "キタホクレア　　　　　　　　　　20300サトノダイヤモンド",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "22102289ペイ",
+      "horse_name": "シャメダリスト　　　　　　　　　20300マインドユアビスケッツ",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "22106654ラブ",
+      "horse_name": "リーウィザード　　　　　　　　　20100トランセンド",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "22102612ジー",
+      "horse_name": "ティーネージュ　　　　　　　　　20300アルアイン",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "22106995アイ",
+      "horse_name": "スリーディング　　　　　　　　　20300サンダースノー",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "22102775アル",
+      "horse_name": "フィー　　　　　　　　　　　　　30300オルフェーヴル",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "22106469サウ",
+      "horse_name": "ンドリアン　　　　　　　　　　　20300キズナ",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "22107008トラ",
+      "horse_name": "ストギャロップ　　　　　　　　　10100オルフェーヴル",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "22104486アシ",
+      "horse_name": "ャカルーク　　　　　　　　　　　10400シニスターミニスター",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "22103757ヨチ",
+      "horse_name": "ヨチモンスター　　　　　　　　　20400ニューイヤーズデイ",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "22106990エス",
+      "horse_name": "ポワールドロワ　　　　　　　　　20300ルヴァンスレーヴ",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "22102007サン",
+      "horse_name": "マルストロング　　　　　　　　　10100ストロングリターン",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "22102412フィ",
+      "horse_name": "エルテ　　　　　　　　　　　　　20100アジアエクスプレス",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "22106723セラ",
+      "horse_name": "トーン　　　　　　　　　　　　　10300サクソンウォリアー",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "22101956ダー",
+      "horse_name": "クスピリット　　　　　　　　　　10400ラブリーデイ",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "22100039アイ",
+      "horse_name": "ビーガオー　　　　　　　　　　　10300パイロ",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "22103472キョ",
+      "horse_name": "ウエイスレーヴ　　　　　　　　　10300ルヴァンスレーヴ",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "22100043アミ",
+      "horse_name": "ラジオネ　　　　　　　　　　　　20300リアルスティール",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "22104089サク",
+      "horse_name": "ラパステル　　　　　　　　　　　20300シニスターミニスター",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "22103235カフ",
+      "horse_name": "ェブーケット　　　　　　　　　　10500フォーウィールドライブ",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "22102455ヘイ",
+      "horse_name": "ケ　　　　　　　　　　　　　　　10300ドレフォン",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "22103335キス",
+      "horse_name": "メット　　　　　　　　　　　　　10100ビッグアーサー",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "22105035セブ",
+      "horse_name": "ンメデュラス　　　　　　　　　　10400ドレフォン",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "22101966デル",
+      "horse_name": "マサターン　　　　　　　　　　　10300イスラボニータ",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "22101733ダイ",
+      "horse_name": "タエリュシオン　　　　　　　　　10400ホッコータルマエ",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "22101023ネオ",
+      "horse_name": "ディヤマンテ　　　　　　　　　　10300サトノダイヤモンド",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "22107266リン",
+      "horse_name": "ガスマイル　　　　　　　　　　　10500ゴールデンマンデラ",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "22104203グレ",
+      "horse_name": "ーターバーチュ　　　　　　　　　10300エピファネイア",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "22100183ティ",
+      "horse_name": "アップマッハ　　　　　　　　　　20400リオンディーズ",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "22105219ブラ",
+      "horse_name": "ンディストック　　　　　　　　　30100マインドユアビスケッツ",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "22104287ショ",
+      "horse_name": "ージージョ　　　　　　　　　　　30400シャンハイボビー",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "22102505ラン",
+      "horse_name": "ブータン　　　　　　　　　　　　10300ルーラーシップ",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "22104838デュ",
+      "horse_name": "ピュイドローム　　　　　　　　　10400ロードカナロア",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "22101066マル",
+      "horse_name": "ターズヴェロス　　　　　　　　　10500キズナ",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "22106842ゴー",
+      "horse_name": "ルドパートナー　　　　　　　　　10400ゴールドアクター",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "22101389サト",
+      "horse_name": "ミノエンジェル　　　　　　　　　10300マインドユアビスケッツ",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "22103162ロイ",
+      "horse_name": "ヤルカスタマー　　　　　　　　　10400バトルプラン",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "22105531テン",
+      "horse_name": "フレッシュ　　　　　　　　　　　20100ダイワメジャー",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "22101797エン",
+      "horse_name": "トロピー　　　　　　　　　　　　20400ダノンバラード",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "22104572ウー",
+      "horse_name": "バーミッション　　　　　　　　　20300ノーブルミッション",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "22104893ダノ",
+      "horse_name": "ンエンブレム　　　　　　　　　　10300エピファネイア",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "22100462バッ",
+      "horse_name": "トスティンガー　　　　　　　　　10300キズナ",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "22100670アス",
+      "horse_name": "トロマーチ　　　　　　　　　　　20300ウインブライト",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "22105082アル",
+      "horse_name": "ガムベイ　　　　　　　　　　　　10500モーリス",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "22101191ポタ",
+      "horse_name": "リング　　　　　　　　　　　　　30300ノーブルミッション",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "22105701スト",
+      "horse_name": "ラティファイド　　　　　　　　　20300ロードカナロア",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "22105241ソナ",
+      "horse_name": "タン　　　　　　　　　　　　　　10500レッドファルクス",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "22106133ロジ",
+      "horse_name": "アンドモルタル　　　　　　　　　10300ブリックスアンドモルタル",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "22110075カゼ",
+      "horse_name": "ニナッテル　　　　　　　　　　　20406マグナグレシア",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "22104497ムコ",
+      "horse_name": "リッタ　　　　　　　　　　　　　20100カルフォルニアクローム",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "22104275ノー",
+      "horse_name": "ブルライナー　　　　　　　　　　10400マツリダゴッホ",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "22110092コン",
+      "horse_name": "ヴァージョン　　　　　　　　　　10306カラヴァッジオ",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "22106669パシ",
+      "horse_name": "ーヴ　　　　　　　　　　　　　　10300ニューイヤーズデイ",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "22103898ピー",
+      "horse_name": "チマカロン　　　　　　　　　　　20300ホッコータルマエ",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "22110152レー",
+      "horse_name": "ティッシュ　　　　　　　　　　　10306アメリカンファラオ",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "22102399マー",
+      "horse_name": "ズオデッセイ　　　　　　　　　　10300アドマイヤマーズ",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "22105774セレ",
+      "horse_name": "ジェイラ　　　　　　　　　　　　20400ナダル",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "22103755ジー",
+      "horse_name": "ティーエンジン　　　　　　　　　10700リアルスティール",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "22105364メル",
+      "horse_name": "シージュテーム　　　　　　　　　20400ダノンレジェンド",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "22102493トリ",
+      "horse_name": "リオンボーイ　　　　　　　　　　10100マクフィ",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "22105439ドラ",
+      "horse_name": "ゴン　　　　　　　　　　　　　　10300マインドユアビスケッツ",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "22101863ドン",
+      "horse_name": "トゥザムーン　　　　　　　　　　10500カレンブラックヒル",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "22104271スマ",
+      "horse_name": "イルディシー　　　　　　　　　　20100ディスクリートキャット",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "21103512ツイ",
+      "horse_name": "ンクルステージ　　　　　　　　　20100エピファネイア",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "21105911アン",
+      "horse_name": "ドローゼス　　　　　　　　　　　20300スワーヴリチャード",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "21106068パス",
+      "horse_name": "トラーレ　　　　　　　　　　　　10500シルバーステート",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "21104722ネイ",
+      "horse_name": "サン　　　　　　　　　　　　　　10405マクマホン",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "19100722フリ",
+      "horse_name": "ューゲルホルン　　　　　　　　　10400ラニ",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "21105035イー",
+      "horse_name": "ジーブリージー　　　　　　　　　20300トーセンラー",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "21100151ロー",
+      "horse_name": "ドアフェット　　　　　　　　　　10500キズナ",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "21102708アド",
+      "horse_name": "ミラルシップ　　　　　　　　　　10300ゴールドシップ",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "21103227ジャ",
+      "horse_name": "ズ　　　　　　　　　　　　　　　10300ルーラーシップ",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "21105418クラ",
+      "horse_name": "ッチプレイヤー　　　　　　　　　10100ドゥラメンテ",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "21100043ユキ",
+      "horse_name": "ノフルマチ　　　　　　　　　　　20705マインドユアビスケッツ",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "21104899ドリ",
+      "horse_name": "ームクルーズ　　　　　　　　　　20100エピファネイア",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "20102918オル",
+      "horse_name": "ソビアンコ　　　　　　　　　　　20300ハービンジャー",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "21100244ニシ",
+      "horse_name": "ノティアモ　　　　　　　　　　　20300ドゥラメンテ",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "21105023メン",
+      "horse_name": "ドロントット　　　　　　　　　　10500ドゥラメンテ",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "19106031サン",
+      "horse_name": "マルソムニア　　　　　　　　　　20300リアルインパクト",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "21100929フラ",
+      "horse_name": "ムブランシュ　　　　　　　　　　10500シャンハイボビー",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "21106064ネオ",
+      "horse_name": "ゴールド　　　　　　　　　　　　10100ヘニーヒューズ",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "20102269ツィ",
+      "horse_name": "スカリーゼ　　　　　　　　　　　10405リオンディーズ",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "21101015スー",
+      "horse_name": "パーバイザー　　　　　　　　　　10300ルーラーシップ",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "19104560ヘレ",
+      "horse_name": "ンキムゼー　　　　　　　　　　　10105イスラボニータ",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "21100328グリ",
+      "horse_name": "ントリッター　　　　　　　　　　30300ダノンレジェンド",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "21105956ロン",
+      "horse_name": "ドンアームズ　　　　　　　　　　20300グレーターロンドン",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "20102711ノル",
+      "horse_name": "ドヴェスト　　　　　　　　　　　10305ロードカナロア",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "21103529エコ",
+      "horse_name": "ロヴァルム　　　　　　　　　　　10100ロージズインメイ",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "19102320サイ",
+      "horse_name": "モンカーチス　　　　　　　　　　10300コパノリッキー",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "21105125リヤ",
+      "horse_name": "ンドゥミラクル　　　　　　　　　20300ルーラーシップ",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "19106938ブエ",
+      "horse_name": "ナディオサ　　　　　　　　　　　20305メイショウボーラー",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "21104313キミ",
+      "horse_name": "ハスコール　　　　　　　　　　　10500コパノリッキー",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "21100475ボエ",
+      "horse_name": "ーム　　　　　　　　　　　　　　10105アニマルキングダム",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "20106429ノー",
+      "horse_name": "ブルミステリー　　　　　　　　　20400ディーマジェスティ",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "21103507アー",
+      "horse_name": "クレアル　　　　　　　　　　　　20305キズナ",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "21106077プリ",
+      "horse_name": "ズマジコ　　　　　　　　　　　　10300キズナ",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "20106694ヴァ",
+      "horse_name": "イザーバルコ　　　　　　　　　　30105ゴールドシップ",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "20103329ロー",
+      "horse_name": "レルキャニオン　　　　　　　　　10500ジャスタウェイ",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "19102938ニシ",
+      "horse_name": "ノレバンテ　　　　　　　　　　　10300イスラボニータ",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "21105755ジオ",
+      "horse_name": "セントリック　　　　　　　　　　10300ハービンジャー",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "21101068クロ",
+      "horse_name": "シェットノエル　　　　　　　　　20100ニューイヤーズデイ",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "19102384タイ",
+      "horse_name": "ラーテソーロ　　　　　　　　　　10400ゴールドシップ",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "21105503クル",
+      "horse_name": "ミナーレ　　　　　　　　　　　　10500ブラックタイド",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "21100441ボク",
+      "horse_name": "ラヲツナグモノ　　　　　　　　　10300ガルボ",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "20102190トロ",
+      "horse_name": "ピカルライト　　　　　　　　　　20400キズナ",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "21105499アバ",
+      "horse_name": "ンデル　　　　　　　　　　　　　10300ワールドエース",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "21105639ダノ",
+      "horse_name": "ンホイットニー　　　　　　　　　20300ミッキーロケット",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "20102976ノー",
+      "horse_name": "ブルクライ　　　　　　　　　　　10400ハーツクライ",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "20103208ジュ",
+      "horse_name": "ンツバメガエシ　　　　　　　　　10400ジャスタウェイ",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "21106563イク",
+      "horse_name": "リール　　　　　　　　　　　　　10100シュヴァルグラン",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "21104887デュ",
+      "horse_name": "アルウィルダー　　　　　　　　　10300ヨシダ",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "18101243オレ",
+      "horse_name": "デイイノカ　　　　　　　　　　　10100サウスヴィグラス",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "20103928ホウ",
+      "horse_name": "オウスーペリア　　　　　　　　　10300スクリーンヒーロー",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "19104056トッ",
+      "horse_name": "プオブジェラス　　　　　　　　　10300ドゥラメンテ",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "21104104フジ",
+      "horse_name": "マサテイオー　　　　　　　　　　10305ホッコータルマエ",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "21102009ラタ",
+      "horse_name": "フォレスト　　　　　　　　　　　10100パイロ",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "21101147グロ",
+      "horse_name": "バーテソーロ　　　　　　　　　　10100オルフェーヴル",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "20102317サイ",
+      "horse_name": "モンブーケ　　　　　　　　　　　20105ダイワメジャー",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "20102703リバ",
+      "horse_name": "ートゥルー　　　　　　　　　　　20700レッドファルクス",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "21105356ター",
+      "horse_name": "コイズフリンジ　　　　　　　　　10300ブラックタイド",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "21105120グラ",
+      "horse_name": "ウンドビート　　　　　　　　　　30300ロードカナロア",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "21110127テリ",
+      "horse_name": "フィックプラン　　　　　　　　　10306マスタリー",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "18106693グラ",
+      "horse_name": "ンツアーテム　　　　　　　　　　10300マクフィ",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "20102814ジャ",
+      "horse_name": "スリー　　　　　　　　　　　　　10300ルーラーシップ",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "21102903ワン",
+      "horse_name": "パット　　　　　　　　　　　　　10300シニスターミニスター",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "21101478ダノ",
+      "horse_name": "ンザボルケーノ　　　　　　　　　10400キタサンブラック",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "19102654コブ",
+      "horse_name": "ラ　　　　　　　　　　　　　　　10405ダノンレジェンド",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "19105559ロジ",
+      "horse_name": "マンボ　　　　　　　　　　　　　10400ドゥラメンテ",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "20105494ニシ",
+      "horse_name": "ノライコウ　　　　　　　　　　　10400エイシンヒカリ",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "21100363パワ",
+      "horse_name": "ーホール　　　　　　　　　　　　30500スワーヴリチャード",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "18105157ディ",
+      "horse_name": "ープリッチ　　　　　　　　　　　10400ディープブリランテ",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "21105609スパ",
+      "horse_name": "ークリシャール　　　　　　　　　30300スワーヴリチャード",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "19100768マイ",
+      "horse_name": "ネルニコラス　　　　　　　　　　10100キングカメハメハ",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "21104791メリ",
+      "horse_name": "オーレム　　　　　　　　　　　　10300シュヴァルグラン",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "18109026ヴル",
+      "horse_name": "カーノ　　　　　　　　　　　　　10300スピルバーグ",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "18104591サウ",
+      "horse_name": "ンドウォリアー　　　　　　　　　10300マジェスティックウォリアー",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "21105757テウ",
+      "horse_name": "メッサ　　　　　　　　　　　　　20100ハービンジャー",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "21100206ニュ",
+      "horse_name": "ーステソーロ　　　　　　　　　　20100エピファネイア",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "21105578ショ",
+      "horse_name": "ウナンラピダス　　　　　　　　　10300ドゥラメンテ",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "20103562コス",
+      "horse_name": "モシャングリラ　　　　　　　　　20300ハーツクライ",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "20103304アン",
+      "horse_name": "リーロード　　　　　　　　　　　20300リアルスティール",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "21105788バロ",
+      "horse_name": "ネッサ　　　　　　　　　　　　　20400ロードカナロア",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "20105217ウイ",
+      "horse_name": "ンオーディン　　　　　　　　　　10400エピファネイア",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "20103066マル",
+      "horse_name": "チャン　　　　　　　　　　　　　10300ラブリーデイ",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "19105197ブラ",
+      "horse_name": "ックシールド　　　　　　　　　　10300キタサンブラック",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "22104922リラ",
+      "horse_name": "エンブレム　　　　　　　　　　　10400キズナ",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "22104714ショ",
+      "horse_name": "ウヘイ　　　　　　　　　　　　　10400サートゥルナーリア",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "22105099エリ",
+      "horse_name": "キング　　　　　　　　　　　　　10300キズナ",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "22105891ドラ",
+      "horse_name": "ゴンブースト　　　　　　　　　　10300スクリーンヒーロー",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "22104416レデ",
+      "horse_name": "ィネス　　　　　　　　　　　　　10100スワーヴリチャード",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "22105836ファ",
+      "horse_name": "ンダム　　　　　　　　　　　　　10300サートゥルナーリア",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "22105081ミュ",
+      "horse_name": "ージアムマイル　　　　　　　　　10400リオンディーズ",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "22105105エム",
+      "horse_name": "ズ　　　　　　　　　　　　　　　10400ドゥラメンテ",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "22103995ジョ",
+      "horse_name": "バンニ　　　　　　　　　　　　　10300エピファネイア",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "22104397トッ",
+      "horse_name": "ピボーン　　　　　　　　　　　　10300リアルスティール",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "22106155ニシ",
+      "horse_name": "ノエージェント　　　　　　　　　10400イスラボニータ",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "22104896カラ",
+      "horse_name": "マティアノス　　　　　　　　　　10300レイデオロ",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "22105102クロ",
+      "horse_name": "ワデュノール　　　　　　　　　　10500キタサンブラック",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "22104845ホウ",
+      "horse_name": "オウアートマン　　　　　　　　　10100ドゥラメンテ",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "22104218ファ",
+      "horse_name": "ウストラーゼン　　　　　　　　　10300モズアスコット",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "22104720ファ",
+      "horse_name": "イアンクランツ　　　　　　　　　10300ドゥラメンテ",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "22105519マス",
+      "horse_name": "カレードボール　　　　　　　　　10400ドゥラメンテ",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "22101420サト",
+      "horse_name": "ノシャイニング　　　　　　　　　10400キズナ",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "21105104サン",
+      "horse_name": "ライズソレイユ　　　　　　　　　10400キズナ",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "19102879マテ",
+      "horse_name": "ンロウレオ　　　　　　　　　　　10400ハーツクライ",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "20103945ヴェ",
+      "horse_name": "ルミセル　　　　　　　　　　　　20100ゴールドシップ",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "19100792マイ",
+      "horse_name": "ネルクリソーラ　　　　　　　　　10100スクリーンヒーロー",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "20103111アス",
+      "horse_name": "ターブジエ　　　　　　　　　　　10100オルフェーヴル",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "19101847ミク",
+      "horse_name": "ソロジー　　　　　　　　　　　　10100オルフェーヴル",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "20105798マイ",
+      "horse_name": "ネルカンパーナ　　　　　　　　　10300ゴールドシップ",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "21105829ステ",
+      "horse_name": "ィンガーグラス　　　　　　　　　10300キズナ",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "21104855ホー",
+      "horse_name": "エリート　　　　　　　　　　　　20300ルーラーシップ",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "21105369アド",
+      "horse_name": "マイヤテラ　　　　　　　　　　　10700レイデオロ",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "18104475ディ",
+      "horse_name": "ープモンスター　　　　　　　　　10500ディープインパクト",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "16102175ダン",
+      "horse_name": "ディズム　　　　　　　　　　　　30400マンハッタンカフェ",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "20103666マキ",
+      "horse_name": "シ　　　　　　　　　　　　　　　10300エピファネイア",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "18101348シル",
+      "horse_name": "ブロン　　　　　　　　　　　　　10300トーセンジョーダン",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "16100752マイ",
+      "horse_name": "ネルウィルトス　　　　　　　　　10400スクリーンヒーロー",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "16104624ハヤ",
+      "horse_name": "ヤッコ　　　　　　　　　　　　　11100キングカメハメハ",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "19104091メイ",
+      "horse_name": "ショウブレゲ　　　　　　　　　　10100ゴールドシップ",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "20100254ニシ",
+      "horse_name": "ノレヴナント　　　　　　　　　　30100ネロ",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "22103237メイ",
+      "horse_name": "ショウホダワラ　　　　　　　　　20300デクラレーションオブウォー",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "22101567タマ",
+      "horse_name": "モペルリーナ　　　　　　　　　　20400ロジャーバローズ",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "22101597ウイ",
+      "horse_name": "ンクルホープ　　　　　　　　　　20400サトノアラジン",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "22102983メイ",
+      "horse_name": "ショウロンド　　　　　　　　　　20300ロジャーバローズ",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "22101025ワン",
+      "horse_name": "ダーフレックス　　　　　　　　　20500ブリックスアンドモルタル",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "22107279ミト",
+      "horse_name": "ノキャット　　　　　　　　　　　20300ディスクリートキャット",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "22104391ヴィ",
+      "horse_name": "ヴァシャス　　　　　　　　　　　20300モズアスコット",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "22103948スマ",
+      "horse_name": "ートピリカ　　　　　　　　　　　20100カルフォルニアクローム",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "22101656チム",
+      "horse_name": "ニーパイプ　　　　　　　　　　　20100サンダースノー",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "22103300ファ",
+      "horse_name": "ータビアンカ　　　　　　　　　　20700デクラレーションオブウォー",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "22101428グレ",
+      "horse_name": "ースサンライズ　　　　　　　　　20100アドマイヤマーズ",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "22104508フラ",
+      "horse_name": "ッシュケリー　　　　　　　　　　20300モーニン",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "22104644ペン",
+      "horse_name": "テリコン　　　　　　　　　　　　20400シルバーステート",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "22104514ウィ",
+      "horse_name": "ンビュー　　　　　　　　　　　　20100モズアスコット",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "22102815クリ",
+      "horse_name": "ノクイーン　　　　　　　　　　　20300リアルスティール",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "22103266メイ",
+      "horse_name": "ショウアキカゼ　　　　　　　　　20300ダノンレジェンド",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "22104225エー",
+      "horse_name": "ルヴィリース　　　　　　　　　　10300ワンアンドオンリー",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "22101933ハッ",
+      "horse_name": "クルベリー　　　　　　　　　　　10100ダンカーク",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "22106617サル",
+      "horse_name": "タール　　　　　　　　　　　　　30100マジェスティックウォリアー",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "22100783ジョ",
+      "horse_name": "ーエルピーゾ　　　　　　　　　　10100エスポワールシチー",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "22107240ホウ",
+      "horse_name": "ショウビフウ　　　　　　　　　　20700ゴールドシップ",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "22105572クロ",
+      "horse_name": "シオカレント　　　　　　　　　　10300ブリックスアンドモルタル",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "22101593ピエ",
+      "horse_name": "ナアイル　　　　　　　　　　　　10100ミッキーアイル",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "22102898ナム",
+      "horse_name": "ラエン　　　　　　　　　　　　　20300リアルスティール",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "22105630カン",
+      "horse_name": "タカナリート　　　　　　　　　　10300ルヴァンスレーヴ",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "22101270ペプ",
+      "horse_name": "チドモガミ　　　　　　　　　　　30300コパノリッキー",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "22101673サル",
+      "horse_name": "ファー　　　　　　　　　　　　　10300パイロ",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "22102906オリ",
+      "horse_name": "ジナルファイン　　　　　　　　　20400パイロ",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "22107248ルシ",
+      "horse_name": "ャリオ　　　　　　　　　　　　　10300シルバーステート",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "22104963マテ",
+      "horse_name": "ンロウシルビア　　　　　　　　　20300ルーラーシップ",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "22110094ビリ",
+      "horse_name": "オネアボーイ　　　　　　　　　　10106アメリカンファラオ",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "22101063エマ",
+      "horse_name": "ダイヤモンド　　　　　　　　　　20300サトノダイヤモンド",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "22105106ブラ",
+      "horse_name": "ックソンソルト　　　　　　　　　20100アドマイヤマーズ",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "22104117レイ",
+      "horse_name": "ンオンミー　　　　　　　　　　　10300リアルスティール",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "22105812ヤン",
+      "horse_name": "グソルジャー　　　　　　　　　　30400ブリックスアンドモルタル",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "22104741ジー",
+      "horse_name": "ティーハート　　　　　　　　　　20500キタサンブラック",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "22103655エイ",
+      "horse_name": "シンカーバイン　　　　　　　　　10400エイシンヒカリ",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "22104189ステ",
+      "horse_name": "イトゥルー　　　　　　　　　　　10300マクフィ",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "22103068スピ",
+      "horse_name": "ードイエロー　　　　　　　　　　10400ルヴァンスレーヴ",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "22105313セレ",
+      "horse_name": "スチャルホープ　　　　　　　　　20300エピファネイア",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "22100869コル",
+      "horse_name": "レーニョ　　　　　　　　　　　　20100アドマイヤマーズ",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "22106651ハギ",
+      "horse_name": "ノヴェルドン　　　　　　　　　　10300ブリックスアンドモルタル",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "22105688ドバ",
+      "horse_name": "イミッション　　　　　　　　　　10100ダイワメジャー",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "22104623コリ",
+      "horse_name": "カンチャ　　　　　　　　　　　　30300ブリックスアンドモルタル",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "22105010ヴァ",
+      "horse_name": "イスクレー　　　　　　　　　　　20300ミッキーアイル",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "22101644ウチ",
+      "horse_name": "ナータイム　　　　　　　　　　　20300ロードカナロア",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "22104417シャ",
+      "horse_name": "インモノリス　　　　　　　　　　10400ビーチパトロール",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "22101434ダノ",
+      "horse_name": "ンプリマ　　　　　　　　　　　　20500ダノンレジェンド",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "21104924コン",
+      "horse_name": "テナワールド　　　　　　　　　　10100エピファネイア",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "17103381ティ",
+      "horse_name": "ートラップ　　　　　　　　　　　10300シニスターミニスター",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "20102347ナイ",
+      "horse_name": "トスピアー　　　　　　　　　　　10400ストロングリターン",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "18100752タン",
+      "horse_name": "ジェントアーク　　　　　　　　　30400エイシンフラッシュ",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "17106373メイ",
+      "horse_name": "ショウコホク　　　　　　　　　　30305ダイワメジャー",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "21104280テク",
+      "horse_name": "ネチウム　　　　　　　　　　　　10300マクフィ",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "18103503プラ",
+      "horse_name": "チナムレイアー　　　　　　　　　30700マツリダゴッホ",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "20104089ドン",
+      "horse_name": "カルロ　　　　　　　　　　　　　10100ドレフォン",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "19101507ディ",
+      "horse_name": "ナースタ　　　　　　　　　　　　10100ドゥラメンテ",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "18104865レデ",
+      "horse_name": "ィステディゴー　　　　　　　　　10300ダイワメジャー",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "17104700ナリ",
+      "horse_name": "ノモンターニュ　　　　　　　　　10400ヴィクトワールピサ",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "15104512スヴ",
+      "horse_name": "ァルナ　　　　　　　　　　　　　30400ステイゴールド",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "22103281タイ",
+      "horse_name": "セイルシエル　　　　　　　　　　10400レイデオロ",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "22100995グロ",
+      "horse_name": "ウミニョン　　　　　　　　　　　20300シルバーステート",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "22103787ジョ",
+      "horse_name": "イボーイ　　　　　　　　　　　　10300レイデオロ",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "22110044ジャ",
+      "horse_name": "ックオダモ　　　　　　　　　　　10306ウートンバセット",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "22106607ヤマ",
+      "horse_name": "ニンヒストリア　　　　　　　　　10400サトノクラウン",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "22104308シカ",
+      "horse_name": "レ　　　　　　　　　　　　　　　20300アメリカンファラオ",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "22102703コパ",
+      "horse_name": "カバーナ　　　　　　　　　　　　20100オルフェーヴル",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "22101759セキ",
+      "horse_name": "トバシューズ　　　　　　　　　　20300キタサンブラック",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "22102141モル",
+      "horse_name": "ゲンゾンネ　　　　　　　　　　　10400レイデオロ",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "22106751プレ",
+      "horse_name": "デスティナーレ　　　　　　　　　10400トランセンド",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "22104661ジー",
+      "horse_name": "ティートシオー　　　　　　　　　10600バゴ",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "22105563ヴァ",
+      "horse_name": "リラプトル　　　　　　　　　　　20100オルフェーヴル",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "22101401アン",
+      "horse_name": "アルモニー　　　　　　　　　　　20400ドゥラメンテ",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "22106858コト",
+      "horse_name": "リノサエズリ　　　　　　　　　　20300パイロ",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "22103527ライ",
+      "horse_name": "ツユーアップ　　　　　　　　　　20100スワーヴリチャード",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "22106584ケイ",
+      "horse_name": "アイマハナ　　　　　　　　　　　10400ダノンレジェンド",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "22106243サヨ",
+      "horse_name": "ノジャンボリー　　　　　　　　　10100モーニン",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "22101202サン",
+      "horse_name": "ナイアガラ　　　　　　　　　　　20400アメリカンペイトリオット",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "22104749ソリ",
+      "horse_name": "スクラヴィス　　　　　　　　　　10100ヘニーヒューズ",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "22103286エナ",
+      "horse_name": "ジーガンツ　　　　　　　　　　　10100モズアスコット",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "22105964スニ",
+      "horse_name": "ーカースキル　　　　　　　　　　20500キズナ",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "22101068オリ",
+      "horse_name": "ージネアリア　　　　　　　　　　20300ディスクリートキャット",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "22103047ホウ",
+      "horse_name": "ショウマリス　　　　　　　　　　20100ドレフォン",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "22110117チュ",
+      "horse_name": "ウワチーフ　　　　　　　　　　　10406トムズデター",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "22101396サン",
+      "horse_name": "ライズブレイク　　　　　　　　　10300フォーウィールドライブ",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "22105302ヴリ",
+      "horse_name": "トラハン　　　　　　　　　　　　10300ロードカナロア",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "22100327ジェ",
+      "horse_name": "ミート　　　　　　　　　　　　　10300モーニン",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "21101557タマ",
+      "horse_name": "モランプ　　　　　　　　　　　　10400サトノアラジン",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "21105465ブロ",
+      "horse_name": "ードグリン　　　　　　　　　　　20400ルーラーシップ",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "20105652トリ",
+      "horse_name": "オンファルマン　　　　　　　　　20300キズナ",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "19100915ゼン",
+      "horse_name": "ノインヴォーク　　　　　　　　　30300シルバーステート",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "21104148オー",
+      "horse_name": "サムピクチャ　　　　　　　　　　20305キズナ",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "21105969タナ",
+      "horse_name": "バタ　　　　　　　　　　　　　　10300ルーラーシップ",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "20106680サス",
+      "horse_name": "ケ　　　　　　　　　　　　　　　10500エピファネイア",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "20103910レジ",
+      "horse_name": "ェンドシップ　　　　　　　　　　30700ゴールドシップ",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "21104860ウー",
+      "horse_name": "ルデュボヌール　　　　　　　　　10300キタサンブラック",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "21103426アッ",
+      "horse_name": "プステート　　　　　　　　　　　10300シルバーステート",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "21105459ヴィ",
+      "horse_name": "スマール　　　　　　　　　　　　10300ブリックスアンドモルタル",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "21105570シル",
+      "horse_name": "バーカレッジ　　　　　　　　　　10700エピファネイア",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "21106936フレ",
+      "horse_name": "イミングパイ　　　　　　　　　　20300リアルインパクト",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "21103242ジー",
+      "horse_name": "ベック　　　　　　　　　　　　　10100ガンランナー",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "21106305ラン",
+      "horse_name": "ウインディ　　　　　　　　　　　20300エスポワールシチー",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "21102462ワー",
+      "horse_name": "クソング　　　　　　　　　　　　10300モーニン",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "21105711ズバ",
+      "horse_name": "ットマサムネ　　　　　　　　　　30300キンシャサノキセキ",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "19103556サク",
+      "horse_name": "ハル　　　　　　　　　　　　　　10300ヘニーヒューズ",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "21106923ソー",
+      "horse_name": "ニャシュニク　　　　　　　　　　20100サンダースノー",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "20110127ジョ",
+      "horse_name": "ヴィアン　　　　　　　　　　　　10306ジャスティファイ",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "20105156フェ",
+      "horse_name": "リ　　　　　　　　　　　　　　　20100ヘニーヒューズ",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "21104210ニホ",
+      "horse_name": "ンピロトッティ　　　　　　　　　20100ディスクリートキャット",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "19105860オー",
+      "horse_name": "スミメッシーナ　　　　　　　　　20100シニスターミニスター",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "21101121ミラ",
+      "horse_name": "イテーラー　　　　　　　　　　　20300オルフェーヴル",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "21102953パド",
+      "horse_name": "マ　　　　　　　　　　　　　　　20300ドレフォン",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "20103198メイ",
+      "horse_name": "デンタワー　　　　　　　　　　　20100ドレフォン",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "19106704カン",
+      "horse_name": "ザシ　　　　　　　　　　　　　　20700ディーマジェスティ",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "21105706フォ",
+      "horse_name": "ルテローザ　　　　　　　　　　　20400サトノアラジン",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "21103125コパ",
+      "horse_name": "ノアントニオ　　　　　　　　　　10100コパノリッキー",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "20106393ノボ",
+      "horse_name": "リクレバー　　　　　　　　　　　20100デクラレーションオブウォー",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "21103263メイ",
+      "horse_name": "ショウソウタ　　　　　　　　　　10300ドレフォン",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "21105931ギマ",
+      "horse_name": "ール　　　　　　　　　　　　　　10200カレンブラックヒル",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "21106359バト",
+      "horse_name": "ンインディ　　　　　　　　　　　10300パイロ",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "20106579ルナ",
+      "horse_name": "ビス　　　　　　　　　　　　　　20300ディーマジェスティ",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "19103983リジ",
+      "horse_name": "ン　　　　　　　　　　　　　　　10405ストロングリターン",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "19104636シュ",
+      "horse_name": "プリンガー　　　　　　　　　　　30600ラブリーデイ",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "21109027テー",
+      "horse_name": "オールビー　　　　　　　　　　　20100サンダースノー",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "21100329プル",
+      "horse_name": "ナチャンドラ　　　　　　　　　　10100アニマルキングダム",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "21102905ホル",
+      "horse_name": "トバージ　　　　　　　　　　　　10300キンシャサノキセキ",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "16100126ダデ",
+      "horse_name": "ィーズトリップ　　　　　　　　　10600ドリームジャーニー",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "20100996ミヤ",
+      "horse_name": "ジレガリア　　　　　　　　　　　20300キタサンブラック",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "21103154メイ",
+      "horse_name": "ショウカシワデ　　　　　　　　　10300シニスターミニスター",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "18102227アナ",
+      "horse_name": "ゴサン　　　　　　　　　　　　　10100ミッキーアイル",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "19101005タイ",
+      "horse_name": "セイブリリオ　　　　　　　　　　10300ディープブリランテ",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "20104702ジョ",
+      "horse_name": "ウショーホープ　　　　　　　　　10300ミッキーロケット",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "18106318メイ",
+      "horse_name": "ショウシンタケ　　　　　　　　　10300ワールドエース",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "21100139クラ",
+      "horse_name": "ンフォード　　　　　　　　　　　20300ブリックスアンドモルタル",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "20104572ペイ",
+      "horse_name": "シャフラワー　　　　　　　　　　20300ニシケンモノノフ",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "19107075ブラ",
+      "horse_name": "ンデーロック　　　　　　　　　　10100マクフィ",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "18105454グレ",
+      "horse_name": "イイングリーン　　　　　　　　　10700ディープインパクト",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "21106834コラ",
+      "horse_name": "ソンビート　　　　　　　　　　　20100スワーヴリチャード",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "18102020ヤマ",
+      "horse_name": "ニンサンパ　　　　　　　　　　　10700ディープインパクト",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "21104897バウ",
+      "horse_name": "ンシーステップ　　　　　　　　　20100モーリス",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "20110155レイ",
+      "horse_name": "ベリング　　　　　　　　　　　　10306フランケル",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "20105400タマ",
+      "horse_name": "モブラックタイ　　　　　　　　　10300デクラレーションオブウォー",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "20101784ラケ",
+      "horse_name": "マーダ　　　　　　　　　　　　　10300アメリカンペイトリオット",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "20103482スカ",
+      "horse_name": "イロケット　　　　　　　　　　　10300ジャスタウェイ",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "21102315アス",
+      "horse_name": "クワンタイム　　　　　　　　　　10300ロードカナロア",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "22104097アタ",
+      "horse_name": "ラシイカドデニ　　　　　　　　　10305イスラボニータ",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "22104171スナ",
+      "horse_name": "ークピカソ　　　　　　　　　　　10300アジアエクスプレス",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "22109145エイ",
+      "horse_name": "ヨーアメジスト　　　　　　　　　20300アレスバローズ",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "22100619ロー",
+      "horse_name": "ドガレリア　　　　　　　　　　　10400フィエールマン",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "22104902マイ",
+      "horse_name": "ユニバース　　　　　　　　　　　10300レイデオロ",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "22102744キン",
+      "horse_name": "グメーカー　　　　　　　　　　　10300スワーヴリチャード",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "22101648セン",
+      "horse_name": "ツブラッド　　　　　　　　　　　10400ルーラーシップ",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "22105580ライ",
+      "horse_name": "トトラック　　　　　　　　　　　10300キタサンブラック",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "22104940エイ",
+      "horse_name": "カイカッシーナ　　　　　　　　　20400エピファネイア",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "22101601ニュ",
+      "horse_name": "ークレド　　　　　　　　　　　　10400ブリックスアンドモルタル",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "22104973バズ",
+      "horse_name": "アップビート　　　　　　　　　　10300エピファネイア",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "18103406トー",
+      "horse_name": "ホウディアス　　　　　　　　　　10100トーホウジャッカル",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "20110039ユハ",
+      "horse_name": "ンヌス　　　　　　　　　　　　　10406フランケル",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "19103898スー",
+      "horse_name": "サンアッシャー　　　　　　　　　10300シューニ",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "20101872デイ",
+      "horse_name": "トナモード　　　　　　　　　　　10300アメリカンペイトリオット",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "19106925ムー",
+      "horse_name": "ンリットナイト　　　　　　　　　10300マジェスティックウォリアー",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "21102461バン",
+      "horse_name": "ドシェル　　　　　　　　　　　　10300バンドワゴン",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "17104092プレ",
+      "horse_name": "シオーソ　　　　　　　　　　　　30400ブラックタイド",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "21100494ガロ",
+      "horse_name": "ンヌ　　　　　　　　　　　　　　10700モーリス",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "19102106ブリ",
+      "horse_name": "ュットミレジメ　　　　　　　　　10305コパノリッキー",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "21106594ヤマ",
+      "horse_name": "ニンアストロン　　　　　　　　　10500ディーマジェスティ",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "19104112メイ",
+      "horse_name": "ショウウネビ　　　　　　　　　　10300メイショウサムソン",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "21105370キャ",
+      "horse_name": "プテンシー　　　　　　　　　　　10300モーリス",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "20105198ウイ",
+      "horse_name": "ンスノーライト　　　　　　　　　10700エイシンヒカリ",
+      "raw_data_length": 292
+    },
+    {
+      "pedigree_id": "20105354サク",
+      "horse_name": "セスアイ　　　　　　　　　　　　20400ミッキーアイル",
+      "raw_data_length": 292
+    }
+  ]
+}

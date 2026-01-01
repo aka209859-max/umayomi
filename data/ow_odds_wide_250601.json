@@ -1,0 +1,106 @@
+{
+  "metadata": {
+    "source_file": "OW250601.txt",
+    "extracted_at": "2025-12-31T07:48:40.110349",
+    "total_records": 24,
+    "error_count": 0
+  },
+  "records": [
+    {
+      "race_id": "05252c01",
+      "raw_data_length": 780
+    },
+    {
+      "race_id": "05252c02",
+      "raw_data_length": 780
+    },
+    {
+      "race_id": "05252c03",
+      "raw_data_length": 780
+    },
+    {
+      "race_id": "05252c04",
+      "raw_data_length": 780
+    },
+    {
+      "race_id": "05252c05",
+      "raw_data_length": 780
+    },
+    {
+      "race_id": "05252c06",
+      "raw_data_length": 780
+    },
+    {
+      "race_id": "05252c07",
+      "raw_data_length": 780
+    },
+    {
+      "race_id": "05252c08",
+      "raw_data_length": 780
+    },
+    {
+      "race_id": "05252c09",
+      "raw_data_length": 780
+    },
+    {
+      "race_id": "05252c10",
+      "raw_data_length": 780
+    },
+    {
+      "race_id": "05252c11",
+      "raw_data_length": 780
+    },
+    {
+      "race_id": "05252c12",
+      "raw_data_length": 780
+    },
+    {
+      "race_id": "08252c01",
+      "raw_data_length": 780
+    },
+    {
+      "race_id": "08252c02",
+      "raw_data_length": 780
+    },
+    {
+      "race_id": "08252c03",
+      "raw_data_length": 780
+    },
+    {
+      "race_id": "08252c04",
+      "raw_data_length": 780
+    },
+    {
+      "race_id": "08252c05",
+      "raw_data_length": 780
+    },
+    {
+      "race_id": "08252c06",
+      "raw_data_length": 780
+    },
+    {
+      "race_id": "08252c07",
+      "raw_data_length": 780
+    },
+    {
+      "race_id": "08252c08",
+      "raw_data_length": 780
+    },
+    {
+      "race_id": "08252c09",
+      "raw_data_length": 780
+    },
+    {
+      "race_id": "08252c10",
+      "raw_data_length": 780
+    },
+    {
+      "race_id": "08252c11",
+      "raw_data_length": 780
+    },
+    {
+      "race_id": "08252c12",
+      "raw_data_length": 780
+    }
+  ]
+}

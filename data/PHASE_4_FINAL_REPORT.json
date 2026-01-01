@@ -1,0 +1,110 @@
+{
+  "project": "UMAYOMI Phase 4A/4B/4C",
+  "date": "2025-12-31T07:48:40.126671",
+  "summary": {
+    "total_records": 5459,
+    "total_file_size_bytes": 814254,
+    "total_files": 14,
+    "successful_files": 14
+  },
+  "files": [
+    {
+      "prefix": "KYI",
+      "description": "蹄コード",
+      "record_count": 350,
+      "file_size_kb": 68.49,
+      "status": "✅"
+    },
+    {
+      "prefix": "CYB",
+      "description": "馬体コード・馬体重",
+      "record_count": 362,
+      "file_size_kb": 147.87,
+      "status": "✅"
+    },
+    {
+      "prefix": "ZKB",
+      "description": "蹄鉄・蹄状態コード",
+      "record_count": 1506,
+      "file_size_kb": 201.84,
+      "status": "✅"
+    },
+    {
+      "prefix": "ZED",
+      "description": "前日情報・馬体評価",
+      "record_count": 1671,
+      "file_size_kb": 156.83,
+      "status": "✅"
+    },
+    {
+      "prefix": "UKC",
+      "description": "馬基本情報（血統）",
+      "record_count": 362,
+      "file_size_kb": 63.86,
+      "status": "✅"
+    },
+    {
+      "prefix": "KKA",
+      "description": "馬柱基本情報",
+      "record_count": 362,
+      "file_size_kb": 34.11,
+      "status": "✅"
+    },
+    {
+      "prefix": "CHA",
+      "description": "調教助手コメント",
+      "record_count": 362,
+      "file_size_kb": 48.67,
+      "status": "✅"
+    },
+    {
+      "prefix": "JOA",
+      "description": "騎手コメント",
+      "record_count": 362,
+      "file_size_kb": 67.11,
+      "status": "✅"
+    },
+    {
+      "prefix": "BAC",
+      "description": "馬場状態コード",
+      "record_count": 24,
+      "file_size_kb": 1.08,
+      "status": "✅"
+    },
+    {
+      "prefix": "KAB",
+      "description": "開催場情報",
+      "record_count": 2,
+      "file_size_kb": 0.18,
+      "status": "✅"
+    },
+    {
+      "prefix": "OT",
+      "description": "単勝複勝オッズ",
+      "record_count": 24,
+      "file_size_kb": 1.11,
+      "status": "✅"
+    },
+    {
+      "prefix": "OU",
+      "description": "馬連オッズ",
+      "record_count": 24,
+      "file_size_kb": 1.11,
+      "status": "✅"
+    },
+    {
+      "prefix": "OW",
+      "description": "ワイドオッズ",
+      "record_count": 24,
+      "file_size_kb": 1.83,
+      "status": "✅"
+    },
+    {
+      "prefix": "OZ",
+      "description": "3連複オッズ",
+      "record_count": 24,
+      "file_size_kb": 1.08,
+      "status": "✅"
+    }
+  ]
+}

@@ -1,0 +1,2389 @@
+[
+  {
+    "race_key": "06251201",
+    "horse_num": 1,
+    "hoof_code": "7",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "06251201",
+    "horse_num": 2,
+    "hoof_code": "6",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "06251201",
+    "horse_num": 3,
+    "hoof_code": "11",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "06251201",
+    "horse_num": 4,
+    "hoof_code": "1",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "06251201",
+    "horse_num": 6,
+    "hoof_code": "5-",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "06251201",
+    "horse_num": 7,
+    "hoof_code": "11",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "06251201",
+    "horse_num": 8,
+    "hoof_code": "9",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "06251201",
+    "horse_num": 9,
+    "hoof_code": "10",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "06251201",
+    "horse_num": 10,
+    "hoof_code": "12",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "06251201",
+    "horse_num": 11,
+    "hoof_code": "-",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "06251201",
+    "horse_num": 12,
+    "hoof_code": "-1",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "06251201",
+    "horse_num": 13,
+    "hoof_code": "8",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "06251201",
+    "horse_num": 14,
+    "hoof_code": "-",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "06251201",
+    "horse_num": 15,
+    "hoof_code": "1",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "06251202",
+    "horse_num": 1,
+    "hoof_code": "3-",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "06251202",
+    "horse_num": 2,
+    "hoof_code": "7",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "06251202",
+    "horse_num": 3,
+    "hoof_code": "1",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "06251202",
+    "horse_num": 4,
+    "hoof_code": "1-",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "06251202",
+    "horse_num": 5,
+    "hoof_code": "4",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "06251202",
+    "horse_num": 6,
+    "hoof_code": "1-",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "06251202",
+    "horse_num": 7,
+    "hoof_code": "4",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "06251202",
+    "horse_num": 8,
+    "hoof_code": "5",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "06251202",
+    "horse_num": 9,
+    "hoof_code": "11",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "06251202",
+    "horse_num": 10,
+    "hoof_code": "-1",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "06251202",
+    "horse_num": 11,
+    "hoof_code": "8",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "06251202",
+    "horse_num": 12,
+    "hoof_code": "5",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "06251202",
+    "horse_num": 13,
+    "hoof_code": "-1",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "06251202",
+    "horse_num": 14,
+    "hoof_code": "-9",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "06251202",
+    "horse_num": 15,
+    "hoof_code": "1",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "06251202",
+    "horse_num": 16,
+    "hoof_code": "0",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "06251203",
+    "horse_num": 1,
+    "hoof_code": "60",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "06251203",
+    "horse_num": 2,
+    "hoof_code": "1",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "06251203",
+    "horse_num": 3,
+    "hoof_code": "60",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "06251203",
+    "horse_num": 5,
+    "hoof_code": "-",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "06251203",
+    "horse_num": 6,
+    "hoof_code": "1",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "06251203",
+    "horse_num": 7,
+    "hoof_code": "55",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "06251203",
+    "horse_num": 9,
+    "hoof_code": "96",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "06251203",
+    "horse_num": 10,
+    "hoof_code": "14",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "06251203",
+    "horse_num": 11,
+    "hoof_code": "0-",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "06251203",
+    "horse_num": 12,
+    "hoof_code": "7",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "06251203",
+    "horse_num": 13,
+    "hoof_code": "7-",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "06251203",
+    "horse_num": 14,
+    "hoof_code": "40",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "06251203",
+    "horse_num": 15,
+    "hoof_code": "2",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "06251203",
+    "horse_num": 16,
+    "hoof_code": "1",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "06251204",
+    "horse_num": 1,
+    "hoof_code": "02",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "06251204",
+    "horse_num": 2,
+    "hoof_code": "45",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "06251204",
+    "horse_num": 3,
+    "hoof_code": "4",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "06251204",
+    "horse_num": 4,
+    "hoof_code": "3",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "06251204",
+    "horse_num": 5,
+    "hoof_code": "5-",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "06251204",
+    "horse_num": 6,
+    "hoof_code": "-8",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "06251204",
+    "horse_num": 7,
+    "hoof_code": "0",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "06251204",
+    "horse_num": 10,
+    "hoof_code": "-",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "06251204",
+    "horse_num": 12,
+    "hoof_code": "1-",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "06251204",
+    "horse_num": 13,
+    "hoof_code": "5",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "06251204",
+    "horse_num": 14,
+    "hoof_code": "-1",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "06251204",
+    "horse_num": 16,
+    "hoof_code": "4",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "06251205",
+    "horse_num": 1,
+    "hoof_code": "54",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "06251205",
+    "horse_num": 2,
+    "hoof_code": "1",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "06251205",
+    "horse_num": 3,
+    "hoof_code": "0-",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "06251205",
+    "horse_num": 4,
+    "hoof_code": "12",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "06251205",
+    "horse_num": 5,
+    "hoof_code": "12",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "06251205",
+    "horse_num": 6,
+    "hoof_code": "0-",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "06251205",
+    "horse_num": 7,
+    "hoof_code": "73",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "06251205",
+    "horse_num": 8,
+    "hoof_code": "-1",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "06251205",
+    "horse_num": 10,
+    "hoof_code": "52",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "06251205",
+    "horse_num": 11,
+    "hoof_code": "3",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "06251205",
+    "horse_num": 12,
+    "hoof_code": "85",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "06251205",
+    "horse_num": 13,
+    "hoof_code": "9",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "06251205",
+    "horse_num": 15,
+    "hoof_code": "17",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "06251205",
+    "horse_num": 16,
+    "hoof_code": "0",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "06251206",
+    "horse_num": 1,
+    "hoof_code": "7",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "06251206",
+    "horse_num": 2,
+    "hoof_code": "5",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "06251206",
+    "horse_num": 3,
+    "hoof_code": "7",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "06251206",
+    "horse_num": 4,
+    "hoof_code": "0-",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "06251206",
+    "horse_num": 5,
+    "hoof_code": "8",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "06251206",
+    "horse_num": 6,
+    "hoof_code": "6",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "06251206",
+    "horse_num": 8,
+    "hoof_code": "2-",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "06251206",
+    "horse_num": 9,
+    "hoof_code": "0-",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "06251206",
+    "horse_num": 10,
+    "hoof_code": "6",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "06251206",
+    "horse_num": 11,
+    "hoof_code": "9",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "06251206",
+    "horse_num": 12,
+    "hoof_code": "0",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "06251206",
+    "horse_num": 13,
+    "hoof_code": "27",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "06251206",
+    "horse_num": 14,
+    "hoof_code": "-1",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "06251206",
+    "horse_num": 15,
+    "hoof_code": "2",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "06251206",
+    "horse_num": 16,
+    "hoof_code": "-",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "06251206",
+    "horse_num": 17,
+    "hoof_code": "0-",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "06251206",
+    "horse_num": 18,
+    "hoof_code": "1-",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "06251207",
+    "horse_num": 1,
+    "hoof_code": "1",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "06251207",
+    "horse_num": 2,
+    "hoof_code": "8",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "06251207",
+    "horse_num": 3,
+    "hoof_code": "0",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "06251207",
+    "horse_num": 4,
+    "hoof_code": "6",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "06251207",
+    "horse_num": 5,
+    "hoof_code": "-8",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "06251207",
+    "horse_num": 6,
+    "hoof_code": "16",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "06251207",
+    "horse_num": 7,
+    "hoof_code": "3",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "06251207",
+    "horse_num": 9,
+    "hoof_code": "0-",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "06251207",
+    "horse_num": 10,
+    "hoof_code": "3-",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "06251207",
+    "horse_num": 11,
+    "hoof_code": "2",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "06251207",
+    "horse_num": 12,
+    "hoof_code": "5",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "06251208",
+    "horse_num": 1,
+    "hoof_code": "2",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "06251208",
+    "horse_num": 2,
+    "hoof_code": "3-",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "06251208",
+    "horse_num": 3,
+    "hoof_code": "10",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "06251208",
+    "horse_num": 4,
+    "hoof_code": "4",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "06251208",
+    "horse_num": 5,
+    "hoof_code": "3",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "06251208",
+    "horse_num": 6,
+    "hoof_code": "18",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "06251208",
+    "horse_num": 7,
+    "hoof_code": "81",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "06251208",
+    "horse_num": 8,
+    "hoof_code": "7",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "06251208",
+    "horse_num": 9,
+    "hoof_code": "0-",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "06251208",
+    "horse_num": 10,
+    "hoof_code": "9",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "06251208",
+    "horse_num": 11,
+    "hoof_code": "5",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "06251208",
+    "horse_num": 12,
+    "hoof_code": "22",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "06251208",
+    "horse_num": 13,
+    "hoof_code": "9",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "06251209",
+    "horse_num": 1,
+    "hoof_code": "8",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "06251209",
+    "horse_num": 2,
+    "hoof_code": "6-",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "06251209",
+    "horse_num": 3,
+    "hoof_code": "-1",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "06251209",
+    "horse_num": 4,
+    "hoof_code": "3",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "06251209",
+    "horse_num": 5,
+    "hoof_code": "4",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "06251209",
+    "horse_num": 6,
+    "hoof_code": "0",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "06251209",
+    "horse_num": 7,
+    "hoof_code": "3",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "06251209",
+    "horse_num": 8,
+    "hoof_code": "-",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "06251209",
+    "horse_num": 9,
+    "hoof_code": "-1",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "06251209",
+    "horse_num": 12,
+    "hoof_code": "-",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "06251209",
+    "horse_num": 13,
+    "hoof_code": "03",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "06251209",
+    "horse_num": 14,
+    "hoof_code": "05",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "06251209",
+    "horse_num": 15,
+    "hoof_code": "7",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "06251209",
+    "horse_num": 16,
+    "hoof_code": "4",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "06251210",
+    "horse_num": 1,
+    "hoof_code": "8",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "06251210",
+    "horse_num": 2,
+    "hoof_code": "2",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "06251210",
+    "horse_num": 3,
+    "hoof_code": "3",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "06251210",
+    "horse_num": 4,
+    "hoof_code": "1",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "06251210",
+    "horse_num": 6,
+    "hoof_code": "-0",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "06251210",
+    "horse_num": 7,
+    "hoof_code": "6-",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "06251210",
+    "horse_num": 8,
+    "hoof_code": "-1",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "06251210",
+    "horse_num": 9,
+    "hoof_code": "1",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "06251210",
+    "horse_num": 10,
+    "hoof_code": "45",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "06251210",
+    "horse_num": 11,
+    "hoof_code": "8",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "06251210",
+    "horse_num": 12,
+    "hoof_code": "0-",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "06251210",
+    "horse_num": 13,
+    "hoof_code": "5",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "06251210",
+    "horse_num": 14,
+    "hoof_code": "63",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "06251210",
+    "horse_num": 15,
+    "hoof_code": "8",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "06251211",
+    "horse_num": 1,
+    "hoof_code": "0",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "06251211",
+    "horse_num": 3,
+    "hoof_code": "72",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "06251211",
+    "horse_num": 4,
+    "hoof_code": "3",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "06251211",
+    "horse_num": 5,
+    "hoof_code": "-1",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "06251211",
+    "horse_num": 6,
+    "hoof_code": "0",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "06251211",
+    "horse_num": 7,
+    "hoof_code": "-",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "06251211",
+    "horse_num": 8,
+    "hoof_code": "-1",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "06251211",
+    "horse_num": 9,
+    "hoof_code": "9",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "06251211",
+    "horse_num": 10,
+    "hoof_code": "09",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "06251211",
+    "horse_num": 12,
+    "hoof_code": "1",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "06251211",
+    "horse_num": 13,
+    "hoof_code": "1",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "06251211",
+    "horse_num": 14,
+    "hoof_code": "-",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "06251211",
+    "horse_num": 15,
+    "hoof_code": "0-",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "06251211",
+    "horse_num": 16,
+    "hoof_code": "1-",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "06251212",
+    "horse_num": 1,
+    "hoof_code": "-",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "06251212",
+    "horse_num": 2,
+    "hoof_code": "-",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "06251212",
+    "horse_num": 3,
+    "hoof_code": "83",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "06251212",
+    "horse_num": 4,
+    "hoof_code": "9",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "06251212",
+    "horse_num": 5,
+    "hoof_code": "2",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "06251212",
+    "horse_num": 6,
+    "hoof_code": "2",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "06251212",
+    "horse_num": 7,
+    "hoof_code": "1",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "06251212",
+    "horse_num": 8,
+    "hoof_code": "5",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "06251212",
+    "horse_num": 9,
+    "hoof_code": "02",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "06251212",
+    "horse_num": 10,
+    "hoof_code": "37",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "06251212",
+    "horse_num": 11,
+    "hoof_code": "9",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "06251212",
+    "horse_num": 12,
+    "hoof_code": "79",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "06251212",
+    "horse_num": 13,
+    "hoof_code": "18",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "06251212",
+    "horse_num": 14,
+    "hoof_code": "-1",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "06251212",
+    "horse_num": 15,
+    "hoof_code": "12",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "07251201",
+    "horse_num": 1,
+    "hoof_code": "19",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "07251201",
+    "horse_num": 2,
+    "hoof_code": "40",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "07251201",
+    "horse_num": 3,
+    "hoof_code": "7",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "07251201",
+    "horse_num": 4,
+    "hoof_code": "75",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "07251201",
+    "horse_num": 5,
+    "hoof_code": "7-",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "07251201",
+    "horse_num": 6,
+    "hoof_code": "3",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "07251201",
+    "horse_num": 7,
+    "hoof_code": "32",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "07251201",
+    "horse_num": 8,
+    "hoof_code": "1",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "07251201",
+    "horse_num": 9,
+    "hoof_code": "7",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "07251201",
+    "horse_num": 11,
+    "hoof_code": "0",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "07251201",
+    "horse_num": 12,
+    "hoof_code": "2",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "07251201",
+    "horse_num": 13,
+    "hoof_code": "8",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "07251201",
+    "horse_num": 14,
+    "hoof_code": "-1",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "07251201",
+    "horse_num": 15,
+    "hoof_code": "-8",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "07251201",
+    "horse_num": 16,
+    "hoof_code": "9",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "07251202",
+    "horse_num": 1,
+    "hoof_code": "-1",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "07251202",
+    "horse_num": 3,
+    "hoof_code": "-3",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "07251202",
+    "horse_num": 4,
+    "hoof_code": "-1",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "07251202",
+    "horse_num": 5,
+    "hoof_code": "-1",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "07251202",
+    "horse_num": 6,
+    "hoof_code": "3",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "07251202",
+    "horse_num": 7,
+    "hoof_code": "23",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "07251202",
+    "horse_num": 9,
+    "hoof_code": "48",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "07251202",
+    "horse_num": 10,
+    "hoof_code": "7",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "07251202",
+    "horse_num": 11,
+    "hoof_code": "0-",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "07251202",
+    "horse_num": 13,
+    "hoof_code": "3",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "07251202",
+    "horse_num": 14,
+    "hoof_code": "-1",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "07251202",
+    "horse_num": 15,
+    "hoof_code": "7",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "07251202",
+    "horse_num": 16,
+    "hoof_code": "1",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "07251203",
+    "horse_num": 1,
+    "hoof_code": "-",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "07251203",
+    "horse_num": 2,
+    "hoof_code": "3-",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "07251203",
+    "horse_num": 3,
+    "hoof_code": "19",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "07251203",
+    "horse_num": 4,
+    "hoof_code": "82",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "07251203",
+    "horse_num": 6,
+    "hoof_code": "2",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "07251203",
+    "horse_num": 7,
+    "hoof_code": "0",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "07251203",
+    "horse_num": 10,
+    "hoof_code": "12",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "07251203",
+    "horse_num": 11,
+    "hoof_code": "73",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "07251203",
+    "horse_num": 12,
+    "hoof_code": "-",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "07251203",
+    "horse_num": 13,
+    "hoof_code": "11",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "07251203",
+    "horse_num": 15,
+    "hoof_code": "5",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "07251203",
+    "horse_num": 16,
+    "hoof_code": "5",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "07251204",
+    "horse_num": 1,
+    "hoof_code": "43",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "07251204",
+    "horse_num": 2,
+    "hoof_code": "9",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "07251204",
+    "horse_num": 3,
+    "hoof_code": "0",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "07251204",
+    "horse_num": 4,
+    "hoof_code": "1-",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "07251204",
+    "horse_num": 5,
+    "hoof_code": "26",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "07251204",
+    "horse_num": 6,
+    "hoof_code": "7",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "07251204",
+    "horse_num": 7,
+    "hoof_code": "64",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "07251204",
+    "horse_num": 8,
+    "hoof_code": "2",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "07251204",
+    "horse_num": 9,
+    "hoof_code": "2",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "07251204",
+    "horse_num": 10,
+    "hoof_code": "37",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "07251204",
+    "horse_num": 11,
+    "hoof_code": "6",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "07251204",
+    "horse_num": 12,
+    "hoof_code": "47",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "07251205",
+    "horse_num": 1,
+    "hoof_code": "3",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "07251205",
+    "horse_num": 2,
+    "hoof_code": "-1",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "07251205",
+    "horse_num": 3,
+    "hoof_code": "0",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "07251205",
+    "horse_num": 4,
+    "hoof_code": "1",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "07251205",
+    "horse_num": 5,
+    "hoof_code": "11",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "07251205",
+    "horse_num": 6,
+    "hoof_code": "17",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "07251205",
+    "horse_num": 7,
+    "hoof_code": "-1",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "07251205",
+    "horse_num": 8,
+    "hoof_code": "6",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "07251205",
+    "horse_num": 9,
+    "hoof_code": "-8",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "07251205",
+    "horse_num": 10,
+    "hoof_code": "27",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "07251205",
+    "horse_num": 11,
+    "hoof_code": "4",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "07251205",
+    "horse_num": 12,
+    "hoof_code": "8",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "07251205",
+    "horse_num": 13,
+    "hoof_code": "11",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "07251205",
+    "horse_num": 15,
+    "hoof_code": "2",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "07251205",
+    "horse_num": 16,
+    "hoof_code": "38",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "07251205",
+    "horse_num": 17,
+    "hoof_code": "9",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "07251206",
+    "horse_num": 1,
+    "hoof_code": "11",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "07251206",
+    "horse_num": 2,
+    "hoof_code": "18",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "07251206",
+    "horse_num": 3,
+    "hoof_code": "-1",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "07251206",
+    "horse_num": 4,
+    "hoof_code": "6",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "07251206",
+    "horse_num": 5,
+    "hoof_code": "1-",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "07251206",
+    "horse_num": 7,
+    "hoof_code": "-1",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "07251206",
+    "horse_num": 8,
+    "hoof_code": "79",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "07251206",
+    "horse_num": 9,
+    "hoof_code": "37",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "07251206",
+    "horse_num": 10,
+    "hoof_code": "2",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "07251206",
+    "horse_num": 11,
+    "hoof_code": "10",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "07251206",
+    "horse_num": 13,
+    "hoof_code": "47",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "07251206",
+    "horse_num": 14,
+    "hoof_code": "0",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "07251206",
+    "horse_num": 15,
+    "hoof_code": "84",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "07251206",
+    "horse_num": 16,
+    "hoof_code": "7",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "07251206",
+    "horse_num": 17,
+    "hoof_code": "11",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "07251206",
+    "horse_num": 18,
+    "hoof_code": "49",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "07251207",
+    "horse_num": 1,
+    "hoof_code": "-",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "07251207",
+    "horse_num": 2,
+    "hoof_code": "2",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "07251207",
+    "horse_num": 3,
+    "hoof_code": "3",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "07251207",
+    "horse_num": 4,
+    "hoof_code": "0",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "07251207",
+    "horse_num": 5,
+    "hoof_code": "5-",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "07251207",
+    "horse_num": 6,
+    "hoof_code": "7",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "07251207",
+    "horse_num": 7,
+    "hoof_code": "7",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "07251207",
+    "horse_num": 8,
+    "hoof_code": "4",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "07251207",
+    "horse_num": 10,
+    "hoof_code": "30",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "07251207",
+    "horse_num": 11,
+    "hoof_code": "0",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "07251207",
+    "horse_num": 12,
+    "hoof_code": "2",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "07251207",
+    "horse_num": 13,
+    "hoof_code": "8",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "07251207",
+    "horse_num": 14,
+    "hoof_code": "0",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "07251207",
+    "horse_num": 15,
+    "hoof_code": "28",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "07251207",
+    "horse_num": 16,
+    "hoof_code": "7",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "07251208",
+    "horse_num": 2,
+    "hoof_code": "-",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "07251208",
+    "horse_num": 3,
+    "hoof_code": "1",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "07251208",
+    "horse_num": 4,
+    "hoof_code": "3-",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "07251208",
+    "horse_num": 5,
+    "hoof_code": "73",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "07251208",
+    "horse_num": 7,
+    "hoof_code": "3",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "07251208",
+    "horse_num": 8,
+    "hoof_code": "-",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "07251208",
+    "horse_num": 9,
+    "hoof_code": "2",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "07251208",
+    "horse_num": 10,
+    "hoof_code": "9",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "07251208",
+    "horse_num": 11,
+    "hoof_code": "11",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "07251208",
+    "horse_num": 13,
+    "hoof_code": "5-",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "07251208",
+    "horse_num": 14,
+    "hoof_code": "-",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "07251208",
+    "horse_num": 16,
+    "hoof_code": "12",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "07251209",
+    "horse_num": 1,
+    "hoof_code": "67",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "07251209",
+    "horse_num": 2,
+    "hoof_code": "0",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "07251209",
+    "horse_num": 3,
+    "hoof_code": "-",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "07251209",
+    "horse_num": 4,
+    "hoof_code": "8",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "07251209",
+    "horse_num": 5,
+    "hoof_code": "4-",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "07251209",
+    "horse_num": 6,
+    "hoof_code": "9",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "07251209",
+    "horse_num": 7,
+    "hoof_code": "1",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "07251209",
+    "horse_num": 8,
+    "hoof_code": "26",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "07251209",
+    "horse_num": 9,
+    "hoof_code": "5",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "07251209",
+    "horse_num": 10,
+    "hoof_code": "2-",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "07251209",
+    "horse_num": 11,
+    "hoof_code": "-7",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "07251209",
+    "horse_num": 12,
+    "hoof_code": "73",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "07251209",
+    "horse_num": 13,
+    "hoof_code": "1",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "07251209",
+    "horse_num": 14,
+    "hoof_code": "5",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "07251209",
+    "horse_num": 15,
+    "hoof_code": "38",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "07251210",
+    "horse_num": 1,
+    "hoof_code": "2",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "07251210",
+    "horse_num": 2,
+    "hoof_code": "13",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "07251210",
+    "horse_num": 3,
+    "hoof_code": "4",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "07251210",
+    "horse_num": 4,
+    "hoof_code": "1",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "07251210",
+    "horse_num": 5,
+    "hoof_code": "8",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "07251210",
+    "horse_num": 6,
+    "hoof_code": "-1",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "07251210",
+    "horse_num": 7,
+    "hoof_code": "8",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "07251210",
+    "horse_num": 9,
+    "hoof_code": "92",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "07251210",
+    "horse_num": 10,
+    "hoof_code": "0",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "07251210",
+    "horse_num": 11,
+    "hoof_code": "-1",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "07251210",
+    "horse_num": 12,
+    "hoof_code": "46",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "07251210",
+    "horse_num": 14,
+    "hoof_code": "8-",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "07251210",
+    "horse_num": 15,
+    "hoof_code": "3-",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "07251210",
+    "horse_num": 16,
+    "hoof_code": "6",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "07251210",
+    "horse_num": 17,
+    "hoof_code": "0-",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "07251210",
+    "horse_num": 18,
+    "hoof_code": "4",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "07251211",
+    "horse_num": 1,
+    "hoof_code": "5",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "07251211",
+    "horse_num": 2,
+    "hoof_code": "0-",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "07251211",
+    "horse_num": 3,
+    "hoof_code": "37",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "07251211",
+    "horse_num": 4,
+    "hoof_code": "8-",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "07251211",
+    "horse_num": 5,
+    "hoof_code": "5-",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "07251211",
+    "horse_num": 7,
+    "hoof_code": "4",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "07251211",
+    "horse_num": 9,
+    "hoof_code": "69",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "07251211",
+    "horse_num": 10,
+    "hoof_code": "0",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "07251211",
+    "horse_num": 11,
+    "hoof_code": "11",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "07251211",
+    "horse_num": 12,
+    "hoof_code": "9",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "07251211",
+    "horse_num": 13,
+    "hoof_code": "8-",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "07251211",
+    "horse_num": 14,
+    "hoof_code": "3",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "07251211",
+    "horse_num": 15,
+    "hoof_code": "4",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "07251211",
+    "horse_num": 16,
+    "hoof_code": "-1",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "07251211",
+    "horse_num": 17,
+    "hoof_code": "84",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "07251212",
+    "horse_num": 1,
+    "hoof_code": "3",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "07251212",
+    "horse_num": 2,
+    "hoof_code": "7",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "07251212",
+    "horse_num": 3,
+    "hoof_code": "-1",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "07251212",
+    "horse_num": 4,
+    "hoof_code": "3",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "07251212",
+    "horse_num": 5,
+    "hoof_code": "14",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "07251212",
+    "horse_num": 6,
+    "hoof_code": "40",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "07251212",
+    "horse_num": 7,
+    "hoof_code": "5",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "07251212",
+    "horse_num": 8,
+    "hoof_code": "1-",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "07251212",
+    "horse_num": 9,
+    "hoof_code": "-1",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "07251212",
+    "horse_num": 10,
+    "hoof_code": "0-",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "07251212",
+    "horse_num": 11,
+    "hoof_code": "9",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "07251212",
+    "horse_num": 12,
+    "hoof_code": "-1",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "07251212",
+    "horse_num": 13,
+    "hoof_code": "6",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "07251212",
+    "horse_num": 14,
+    "hoof_code": "17",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "07251212",
+    "horse_num": 15,
+    "hoof_code": "7",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  },
+  {
+    "race_key": "07251212",
+    "horse_num": 16,
+    "hoof_code": "32",
+    "record_date": "2025-01-06",
+    "data_source": "KYI"
+  }
+]

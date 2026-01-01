@@ -1,0 +1,2811 @@
+{
+  "metadata": {
+    "source_file": "KYI250601.txt",
+    "extracted_at": "2025-12-31T07:07:50.642571",
+    "total_records": 350,
+    "error_count": 0
+  },
+  "hoof_data": [
+    {
+      "race_id": "05252c01",
+      "race_date": "unknown",
+      "horse_num": "01",
+      "pedigree_id": "22103083",
+      "horse_name": "センジュコスモス",
+      "hoof_code": "04"
+    },
+    {
+      "race_id": "05252c01",
+      "race_date": "unknown",
+      "horse_num": "02",
+      "pedigree_id": "22102011",
+      "horse_name": "アークエタニティ",
+      "hoof_code": "24"
+    },
+    {
+      "race_id": "05252c01",
+      "race_date": "unknown",
+      "horse_num": "03",
+      "pedigree_id": "22101012",
+      "horse_name": "イザベルソレイユ",
+      "hoof_code": "03"
+    },
+    {
+      "race_id": "05252c01",
+      "race_date": "unknown",
+      "horse_num": "05",
+      "pedigree_id": "22101535",
+      "horse_name": "キタノラータム",
+      "hoof_code": "02"
+    },
+    {
+      "race_id": "05252c01",
+      "race_date": "unknown",
+      "horse_num": "06",
+      "pedigree_id": "22101490",
+      "horse_name": "スカイビート",
+      "hoof_code": "10"
+    },
+    {
+      "race_id": "05252c01",
+      "race_date": "unknown",
+      "horse_num": "07",
+      "pedigree_id": "22100848",
+      "horse_name": "ベリーズブルー",
+      "hoof_code": "04"
+    },
+    {
+      "race_id": "05252c01",
+      "race_date": "unknown",
+      "horse_num": "08",
+      "pedigree_id": "22100270",
+      "horse_name": "ニーケアイリス",
+      "hoof_code": "04"
+    },
+    {
+      "race_id": "05252c01",
+      "race_date": "unknown",
+      "horse_num": "09",
+      "pedigree_id": "22106659",
+      "horse_name": "スパークルノヴァ",
+      "hoof_code": "24"
+    },
+    {
+      "race_id": "05252c01",
+      "race_date": "unknown",
+      "horse_num": "10",
+      "pedigree_id": "22104881",
+      "horse_name": "エウテルペ",
+      "hoof_code": "23"
+    },
+    {
+      "race_id": "05252c01",
+      "race_date": "unknown",
+      "horse_num": "11",
+      "pedigree_id": "22107260",
+      "horse_name": "ルージュフレイヤ",
+      "hoof_code": "24"
+    },
+    {
+      "race_id": "05252c01",
+      "race_date": "unknown",
+      "horse_num": "12",
+      "pedigree_id": "22100568",
+      "horse_name": "カワキタホクレア",
+      "hoof_code": "24"
+    },
+    {
+      "race_id": "05252c01",
+      "race_date": "unknown",
+      "horse_num": "14",
+      "pedigree_id": "22106654",
+      "horse_name": "ラブリーウィザード",
+      "hoof_code": "02"
+    },
+    {
+      "race_id": "05252c01",
+      "race_date": "unknown",
+      "horse_num": "15",
+      "pedigree_id": "22102612",
+      "horse_name": "ジーティーネージュ",
+      "hoof_code": "23"
+    },
+    {
+      "race_id": "05252c01",
+      "race_date": "unknown",
+      "horse_num": "16",
+      "pedigree_id": "22106995",
+      "horse_name": "アイスリーディング",
+      "hoof_code": "23"
+    },
+    {
+      "race_id": "05252c02",
+      "race_date": "unknown",
+      "horse_num": "02",
+      "pedigree_id": "22106469",
+      "horse_name": "サウンドリアン",
+      "hoof_code": "03"
+    },
+    {
+      "race_id": "05252c02",
+      "race_date": "unknown",
+      "horse_num": "03",
+      "pedigree_id": "22107008",
+      "horse_name": "トラストギャロップ",
+      "hoof_code": "02"
+    },
+    {
+      "race_id": "05252c02",
+      "race_date": "unknown",
+      "horse_num": "04",
+      "pedigree_id": "22104486",
+      "horse_name": "アシャカルーク",
+      "hoof_code": "24"
+    },
+    {
+      "race_id": "05252c02",
+      "race_date": "unknown",
+      "horse_num": "05",
+      "pedigree_id": "22103757",
+      "horse_name": "ヨチヨチモンスター",
+      "hoof_code": "03"
+    },
+    {
+      "race_id": "05252c02",
+      "race_date": "unknown",
+      "horse_num": "06",
+      "pedigree_id": "22106990",
+      "horse_name": "エスポワールドロワ",
+      "hoof_code": "22"
+    },
+    {
+      "race_id": "05252c02",
+      "race_date": "unknown",
+      "horse_num": "07",
+      "pedigree_id": "22102007",
+      "horse_name": "サンマルストロング",
+      "hoof_code": "18"
+    },
+    {
+      "race_id": "05252c02",
+      "race_date": "unknown",
+      "horse_num": "09",
+      "pedigree_id": "22106723",
+      "horse_name": "セラトーン",
+      "hoof_code": "23"
+    },
+    {
+      "race_id": "05252c02",
+      "race_date": "unknown",
+      "horse_num": "10",
+      "pedigree_id": "22101956",
+      "horse_name": "ダークスピリット",
+      "hoof_code": "23"
+    },
+    {
+      "race_id": "05252c02",
+      "race_date": "unknown",
+      "horse_num": "11",
+      "pedigree_id": "22100039",
+      "horse_name": "アイビーガオー",
+      "hoof_code": "23"
+    },
+    {
+      "race_id": "05252c02",
+      "race_date": "unknown",
+      "horse_num": "12",
+      "pedigree_id": "22103472",
+      "horse_name": "キョウエイスレーヴ",
+      "hoof_code": "23"
+    },
+    {
+      "race_id": "05252c02",
+      "race_date": "unknown",
+      "horse_num": "13",
+      "pedigree_id": "22100043",
+      "horse_name": "アミラジオネ",
+      "hoof_code": "03"
+    },
+    {
+      "race_id": "05252c02",
+      "race_date": "unknown",
+      "horse_num": "14",
+      "pedigree_id": "22104089",
+      "horse_name": "サクラパステル",
+      "hoof_code": "18"
+    },
+    {
+      "race_id": "05252c02",
+      "race_date": "unknown",
+      "horse_num": "15",
+      "pedigree_id": "22103235",
+      "horse_name": "カフェブーケット",
+      "hoof_code": "11"
+    },
+    {
+      "race_id": "05252c02",
+      "race_date": "unknown",
+      "horse_num": "16",
+      "pedigree_id": "22102455",
+      "horse_name": "ヘイケ",
+      "hoof_code": "03"
+    },
+    {
+      "race_id": "05252c03",
+      "race_date": "unknown",
+      "horse_num": "01",
+      "pedigree_id": "22103335",
+      "horse_name": "キスメット",
+      "hoof_code": "23"
+    },
+    {
+      "race_id": "05252c03",
+      "race_date": "unknown",
+      "horse_num": "02",
+      "pedigree_id": "22105035",
+      "horse_name": "セブンメデュラス",
+      "hoof_code": "23"
+    },
+    {
+      "race_id": "05252c03",
+      "race_date": "unknown",
+      "horse_num": "03",
+      "pedigree_id": "22101966",
+      "horse_name": "デルマサターン",
+      "hoof_code": "22"
+    },
+    {
+      "race_id": "05252c03",
+      "race_date": "unknown",
+      "horse_num": "04",
+      "pedigree_id": "22101733",
+      "horse_name": "ダイタエリュシオン",
+      "hoof_code": "20"
+    },
+    {
+      "race_id": "05252c03",
+      "race_date": "unknown",
+      "horse_num": "05",
+      "pedigree_id": "22101023",
+      "horse_name": "ネオディヤマンテ",
+      "hoof_code": "03"
+    },
+    {
+      "race_id": "05252c03",
+      "race_date": "unknown",
+      "horse_num": "06",
+      "pedigree_id": "22107266",
+      "horse_name": "リンガスマイル",
+      "hoof_code": "23"
+    },
+    {
+      "race_id": "05252c03",
+      "race_date": "unknown",
+      "horse_num": "07",
+      "pedigree_id": "22104203",
+      "horse_name": "グレーターバーチュ",
+      "hoof_code": "03"
+    },
+    {
+      "race_id": "05252c03",
+      "race_date": "unknown",
+      "horse_num": "08",
+      "pedigree_id": "22100183",
+      "horse_name": "ティアップマッハ",
+      "hoof_code": "23"
+    },
+    {
+      "race_id": "05252c03",
+      "race_date": "unknown",
+      "horse_num": "09",
+      "pedigree_id": "22105219",
+      "horse_name": "ブランディストック",
+      "hoof_code": "03"
+    },
+    {
+      "race_id": "05252c03",
+      "race_date": "unknown",
+      "horse_num": "10",
+      "pedigree_id": "22104287",
+      "horse_name": "ショージージョ",
+      "hoof_code": "22"
+    },
+    {
+      "race_id": "05252c03",
+      "race_date": "unknown",
+      "horse_num": "11",
+      "pedigree_id": "22102505",
+      "horse_name": "ランブータン",
+      "hoof_code": "23"
+    },
+    {
+      "race_id": "05252c03",
+      "race_date": "unknown",
+      "horse_num": "12",
+      "pedigree_id": "22104838",
+      "horse_name": "デュピュイドローム",
+      "hoof_code": "03"
+    },
+    {
+      "race_id": "05252c03",
+      "race_date": "unknown",
+      "horse_num": "13",
+      "pedigree_id": "22101066",
+      "horse_name": "マルターズヴェロス",
+      "hoof_code": "03"
+    },
+    {
+      "race_id": "05252c03",
+      "race_date": "unknown",
+      "horse_num": "14",
+      "pedigree_id": "22106842",
+      "horse_name": "ゴールドパートナー",
+      "hoof_code": "11"
+    },
+    {
+      "race_id": "05252c03",
+      "race_date": "unknown",
+      "horse_num": "15",
+      "pedigree_id": "22101389",
+      "horse_name": "サトミノエンジェル",
+      "hoof_code": "03"
+    },
+    {
+      "race_id": "05252c03",
+      "race_date": "unknown",
+      "horse_num": "16",
+      "pedigree_id": "22103162",
+      "horse_name": "ロイヤルカスタマー",
+      "hoof_code": "23"
+    },
+    {
+      "race_id": "05252c04",
+      "race_date": "unknown",
+      "horse_num": "01",
+      "pedigree_id": "22105531",
+      "horse_name": "テンフレッシュ",
+      "hoof_code": "03"
+    },
+    {
+      "race_id": "05252c04",
+      "race_date": "unknown",
+      "horse_num": "02",
+      "pedigree_id": "22101797",
+      "horse_name": "エントロピー",
+      "hoof_code": "23"
+    },
+    {
+      "race_id": "05252c04",
+      "race_date": "unknown",
+      "horse_num": "03",
+      "pedigree_id": "22104572",
+      "horse_name": "ウーバーミッション",
+      "hoof_code": "23"
+    },
+    {
+      "race_id": "05252c04",
+      "race_date": "unknown",
+      "horse_num": "04",
+      "pedigree_id": "22104893",
+      "horse_name": "ダノンエンブレム",
+      "hoof_code": "23"
+    },
+    {
+      "race_id": "05252c04",
+      "race_date": "unknown",
+      "horse_num": "05",
+      "pedigree_id": "22100462",
+      "horse_name": "バットスティンガー",
+      "hoof_code": "24"
+    },
+    {
+      "race_id": "05252c04",
+      "race_date": "unknown",
+      "horse_num": "06",
+      "pedigree_id": "22100670",
+      "horse_name": "アストロマーチ",
+      "hoof_code": "23"
+    },
+    {
+      "race_id": "05252c04",
+      "race_date": "unknown",
+      "horse_num": "07",
+      "pedigree_id": "22105082",
+      "horse_name": "アルガムベイ",
+      "hoof_code": "20"
+    },
+    {
+      "race_id": "05252c04",
+      "race_date": "unknown",
+      "horse_num": "08",
+      "pedigree_id": "22101191",
+      "horse_name": "ポタリング",
+      "hoof_code": "04"
+    },
+    {
+      "race_id": "05252c04",
+      "race_date": "unknown",
+      "horse_num": "09",
+      "pedigree_id": "22105701",
+      "horse_name": "ストラティファイド",
+      "hoof_code": "11"
+    },
+    {
+      "race_id": "05252c04",
+      "race_date": "unknown",
+      "horse_num": "10",
+      "pedigree_id": "22105241",
+      "horse_name": "ソナタン",
+      "hoof_code": "12"
+    },
+    {
+      "race_id": "05252c04",
+      "race_date": "unknown",
+      "horse_num": "11",
+      "pedigree_id": "22106133",
+      "horse_name": "ロジアンドモルタル",
+      "hoof_code": "03"
+    },
+    {
+      "race_id": "05252c04",
+      "race_date": "unknown",
+      "horse_num": "12",
+      "pedigree_id": "22110075",
+      "horse_name": "カゼニナッテル",
+      "hoof_code": "02"
+    },
+    {
+      "race_id": "05252c04",
+      "race_date": "unknown",
+      "horse_num": "13",
+      "pedigree_id": "22104497",
+      "horse_name": "ムコリッタ",
+      "hoof_code": "23"
+    },
+    {
+      "race_id": "05252c04",
+      "race_date": "unknown",
+      "horse_num": "14",
+      "pedigree_id": "22104275",
+      "horse_name": "ノーブルライナー",
+      "hoof_code": "19"
+    },
+    {
+      "race_id": "05252c04",
+      "race_date": "unknown",
+      "horse_num": "15",
+      "pedigree_id": "22110092",
+      "horse_name": "コンヴァージョン",
+      "hoof_code": "03"
+    },
+    {
+      "race_id": "05252c05",
+      "race_date": "unknown",
+      "horse_num": "01",
+      "pedigree_id": "22106669",
+      "horse_name": "パシーヴ",
+      "hoof_code": "03"
+    },
+    {
+      "race_id": "05252c05",
+      "race_date": "unknown",
+      "horse_num": "02",
+      "pedigree_id": "22103898",
+      "horse_name": "ピーチマカロン",
+      "hoof_code": "18"
+    },
+    {
+      "race_id": "05252c05",
+      "race_date": "unknown",
+      "horse_num": "03",
+      "pedigree_id": "22110152",
+      "horse_name": "レーティッシュ",
+      "hoof_code": "02"
+    },
+    {
+      "race_id": "05252c05",
+      "race_date": "unknown",
+      "horse_num": "04",
+      "pedigree_id": "22102399",
+      "horse_name": "マーズオデッセイ",
+      "hoof_code": "20"
+    },
+    {
+      "race_id": "05252c05",
+      "race_date": "unknown",
+      "horse_num": "05",
+      "pedigree_id": "22105774",
+      "horse_name": "セレジェイラ",
+      "hoof_code": "10"
+    },
+    {
+      "race_id": "05252c05",
+      "race_date": "unknown",
+      "horse_num": "06",
+      "pedigree_id": "22103755",
+      "horse_name": "ジーティーエンジン",
+      "hoof_code": "03"
+    },
+    {
+      "race_id": "05252c05",
+      "race_date": "unknown",
+      "horse_num": "07",
+      "pedigree_id": "22105364",
+      "horse_name": "メルシージュテーム",
+      "hoof_code": "20"
+    },
+    {
+      "race_id": "05252c05",
+      "race_date": "unknown",
+      "horse_num": "08",
+      "pedigree_id": "22102493",
+      "horse_name": "トリリオンボーイ",
+      "hoof_code": "03"
+    },
+    {
+      "race_id": "05252c05",
+      "race_date": "unknown",
+      "horse_num": "09",
+      "pedigree_id": "22105439",
+      "horse_name": "ドラゴン",
+      "hoof_code": "03"
+    },
+    {
+      "race_id": "05252c05",
+      "race_date": "unknown",
+      "horse_num": "10",
+      "pedigree_id": "22101863",
+      "horse_name": "ドントゥザムーン",
+      "hoof_code": "23"
+    },
+    {
+      "race_id": "05252c05",
+      "race_date": "unknown",
+      "horse_num": "11",
+      "pedigree_id": "22104271",
+      "horse_name": "スマイルディシー",
+      "hoof_code": "20"
+    },
+    {
+      "race_id": "05252c06",
+      "race_date": "unknown",
+      "horse_num": "01",
+      "pedigree_id": "21103512",
+      "horse_name": "ツインクルステージ",
+      "hoof_code": "21"
+    },
+    {
+      "race_id": "05252c06",
+      "race_date": "unknown",
+      "horse_num": "02",
+      "pedigree_id": "21105911",
+      "horse_name": "アンドローゼス",
+      "hoof_code": "23"
+    },
+    {
+      "race_id": "05252c06",
+      "race_date": "unknown",
+      "horse_num": "03",
+      "pedigree_id": "21106068",
+      "horse_name": "パストラーレ",
+      "hoof_code": "03"
+    },
+    {
+      "race_id": "05252c06",
+      "race_date": "unknown",
+      "horse_num": "04",
+      "pedigree_id": "21104722",
+      "horse_name": "ネイサン",
+      "hoof_code": "03"
+    },
+    {
+      "race_id": "05252c06",
+      "race_date": "unknown",
+      "horse_num": "05",
+      "pedigree_id": "19100722",
+      "horse_name": "フリューゲルホルン",
+      "hoof_code": "02"
+    },
+    {
+      "race_id": "05252c06",
+      "race_date": "unknown",
+      "horse_num": "06",
+      "pedigree_id": "21105035",
+      "horse_name": "イージーブリージー",
+      "hoof_code": "04"
+    },
+    {
+      "race_id": "05252c06",
+      "race_date": "unknown",
+      "horse_num": "07",
+      "pedigree_id": "21100151",
+      "horse_name": "ロードアフェット",
+      "hoof_code": "03"
+    },
+    {
+      "race_id": "05252c06",
+      "race_date": "unknown",
+      "horse_num": "08",
+      "pedigree_id": "21102708",
+      "horse_name": "アドミラルシップ",
+      "hoof_code": "23"
+    },
+    {
+      "race_id": "05252c06",
+      "race_date": "unknown",
+      "horse_num": "09",
+      "pedigree_id": "21103227",
+      "horse_name": "ジャズ",
+      "hoof_code": "22"
+    },
+    {
+      "race_id": "05252c06",
+      "race_date": "unknown",
+      "horse_num": "10",
+      "pedigree_id": "21105418",
+      "horse_name": "クラッチプレイヤー",
+      "hoof_code": "23"
+    },
+    {
+      "race_id": "05252c06",
+      "race_date": "unknown",
+      "horse_num": "11",
+      "pedigree_id": "21100043",
+      "horse_name": "ユキノフルマチ",
+      "hoof_code": "24"
+    },
+    {
+      "race_id": "05252c06",
+      "race_date": "unknown",
+      "horse_num": "12",
+      "pedigree_id": "21104899",
+      "horse_name": "ドリームクルーズ",
+      "hoof_code": "02"
+    },
+    {
+      "race_id": "05252c06",
+      "race_date": "unknown",
+      "horse_num": "13",
+      "pedigree_id": "20102918",
+      "horse_name": "オルソビアンコ",
+      "hoof_code": "04"
+    },
+    {
+      "race_id": "05252c06",
+      "race_date": "unknown",
+      "horse_num": "14",
+      "pedigree_id": "21100244",
+      "horse_name": "ニシノティアモ",
+      "hoof_code": "23"
+    },
+    {
+      "race_id": "05252c06",
+      "race_date": "unknown",
+      "horse_num": "15",
+      "pedigree_id": "21105023",
+      "horse_name": "メンドロントット",
+      "hoof_code": "02"
+    },
+    {
+      "race_id": "05252c06",
+      "race_date": "unknown",
+      "horse_num": "16",
+      "pedigree_id": "19106031",
+      "horse_name": "サンマルソムニア",
+      "hoof_code": "19"
+    },
+    {
+      "race_id": "05252c07",
+      "race_date": "unknown",
+      "horse_num": "01",
+      "pedigree_id": "21100929",
+      "horse_name": "フラムブランシュ",
+      "hoof_code": "07"
+    },
+    {
+      "race_id": "05252c07",
+      "race_date": "unknown",
+      "horse_num": "02",
+      "pedigree_id": "21106064",
+      "horse_name": "ネオゴールド",
+      "hoof_code": "23"
+    },
+    {
+      "race_id": "05252c07",
+      "race_date": "unknown",
+      "horse_num": "03",
+      "pedigree_id": "20102269",
+      "horse_name": "ツィスカリーゼ",
+      "hoof_code": "10"
+    },
+    {
+      "race_id": "05252c07",
+      "race_date": "unknown",
+      "horse_num": "04",
+      "pedigree_id": "21101015",
+      "horse_name": "スーパーバイザー",
+      "hoof_code": "03"
+    },
+    {
+      "race_id": "05252c07",
+      "race_date": "unknown",
+      "horse_num": "05",
+      "pedigree_id": "19104560",
+      "horse_name": "ヘレンキムゼー",
+      "hoof_code": "22"
+    },
+    {
+      "race_id": "05252c07",
+      "race_date": "unknown",
+      "horse_num": "06",
+      "pedigree_id": "21100328",
+      "horse_name": "グリントリッター",
+      "hoof_code": "19"
+    },
+    {
+      "race_id": "05252c07",
+      "race_date": "unknown",
+      "horse_num": "07",
+      "pedigree_id": "21105956",
+      "horse_name": "ロンドンアームズ",
+      "hoof_code": "23"
+    },
+    {
+      "race_id": "05252c07",
+      "race_date": "unknown",
+      "horse_num": "08",
+      "pedigree_id": "20102711",
+      "horse_name": "ノルドヴェスト",
+      "hoof_code": "23"
+    },
+    {
+      "race_id": "05252c07",
+      "race_date": "unknown",
+      "horse_num": "09",
+      "pedigree_id": "21103529",
+      "horse_name": "エコロヴァルム",
+      "hoof_code": "23"
+    },
+    {
+      "race_id": "05252c07",
+      "race_date": "unknown",
+      "horse_num": "10",
+      "pedigree_id": "19102320",
+      "horse_name": "サイモンカーチス",
+      "hoof_code": "22"
+    },
+    {
+      "race_id": "05252c07",
+      "race_date": "unknown",
+      "horse_num": "11",
+      "pedigree_id": "21105125",
+      "horse_name": "リヤンドゥミラクル",
+      "hoof_code": "03"
+    },
+    {
+      "race_id": "05252c07",
+      "race_date": "unknown",
+      "horse_num": "12",
+      "pedigree_id": "19106938",
+      "horse_name": "ブエナディオサ",
+      "hoof_code": "23"
+    },
+    {
+      "race_id": "05252c07",
+      "race_date": "unknown",
+      "horse_num": "13",
+      "pedigree_id": "21104313",
+      "horse_name": "キミハスコール",
+      "hoof_code": "24"
+    },
+    {
+      "race_id": "05252c07",
+      "race_date": "unknown",
+      "horse_num": "14",
+      "pedigree_id": "21100475",
+      "horse_name": "ボエーム",
+      "hoof_code": "23"
+    },
+    {
+      "race_id": "05252c07",
+      "race_date": "unknown",
+      "horse_num": "15",
+      "pedigree_id": "20106429",
+      "horse_name": "ノーブルミステリー",
+      "hoof_code": "03"
+    },
+    {
+      "race_id": "05252c07",
+      "race_date": "unknown",
+      "horse_num": "16",
+      "pedigree_id": "21103507",
+      "horse_name": "アークレアル",
+      "hoof_code": "10"
+    },
+    {
+      "race_id": "05252c08",
+      "race_date": "unknown",
+      "horse_num": "01",
+      "pedigree_id": "21106077",
+      "horse_name": "プリズマジコ",
+      "hoof_code": "03"
+    },
+    {
+      "race_id": "05252c08",
+      "race_date": "unknown",
+      "horse_num": "02",
+      "pedigree_id": "20106694",
+      "horse_name": "ヴァイザーバルコ",
+      "hoof_code": "22"
+    },
+    {
+      "race_id": "05252c08",
+      "race_date": "unknown",
+      "horse_num": "03",
+      "pedigree_id": "20103329",
+      "horse_name": "ローレルキャニオン",
+      "hoof_code": "02"
+    },
+    {
+      "race_id": "05252c08",
+      "race_date": "unknown",
+      "horse_num": "04",
+      "pedigree_id": "19102938",
+      "horse_name": "ニシノレバンテ",
+      "hoof_code": "23"
+    },
+    {
+      "race_id": "05252c08",
+      "race_date": "unknown",
+      "horse_num": "05",
+      "pedigree_id": "21105755",
+      "horse_name": "ジオセントリック",
+      "hoof_code": "23"
+    },
+    {
+      "race_id": "05252c08",
+      "race_date": "unknown",
+      "horse_num": "06",
+      "pedigree_id": "21101068",
+      "horse_name": "クロシェットノエル",
+      "hoof_code": "22"
+    },
+    {
+      "race_id": "05252c08",
+      "race_date": "unknown",
+      "horse_num": "07",
+      "pedigree_id": "19102384",
+      "horse_name": "タイラーテソーロ",
+      "hoof_code": "22"
+    },
+    {
+      "race_id": "05252c08",
+      "race_date": "unknown",
+      "horse_num": "08",
+      "pedigree_id": "21105503",
+      "horse_name": "クルミナーレ",
+      "hoof_code": "03"
+    },
+    {
+      "race_id": "05252c08",
+      "race_date": "unknown",
+      "horse_num": "09",
+      "pedigree_id": "21100441",
+      "horse_name": "ボクラヲツナグモノ",
+      "hoof_code": "24"
+    },
+    {
+      "race_id": "05252c08",
+      "race_date": "unknown",
+      "horse_num": "10",
+      "pedigree_id": "20102190",
+      "horse_name": "トロピカルライト",
+      "hoof_code": "23"
+    },
+    {
+      "race_id": "05252c08",
+      "race_date": "unknown",
+      "horse_num": "11",
+      "pedigree_id": "21105499",
+      "horse_name": "アバンデル",
+      "hoof_code": "23"
+    },
+    {
+      "race_id": "05252c08",
+      "race_date": "unknown",
+      "horse_num": "12",
+      "pedigree_id": "21105639",
+      "horse_name": "ダノンホイットニー",
+      "hoof_code": "02"
+    },
+    {
+      "race_id": "05252c08",
+      "race_date": "unknown",
+      "horse_num": "13",
+      "pedigree_id": "20102976",
+      "horse_name": "ノーブルクライ",
+      "hoof_code": "23"
+    },
+    {
+      "race_id": "05252c08",
+      "race_date": "unknown",
+      "horse_num": "14",
+      "pedigree_id": "20103208",
+      "horse_name": "ジュンツバメガエシ",
+      "hoof_code": "22"
+    },
+    {
+      "race_id": "05252c08",
+      "race_date": "unknown",
+      "horse_num": "15",
+      "pedigree_id": "21106563",
+      "horse_name": "イクリール",
+      "hoof_code": "02"
+    },
+    {
+      "race_id": "05252c08",
+      "race_date": "unknown",
+      "horse_num": "16",
+      "pedigree_id": "21104887",
+      "horse_name": "デュアルウィルダー",
+      "hoof_code": "22"
+    },
+    {
+      "race_id": "05252c09",
+      "race_date": "unknown",
+      "horse_num": "01",
+      "pedigree_id": "18101243",
+      "horse_name": "オレデイイノカ",
+      "hoof_code": "23"
+    },
+    {
+      "race_id": "05252c09",
+      "race_date": "unknown",
+      "horse_num": "02",
+      "pedigree_id": "20103928",
+      "horse_name": "ホウオウスーペリア",
+      "hoof_code": "23"
+    },
+    {
+      "race_id": "05252c09",
+      "race_date": "unknown",
+      "horse_num": "03",
+      "pedigree_id": "19104056",
+      "horse_name": "トップオブジェラス",
+      "hoof_code": "22"
+    },
+    {
+      "race_id": "05252c09",
+      "race_date": "unknown",
+      "horse_num": "05",
+      "pedigree_id": "21102009",
+      "horse_name": "ラタフォレスト",
+      "hoof_code": "18"
+    },
+    {
+      "race_id": "05252c09",
+      "race_date": "unknown",
+      "horse_num": "06",
+      "pedigree_id": "21101147",
+      "horse_name": "グロバーテソーロ",
+      "hoof_code": "23"
+    },
+    {
+      "race_id": "05252c09",
+      "race_date": "unknown",
+      "horse_num": "07",
+      "pedigree_id": "20102317",
+      "horse_name": "サイモンブーケ",
+      "hoof_code": "22"
+    },
+    {
+      "race_id": "05252c09",
+      "race_date": "unknown",
+      "horse_num": "08",
+      "pedigree_id": "20102703",
+      "horse_name": "リバートゥルー",
+      "hoof_code": "24"
+    },
+    {
+      "race_id": "05252c09",
+      "race_date": "unknown",
+      "horse_num": "09",
+      "pedigree_id": "21105356",
+      "horse_name": "ターコイズフリンジ",
+      "hoof_code": "22"
+    },
+    {
+      "race_id": "05252c09",
+      "race_date": "unknown",
+      "horse_num": "10",
+      "pedigree_id": "21105120",
+      "horse_name": "グラウンドビート",
+      "hoof_code": "23"
+    },
+    {
+      "race_id": "05252c09",
+      "race_date": "unknown",
+      "horse_num": "11",
+      "pedigree_id": "21110127",
+      "horse_name": "テリフィックプラン",
+      "hoof_code": "10"
+    },
+    {
+      "race_id": "05252c09",
+      "race_date": "unknown",
+      "horse_num": "12",
+      "pedigree_id": "18106693",
+      "horse_name": "グランツアーテム",
+      "hoof_code": "23"
+    },
+    {
+      "race_id": "05252c09",
+      "race_date": "unknown",
+      "horse_num": "13",
+      "pedigree_id": "20102814",
+      "horse_name": "ジャスリー",
+      "hoof_code": "22"
+    },
+    {
+      "race_id": "05252c09",
+      "race_date": "unknown",
+      "horse_num": "14",
+      "pedigree_id": "21102903",
+      "horse_name": "ワンパット",
+      "hoof_code": "23"
+    },
+    {
+      "race_id": "05252c09",
+      "race_date": "unknown",
+      "horse_num": "15",
+      "pedigree_id": "21101478",
+      "horse_name": "ダノンザボルケーノ",
+      "hoof_code": "23"
+    },
+    {
+      "race_id": "05252c09",
+      "race_date": "unknown",
+      "horse_num": "16",
+      "pedigree_id": "19102654",
+      "horse_name": "コブラ",
+      "hoof_code": "02"
+    },
+    {
+      "race_id": "05252c10",
+      "race_date": "unknown",
+      "horse_num": "01",
+      "pedigree_id": "19105559",
+      "horse_name": "ロジマンボ",
+      "hoof_code": "23"
+    },
+    {
+      "race_id": "05252c10",
+      "race_date": "unknown",
+      "horse_num": "02",
+      "pedigree_id": "20105494",
+      "horse_name": "ニシノライコウ",
+      "hoof_code": "19"
+    },
+    {
+      "race_id": "05252c10",
+      "race_date": "unknown",
+      "horse_num": "03",
+      "pedigree_id": "21100363",
+      "horse_name": "パワーホール",
+      "hoof_code": "03"
+    },
+    {
+      "race_id": "05252c10",
+      "race_date": "unknown",
+      "horse_num": "04",
+      "pedigree_id": "18105157",
+      "horse_name": "ディープリッチ",
+      "hoof_code": "23"
+    },
+    {
+      "race_id": "05252c10",
+      "race_date": "unknown",
+      "horse_num": "05",
+      "pedigree_id": "21105609",
+      "horse_name": "スパークリシャール",
+      "hoof_code": "23"
+    },
+    {
+      "race_id": "05252c10",
+      "race_date": "unknown",
+      "horse_num": "06",
+      "pedigree_id": "19100768",
+      "horse_name": "マイネルニコラス",
+      "hoof_code": "03"
+    },
+    {
+      "race_id": "05252c10",
+      "race_date": "unknown",
+      "horse_num": "07",
+      "pedigree_id": "21104791",
+      "horse_name": "メリオーレム",
+      "hoof_code": "22"
+    },
+    {
+      "race_id": "05252c10",
+      "race_date": "unknown",
+      "horse_num": "08",
+      "pedigree_id": "18109026",
+      "horse_name": "ヴルカーノ",
+      "hoof_code": "03"
+    },
+    {
+      "race_id": "05252c10",
+      "race_date": "unknown",
+      "horse_num": "09",
+      "pedigree_id": "18104591",
+      "horse_name": "サウンドウォリアー",
+      "hoof_code": "03"
+    },
+    {
+      "race_id": "05252c10",
+      "race_date": "unknown",
+      "horse_num": "10",
+      "pedigree_id": "21105757",
+      "horse_name": "テウメッサ",
+      "hoof_code": "23"
+    },
+    {
+      "race_id": "05252c10",
+      "race_date": "unknown",
+      "horse_num": "11",
+      "pedigree_id": "21100206",
+      "horse_name": "ニューステソーロ",
+      "hoof_code": "23"
+    },
+    {
+      "race_id": "05252c10",
+      "race_date": "unknown",
+      "horse_num": "12",
+      "pedigree_id": "21105578",
+      "horse_name": "ショウナンラピダス",
+      "hoof_code": "23"
+    },
+    {
+      "race_id": "05252c10",
+      "race_date": "unknown",
+      "horse_num": "13",
+      "pedigree_id": "20103562",
+      "horse_name": "コスモシャングリラ",
+      "hoof_code": "11"
+    },
+    {
+      "race_id": "05252c10",
+      "race_date": "unknown",
+      "horse_num": "14",
+      "pedigree_id": "20103304",
+      "horse_name": "アンリーロード",
+      "hoof_code": "23"
+    },
+    {
+      "race_id": "05252c10",
+      "race_date": "unknown",
+      "horse_num": "15",
+      "pedigree_id": "21105788",
+      "horse_name": "バロネッサ",
+      "hoof_code": "23"
+    },
+    {
+      "race_id": "05252c10",
+      "race_date": "unknown",
+      "horse_num": "16",
+      "pedigree_id": "20105217",
+      "horse_name": "ウインオーディン",
+      "hoof_code": "23"
+    },
+    {
+      "race_id": "05252c10",
+      "race_date": "unknown",
+      "horse_num": "17",
+      "pedigree_id": "20103066",
+      "horse_name": "マルチャン",
+      "hoof_code": "03"
+    },
+    {
+      "race_id": "05252c10",
+      "race_date": "unknown",
+      "horse_num": "18",
+      "pedigree_id": "19105197",
+      "horse_name": "ブラックシールド",
+      "hoof_code": "23"
+    },
+    {
+      "race_id": "05252c11",
+      "race_date": "unknown",
+      "horse_num": "01",
+      "pedigree_id": "22104922",
+      "horse_name": "リラエンブレム",
+      "hoof_code": "10"
+    },
+    {
+      "race_id": "05252c11",
+      "race_date": "unknown",
+      "horse_num": "02",
+      "pedigree_id": "22104714",
+      "horse_name": "ショウヘイ",
+      "hoof_code": "11"
+    },
+    {
+      "race_id": "05252c11",
+      "race_date": "unknown",
+      "horse_num": "03",
+      "pedigree_id": "22105099",
+      "horse_name": "エリキング",
+      "hoof_code": "03"
+    },
+    {
+      "race_id": "05252c11",
+      "race_date": "unknown",
+      "horse_num": "04",
+      "pedigree_id": "22105891",
+      "horse_name": "ドラゴンブースト",
+      "hoof_code": "23"
+    },
+    {
+      "race_id": "05252c11",
+      "race_date": "unknown",
+      "horse_num": "05",
+      "pedigree_id": "22104416",
+      "horse_name": "レディネス",
+      "hoof_code": "04"
+    },
+    {
+      "race_id": "05252c11",
+      "race_date": "unknown",
+      "horse_num": "06",
+      "pedigree_id": "22105836",
+      "horse_name": "ファンダム",
+      "hoof_code": "22"
+    },
+    {
+      "race_id": "05252c11",
+      "race_date": "unknown",
+      "horse_num": "07",
+      "pedigree_id": "22105081",
+      "horse_name": "ミュージアムマイル",
+      "hoof_code": "23"
+    },
+    {
+      "race_id": "05252c11",
+      "race_date": "unknown",
+      "horse_num": "08",
+      "pedigree_id": "22105105",
+      "horse_name": "エムズ",
+      "hoof_code": "10"
+    },
+    {
+      "race_id": "05252c11",
+      "race_date": "unknown",
+      "horse_num": "09",
+      "pedigree_id": "22103995",
+      "horse_name": "ジョバンニ",
+      "hoof_code": "11"
+    },
+    {
+      "race_id": "05252c11",
+      "race_date": "unknown",
+      "horse_num": "10",
+      "pedigree_id": "22104397",
+      "horse_name": "トッピボーン",
+      "hoof_code": "10"
+    },
+    {
+      "race_id": "05252c11",
+      "race_date": "unknown",
+      "horse_num": "11",
+      "pedigree_id": "22106155",
+      "horse_name": "ニシノエージェント",
+      "hoof_code": "03"
+    },
+    {
+      "race_id": "05252c11",
+      "race_date": "unknown",
+      "horse_num": "12",
+      "pedigree_id": "22104896",
+      "horse_name": "カラマティアノス",
+      "hoof_code": "23"
+    },
+    {
+      "race_id": "05252c11",
+      "race_date": "unknown",
+      "horse_num": "13",
+      "pedigree_id": "22105102",
+      "horse_name": "クロワデュノール",
+      "hoof_code": "24"
+    },
+    {
+      "race_id": "05252c11",
+      "race_date": "unknown",
+      "horse_num": "14",
+      "pedigree_id": "22104845",
+      "horse_name": "ホウオウアートマン",
+      "hoof_code": "24"
+    },
+    {
+      "race_id": "05252c11",
+      "race_date": "unknown",
+      "horse_num": "15",
+      "pedigree_id": "22104218",
+      "horse_name": "ファウストラーゼン",
+      "hoof_code": "23"
+    },
+    {
+      "race_id": "05252c11",
+      "race_date": "unknown",
+      "horse_num": "16",
+      "pedigree_id": "22104720",
+      "horse_name": "ファイアンクランツ",
+      "hoof_code": "24"
+    },
+    {
+      "race_id": "05252c11",
+      "race_date": "unknown",
+      "horse_num": "17",
+      "pedigree_id": "22105519",
+      "horse_name": "マスカレードボール",
+      "hoof_code": "04"
+    },
+    {
+      "race_id": "05252c11",
+      "race_date": "unknown",
+      "horse_num": "18",
+      "pedigree_id": "22101420",
+      "horse_name": "サトノシャイニング",
+      "hoof_code": "03"
+    },
+    {
+      "race_id": "05252c12",
+      "race_date": "unknown",
+      "horse_num": "01",
+      "pedigree_id": "21105104",
+      "horse_name": "サンライズソレイユ",
+      "hoof_code": "02"
+    },
+    {
+      "race_id": "05252c12",
+      "race_date": "unknown",
+      "horse_num": "02",
+      "pedigree_id": "19102879",
+      "horse_name": "マテンロウレオ",
+      "hoof_code": "02"
+    },
+    {
+      "race_id": "05252c12",
+      "race_date": "unknown",
+      "horse_num": "03",
+      "pedigree_id": "20103945",
+      "horse_name": "ヴェルミセル",
+      "hoof_code": "23"
+    },
+    {
+      "race_id": "05252c12",
+      "race_date": "unknown",
+      "horse_num": "04",
+      "pedigree_id": "19100792",
+      "horse_name": "マイネルクリソーラ",
+      "hoof_code": "24"
+    },
+    {
+      "race_id": "05252c12",
+      "race_date": "unknown",
+      "horse_num": "05",
+      "pedigree_id": "20103111",
+      "horse_name": "アスターブジエ",
+      "hoof_code": "22"
+    },
+    {
+      "race_id": "05252c12",
+      "race_date": "unknown",
+      "horse_num": "06",
+      "pedigree_id": "19101847",
+      "horse_name": "ミクソロジー",
+      "hoof_code": "03"
+    },
+    {
+      "race_id": "05252c12",
+      "race_date": "unknown",
+      "horse_num": "07",
+      "pedigree_id": "20105798",
+      "horse_name": "マイネルカンパーナ",
+      "hoof_code": "03"
+    },
+    {
+      "race_id": "05252c12",
+      "race_date": "unknown",
+      "horse_num": "08",
+      "pedigree_id": "21105829",
+      "horse_name": "スティンガーグラス",
+      "hoof_code": "11"
+    },
+    {
+      "race_id": "05252c12",
+      "race_date": "unknown",
+      "horse_num": "09",
+      "pedigree_id": "21104855",
+      "horse_name": "ホーエリート",
+      "hoof_code": "03"
+    },
+    {
+      "race_id": "05252c12",
+      "race_date": "unknown",
+      "horse_num": "10",
+      "pedigree_id": "21105369",
+      "horse_name": "アドマイヤテラ",
+      "hoof_code": "10"
+    },
+    {
+      "race_id": "05252c12",
+      "race_date": "unknown",
+      "horse_num": "11",
+      "pedigree_id": "18104475",
+      "horse_name": "ディープモンスター",
+      "hoof_code": "03"
+    },
+    {
+      "race_id": "05252c12",
+      "race_date": "unknown",
+      "horse_num": "12",
+      "pedigree_id": "16102175",
+      "horse_name": "ダンディズム",
+      "hoof_code": "03"
+    },
+    {
+      "race_id": "05252c12",
+      "race_date": "unknown",
+      "horse_num": "13",
+      "pedigree_id": "20103666",
+      "horse_name": "マキシ",
+      "hoof_code": "03"
+    },
+    {
+      "race_id": "05252c12",
+      "race_date": "unknown",
+      "horse_num": "14",
+      "pedigree_id": "18101348",
+      "horse_name": "シルブロン",
+      "hoof_code": "23"
+    },
+    {
+      "race_id": "05252c12",
+      "race_date": "unknown",
+      "horse_num": "15",
+      "pedigree_id": "16100752",
+      "horse_name": "マイネルウィルトス",
+      "hoof_code": "23"
+    },
+    {
+      "race_id": "05252c12",
+      "race_date": "unknown",
+      "horse_num": "16",
+      "pedigree_id": "16104624",
+      "horse_name": "ハヤヤッコ",
+      "hoof_code": "03"
+    },
+    {
+      "race_id": "05252c12",
+      "race_date": "unknown",
+      "horse_num": "17",
+      "pedigree_id": "19104091",
+      "horse_name": "メイショウブレゲ",
+      "hoof_code": "02"
+    },
+    {
+      "race_id": "05252c12",
+      "race_date": "unknown",
+      "horse_num": "18",
+      "pedigree_id": "20100254",
+      "horse_name": "ニシノレヴナント",
+      "hoof_code": "23"
+    },
+    {
+      "race_id": "08252c01",
+      "race_date": "unknown",
+      "horse_num": "01",
+      "pedigree_id": "22103237",
+      "horse_name": "メイショウホダワラ",
+      "hoof_code": "10"
+    },
+    {
+      "race_id": "08252c01",
+      "race_date": "unknown",
+      "horse_num": "03",
+      "pedigree_id": "22101597",
+      "horse_name": "ウインクルホープ",
+      "hoof_code": "02"
+    },
+    {
+      "race_id": "08252c01",
+      "race_date": "unknown",
+      "horse_num": "05",
+      "pedigree_id": "22101025",
+      "horse_name": "ワンダーフレックス",
+      "hoof_code": "06"
+    },
+    {
+      "race_id": "08252c01",
+      "race_date": "unknown",
+      "horse_num": "06",
+      "pedigree_id": "22107279",
+      "horse_name": "ミトノキャット",
+      "hoof_code": "24"
+    },
+    {
+      "race_id": "08252c01",
+      "race_date": "unknown",
+      "horse_num": "07",
+      "pedigree_id": "22104391",
+      "horse_name": "ヴィヴァシャス",
+      "hoof_code": "10"
+    },
+    {
+      "race_id": "08252c01",
+      "race_date": "unknown",
+      "horse_num": "08",
+      "pedigree_id": "22103948",
+      "horse_name": "スマートピリカ",
+      "hoof_code": "10"
+    },
+    {
+      "race_id": "08252c01",
+      "race_date": "unknown",
+      "horse_num": "09",
+      "pedigree_id": "22101656",
+      "horse_name": "チムニーパイプ",
+      "hoof_code": "10"
+    },
+    {
+      "race_id": "08252c01",
+      "race_date": "unknown",
+      "horse_num": "10",
+      "pedigree_id": "22103300",
+      "horse_name": "ファータビアンカ",
+      "hoof_code": "10"
+    },
+    {
+      "race_id": "08252c01",
+      "race_date": "unknown",
+      "horse_num": "12",
+      "pedigree_id": "22104508",
+      "horse_name": "フラッシュケリー",
+      "hoof_code": "10"
+    },
+    {
+      "race_id": "08252c01",
+      "race_date": "unknown",
+      "horse_num": "13",
+      "pedigree_id": "22104644",
+      "horse_name": "ペンテリコン",
+      "hoof_code": "03"
+    },
+    {
+      "race_id": "08252c01",
+      "race_date": "unknown",
+      "horse_num": "15",
+      "pedigree_id": "22102815",
+      "horse_name": "クリノクイーン",
+      "hoof_code": "23"
+    },
+    {
+      "race_id": "08252c01",
+      "race_date": "unknown",
+      "horse_num": "16",
+      "pedigree_id": "22103266",
+      "horse_name": "メイショウアキカゼ",
+      "hoof_code": "10"
+    },
+    {
+      "race_id": "08252c02",
+      "race_date": "unknown",
+      "horse_num": "01",
+      "pedigree_id": "22104225",
+      "horse_name": "エールヴィリース",
+      "hoof_code": "22"
+    },
+    {
+      "race_id": "08252c02",
+      "race_date": "unknown",
+      "horse_num": "02",
+      "pedigree_id": "22101933",
+      "horse_name": "ハックルベリー",
+      "hoof_code": "10"
+    },
+    {
+      "race_id": "08252c02",
+      "race_date": "unknown",
+      "horse_num": "03",
+      "pedigree_id": "22106617",
+      "horse_name": "サルタール",
+      "hoof_code": "23"
+    },
+    {
+      "race_id": "08252c02",
+      "race_date": "unknown",
+      "horse_num": "04",
+      "pedigree_id": "22100783",
+      "horse_name": "ジョーエルピーゾ",
+      "hoof_code": "09"
+    },
+    {
+      "race_id": "08252c02",
+      "race_date": "unknown",
+      "horse_num": "06",
+      "pedigree_id": "22105572",
+      "horse_name": "クロシオカレント",
+      "hoof_code": "22"
+    },
+    {
+      "race_id": "08252c02",
+      "race_date": "unknown",
+      "horse_num": "07",
+      "pedigree_id": "22101593",
+      "horse_name": "ピエナアイル",
+      "hoof_code": "10"
+    },
+    {
+      "race_id": "08252c02",
+      "race_date": "unknown",
+      "horse_num": "08",
+      "pedigree_id": "22102898",
+      "horse_name": "ナムラエン",
+      "hoof_code": "11"
+    },
+    {
+      "race_id": "08252c02",
+      "race_date": "unknown",
+      "horse_num": "09",
+      "pedigree_id": "22105630",
+      "horse_name": "カンタカナリート",
+      "hoof_code": "10"
+    },
+    {
+      "race_id": "08252c02",
+      "race_date": "unknown",
+      "horse_num": "10",
+      "pedigree_id": "22101270",
+      "horse_name": "ペプチドモガミ",
+      "hoof_code": "10"
+    },
+    {
+      "race_id": "08252c02",
+      "race_date": "unknown",
+      "horse_num": "11",
+      "pedigree_id": "22101673",
+      "horse_name": "サルファー",
+      "hoof_code": "22"
+    },
+    {
+      "race_id": "08252c02",
+      "race_date": "unknown",
+      "horse_num": "12",
+      "pedigree_id": "22102906",
+      "horse_name": "オリジナルファイン",
+      "hoof_code": "10"
+    },
+    {
+      "race_id": "08252c02",
+      "race_date": "unknown",
+      "horse_num": "14",
+      "pedigree_id": "22104963",
+      "horse_name": "マテンロウシルビア",
+      "hoof_code": "10"
+    },
+    {
+      "race_id": "08252c03",
+      "race_date": "unknown",
+      "horse_num": "01",
+      "pedigree_id": "22110094",
+      "horse_name": "ビリオネアボーイ",
+      "hoof_code": "10"
+    },
+    {
+      "race_id": "08252c03",
+      "race_date": "unknown",
+      "horse_num": "02",
+      "pedigree_id": "22101063",
+      "horse_name": "エマダイヤモンド",
+      "hoof_code": "03"
+    },
+    {
+      "race_id": "08252c03",
+      "race_date": "unknown",
+      "horse_num": "03",
+      "pedigree_id": "22105106",
+      "horse_name": "ブラックソンソルト",
+      "hoof_code": "11"
+    },
+    {
+      "race_id": "08252c03",
+      "race_date": "unknown",
+      "horse_num": "04",
+      "pedigree_id": "22104117",
+      "horse_name": "レインオンミー",
+      "hoof_code": "11"
+    },
+    {
+      "race_id": "08252c03",
+      "race_date": "unknown",
+      "horse_num": "05",
+      "pedigree_id": "22105812",
+      "horse_name": "ヤングソルジャー",
+      "hoof_code": "10"
+    },
+    {
+      "race_id": "08252c03",
+      "race_date": "unknown",
+      "horse_num": "06",
+      "pedigree_id": "22104741",
+      "horse_name": "ジーティーハート",
+      "hoof_code": "10"
+    },
+    {
+      "race_id": "08252c03",
+      "race_date": "unknown",
+      "horse_num": "07",
+      "pedigree_id": "22103655",
+      "horse_name": "エイシンカーバイン",
+      "hoof_code": "23"
+    },
+    {
+      "race_id": "08252c03",
+      "race_date": "unknown",
+      "horse_num": "08",
+      "pedigree_id": "22104189",
+      "horse_name": "ステイトゥルー",
+      "hoof_code": "10"
+    },
+    {
+      "race_id": "08252c03",
+      "race_date": "unknown",
+      "horse_num": "09",
+      "pedigree_id": "22103068",
+      "horse_name": "スピードイエロー",
+      "hoof_code": "18"
+    },
+    {
+      "race_id": "08252c03",
+      "race_date": "unknown",
+      "horse_num": "10",
+      "pedigree_id": "22105313",
+      "horse_name": "セレスチャルホープ",
+      "hoof_code": "10"
+    },
+    {
+      "race_id": "08252c03",
+      "race_date": "unknown",
+      "horse_num": "11",
+      "pedigree_id": "22100869",
+      "horse_name": "コルレーニョ",
+      "hoof_code": "11"
+    },
+    {
+      "race_id": "08252c03",
+      "race_date": "unknown",
+      "horse_num": "12",
+      "pedigree_id": "22106651",
+      "horse_name": "ハギノヴェルドン",
+      "hoof_code": "10"
+    },
+    {
+      "race_id": "08252c03",
+      "race_date": "unknown",
+      "horse_num": "13",
+      "pedigree_id": "22105688",
+      "horse_name": "ドバイミッション",
+      "hoof_code": "10"
+    },
+    {
+      "race_id": "08252c03",
+      "race_date": "unknown",
+      "horse_num": "14",
+      "pedigree_id": "22104623",
+      "horse_name": "コリカンチャ",
+      "hoof_code": "10"
+    },
+    {
+      "race_id": "08252c03",
+      "race_date": "unknown",
+      "horse_num": "15",
+      "pedigree_id": "22105010",
+      "horse_name": "ヴァイスクレー",
+      "hoof_code": "03"
+    },
+    {
+      "race_id": "08252c03",
+      "race_date": "unknown",
+      "horse_num": "17",
+      "pedigree_id": "22104417",
+      "horse_name": "シャインモノリス",
+      "hoof_code": "10"
+    },
+    {
+      "race_id": "08252c03",
+      "race_date": "unknown",
+      "horse_num": "18",
+      "pedigree_id": "22101434",
+      "horse_name": "ダノンプリマ",
+      "hoof_code": "10"
+    },
+    {
+      "race_id": "08252c04",
+      "race_date": "unknown",
+      "horse_num": "01",
+      "pedigree_id": "21104924",
+      "horse_name": "コンテナワールド",
+      "hoof_code": "10"
+    },
+    {
+      "race_id": "08252c04",
+      "race_date": "unknown",
+      "horse_num": "02",
+      "pedigree_id": "17103381",
+      "horse_name": "ティートラップ",
+      "hoof_code": "23"
+    },
+    {
+      "race_id": "08252c04",
+      "race_date": "unknown",
+      "horse_num": "03",
+      "pedigree_id": "20102347",
+      "horse_name": "ナイトスピアー",
+      "hoof_code": "24"
+    },
+    {
+      "race_id": "08252c04",
+      "race_date": "unknown",
+      "horse_num": "04",
+      "pedigree_id": "18100752",
+      "horse_name": "タンジェントアーク",
+      "hoof_code": "04"
+    },
+    {
+      "race_id": "08252c04",
+      "race_date": "unknown",
+      "horse_num": "05",
+      "pedigree_id": "17106373",
+      "horse_name": "メイショウコホク",
+      "hoof_code": "02"
+    },
+    {
+      "race_id": "08252c04",
+      "race_date": "unknown",
+      "horse_num": "06",
+      "pedigree_id": "21104280",
+      "horse_name": "テクネチウム",
+      "hoof_code": "03"
+    },
+    {
+      "race_id": "08252c04",
+      "race_date": "unknown",
+      "horse_num": "07",
+      "pedigree_id": "18103503",
+      "horse_name": "プラチナムレイアー",
+      "hoof_code": "22"
+    },
+    {
+      "race_id": "08252c04",
+      "race_date": "unknown",
+      "horse_num": "08",
+      "pedigree_id": "20104089",
+      "horse_name": "ドンカルロ",
+      "hoof_code": "23"
+    },
+    {
+      "race_id": "08252c04",
+      "race_date": "unknown",
+      "horse_num": "09",
+      "pedigree_id": "19101507",
+      "horse_name": "ディナースタ",
+      "hoof_code": "23"
+    },
+    {
+      "race_id": "08252c04",
+      "race_date": "unknown",
+      "horse_num": "10",
+      "pedigree_id": "18104865",
+      "horse_name": "レディステディゴー",
+      "hoof_code": "23"
+    },
+    {
+      "race_id": "08252c04",
+      "race_date": "unknown",
+      "horse_num": "11",
+      "pedigree_id": "17104700",
+      "horse_name": "ナリノモンターニュ",
+      "hoof_code": "03"
+    },
+    {
+      "race_id": "08252c04",
+      "race_date": "unknown",
+      "horse_num": "12",
+      "pedigree_id": "15104512",
+      "horse_name": "スヴァルナ",
+      "hoof_code": "24"
+    },
+    {
+      "race_id": "08252c05",
+      "race_date": "unknown",
+      "horse_num": "01",
+      "pedigree_id": "22103281",
+      "horse_name": "タイセイルシエル",
+      "hoof_code": "10"
+    },
+    {
+      "race_id": "08252c05",
+      "race_date": "unknown",
+      "horse_num": "02",
+      "pedigree_id": "22100995",
+      "horse_name": "グロウミニョン",
+      "hoof_code": "10"
+    },
+    {
+      "race_id": "08252c05",
+      "race_date": "unknown",
+      "horse_num": "03",
+      "pedigree_id": "22103787",
+      "horse_name": "ジョイボーイ",
+      "hoof_code": "11"
+    },
+    {
+      "race_id": "08252c05",
+      "race_date": "unknown",
+      "horse_num": "04",
+      "pedigree_id": "22110044",
+      "horse_name": "ジャックオダモ",
+      "hoof_code": "03"
+    },
+    {
+      "race_id": "08252c05",
+      "race_date": "unknown",
+      "horse_num": "05",
+      "pedigree_id": "22106607",
+      "horse_name": "ヤマニンヒストリア",
+      "hoof_code": "10"
+    },
+    {
+      "race_id": "08252c05",
+      "race_date": "unknown",
+      "horse_num": "06",
+      "pedigree_id": "22104308",
+      "horse_name": "シカレ",
+      "hoof_code": "18"
+    },
+    {
+      "race_id": "08252c05",
+      "race_date": "unknown",
+      "horse_num": "07",
+      "pedigree_id": "22102703",
+      "horse_name": "コパカバーナ",
+      "hoof_code": "22"
+    },
+    {
+      "race_id": "08252c05",
+      "race_date": "unknown",
+      "horse_num": "08",
+      "pedigree_id": "22101759",
+      "horse_name": "セキトバシューズ",
+      "hoof_code": "10"
+    },
+    {
+      "race_id": "08252c05",
+      "race_date": "unknown",
+      "horse_num": "09",
+      "pedigree_id": "22102141",
+      "horse_name": "モルゲンゾンネ",
+      "hoof_code": "10"
+    },
+    {
+      "race_id": "08252c05",
+      "race_date": "unknown",
+      "horse_num": "10",
+      "pedigree_id": "22106751",
+      "horse_name": "プレデスティナーレ",
+      "hoof_code": "22"
+    },
+    {
+      "race_id": "08252c05",
+      "race_date": "unknown",
+      "horse_num": "11",
+      "pedigree_id": "22104661",
+      "horse_name": "ジーティートシオー",
+      "hoof_code": "22"
+    },
+    {
+      "race_id": "08252c05",
+      "race_date": "unknown",
+      "horse_num": "12",
+      "pedigree_id": "22105563",
+      "horse_name": "ヴァリラプトル",
+      "hoof_code": "10"
+    },
+    {
+      "race_id": "08252c05",
+      "race_date": "unknown",
+      "horse_num": "13",
+      "pedigree_id": "22101401",
+      "horse_name": "アンアルモニー",
+      "hoof_code": "11"
+    },
+    {
+      "race_id": "08252c06",
+      "race_date": "unknown",
+      "horse_num": "01",
+      "pedigree_id": "22106858",
+      "horse_name": "コトリノサエズリ",
+      "hoof_code": "23"
+    },
+    {
+      "race_id": "08252c06",
+      "race_date": "unknown",
+      "horse_num": "02",
+      "pedigree_id": "22103527",
+      "horse_name": "ライツユーアップ",
+      "hoof_code": "18"
+    },
+    {
+      "race_id": "08252c06",
+      "race_date": "unknown",
+      "horse_num": "03",
+      "pedigree_id": "22106584",
+      "horse_name": "ケイアイマハナ",
+      "hoof_code": "23"
+    },
+    {
+      "race_id": "08252c06",
+      "race_date": "unknown",
+      "horse_num": "04",
+      "pedigree_id": "22106243",
+      "horse_name": "サヨノジャンボリー",
+      "hoof_code": "23"
+    },
+    {
+      "race_id": "08252c06",
+      "race_date": "unknown",
+      "horse_num": "05",
+      "pedigree_id": "22101202",
+      "horse_name": "サンナイアガラ",
+      "hoof_code": "10"
+    },
+    {
+      "race_id": "08252c06",
+      "race_date": "unknown",
+      "horse_num": "06",
+      "pedigree_id": "22104749",
+      "horse_name": "ソリスクラヴィス",
+      "hoof_code": "10"
+    },
+    {
+      "race_id": "08252c06",
+      "race_date": "unknown",
+      "horse_num": "07",
+      "pedigree_id": "22103286",
+      "horse_name": "エナジーガンツ",
+      "hoof_code": "02"
+    },
+    {
+      "race_id": "08252c06",
+      "race_date": "unknown",
+      "horse_num": "08",
+      "pedigree_id": "22105964",
+      "horse_name": "スニーカースキル",
+      "hoof_code": "10"
+    },
+    {
+      "race_id": "08252c06",
+      "race_date": "unknown",
+      "horse_num": "09",
+      "pedigree_id": "22101068",
+      "horse_name": "オリージネアリア",
+      "hoof_code": "10"
+    },
+    {
+      "race_id": "08252c06",
+      "race_date": "unknown",
+      "horse_num": "10",
+      "pedigree_id": "22103047",
+      "horse_name": "ホウショウマリス",
+      "hoof_code": "10"
+    },
+    {
+      "race_id": "08252c06",
+      "race_date": "unknown",
+      "horse_num": "11",
+      "pedigree_id": "22110117",
+      "horse_name": "チュウワチーフ",
+      "hoof_code": "18"
+    },
+    {
+      "race_id": "08252c06",
+      "race_date": "unknown",
+      "horse_num": "12",
+      "pedigree_id": "22101396",
+      "horse_name": "サンライズブレイク",
+      "hoof_code": "03"
+    },
+    {
+      "race_id": "08252c06",
+      "race_date": "unknown",
+      "horse_num": "13",
+      "pedigree_id": "22105302",
+      "horse_name": "ヴリトラハン",
+      "hoof_code": "03"
+    },
+    {
+      "race_id": "08252c06",
+      "race_date": "unknown",
+      "horse_num": "14",
+      "pedigree_id": "22100327",
+      "horse_name": "ジェミート",
+      "hoof_code": "01"
+    },
+    {
+      "race_id": "08252c07",
+      "race_date": "unknown",
+      "horse_num": "01",
+      "pedigree_id": "21101557",
+      "horse_name": "タマモランプ",
+      "hoof_code": "10"
+    },
+    {
+      "race_id": "08252c07",
+      "race_date": "unknown",
+      "horse_num": "02",
+      "pedigree_id": "21105465",
+      "horse_name": "ブロードグリン",
+      "hoof_code": "23"
+    },
+    {
+      "race_id": "08252c07",
+      "race_date": "unknown",
+      "horse_num": "03",
+      "pedigree_id": "20105652",
+      "horse_name": "トリオンファルマン",
+      "hoof_code": "23"
+    },
+    {
+      "race_id": "08252c07",
+      "race_date": "unknown",
+      "horse_num": "04",
+      "pedigree_id": "19100915",
+      "horse_name": "ゼンノインヴォーク",
+      "hoof_code": "18"
+    },
+    {
+      "race_id": "08252c07",
+      "race_date": "unknown",
+      "horse_num": "05",
+      "pedigree_id": "21104148",
+      "horse_name": "オーサムピクチャ",
+      "hoof_code": "12"
+    },
+    {
+      "race_id": "08252c07",
+      "race_date": "unknown",
+      "horse_num": "06",
+      "pedigree_id": "21105969",
+      "horse_name": "タナバタ",
+      "hoof_code": "03"
+    },
+    {
+      "race_id": "08252c07",
+      "race_date": "unknown",
+      "horse_num": "07",
+      "pedigree_id": "20106680",
+      "horse_name": "サスケ",
+      "hoof_code": "03"
+    },
+    {
+      "race_id": "08252c07",
+      "race_date": "unknown",
+      "horse_num": "08",
+      "pedigree_id": "20103910",
+      "horse_name": "レジェンドシップ",
+      "hoof_code": "22"
+    },
+    {
+      "race_id": "08252c07",
+      "race_date": "unknown",
+      "horse_num": "09",
+      "pedigree_id": "21104860",
+      "horse_name": "ウールデュボヌール",
+      "hoof_code": "22"
+    },
+    {
+      "race_id": "08252c07",
+      "race_date": "unknown",
+      "horse_num": "10",
+      "pedigree_id": "21103426",
+      "horse_name": "アップステート",
+      "hoof_code": "21"
+    },
+    {
+      "race_id": "08252c07",
+      "race_date": "unknown",
+      "horse_num": "11",
+      "pedigree_id": "21105459",
+      "horse_name": "ヴィスマール",
+      "hoof_code": "10"
+    },
+    {
+      "race_id": "08252c07",
+      "race_date": "unknown",
+      "horse_num": "12",
+      "pedigree_id": "21105570",
+      "horse_name": "シルバーカレッジ",
+      "hoof_code": "10"
+    },
+    {
+      "race_id": "08252c08",
+      "race_date": "unknown",
+      "horse_num": "01",
+      "pedigree_id": "21106936",
+      "horse_name": "フレイミングパイ",
+      "hoof_code": "24"
+    },
+    {
+      "race_id": "08252c08",
+      "race_date": "unknown",
+      "horse_num": "02",
+      "pedigree_id": "21103242",
+      "horse_name": "ジーベック",
+      "hoof_code": "23"
+    },
+    {
+      "race_id": "08252c08",
+      "race_date": "unknown",
+      "horse_num": "03",
+      "pedigree_id": "21106305",
+      "horse_name": "ランウインディ",
+      "hoof_code": "03"
+    },
+    {
+      "race_id": "08252c08",
+      "race_date": "unknown",
+      "horse_num": "04",
+      "pedigree_id": "21102462",
+      "horse_name": "ワークソング",
+      "hoof_code": "03"
+    },
+    {
+      "race_id": "08252c08",
+      "race_date": "unknown",
+      "horse_num": "05",
+      "pedigree_id": "21105711",
+      "horse_name": "ズバットマサムネ",
+      "hoof_code": "23"
+    },
+    {
+      "race_id": "08252c08",
+      "race_date": "unknown",
+      "horse_num": "06",
+      "pedigree_id": "19103556",
+      "horse_name": "サクハル",
+      "hoof_code": "10"
+    },
+    {
+      "race_id": "08252c08",
+      "race_date": "unknown",
+      "horse_num": "07",
+      "pedigree_id": "21106923",
+      "horse_name": "ソーニャシュニク",
+      "hoof_code": "23"
+    },
+    {
+      "race_id": "08252c08",
+      "race_date": "unknown",
+      "horse_num": "08",
+      "pedigree_id": "20110127",
+      "horse_name": "ジョヴィアン",
+      "hoof_code": "10"
+    },
+    {
+      "race_id": "08252c08",
+      "race_date": "unknown",
+      "horse_num": "09",
+      "pedigree_id": "20105156",
+      "horse_name": "フェリ",
+      "hoof_code": "10"
+    },
+    {
+      "race_id": "08252c08",
+      "race_date": "unknown",
+      "horse_num": "10",
+      "pedigree_id": "21104210",
+      "horse_name": "ニホンピロトッティ",
+      "hoof_code": "10"
+    },
+    {
+      "race_id": "08252c08",
+      "race_date": "unknown",
+      "horse_num": "11",
+      "pedigree_id": "19105860",
+      "horse_name": "オースミメッシーナ",
+      "hoof_code": "10"
+    },
+    {
+      "race_id": "08252c08",
+      "race_date": "unknown",
+      "horse_num": "12",
+      "pedigree_id": "21101121",
+      "horse_name": "ミライテーラー",
+      "hoof_code": "22"
+    },
+    {
+      "race_id": "08252c08",
+      "race_date": "unknown",
+      "horse_num": "13",
+      "pedigree_id": "21102953",
+      "horse_name": "パドマ",
+      "hoof_code": "18"
+    },
+    {
+      "race_id": "08252c08",
+      "race_date": "unknown",
+      "horse_num": "14",
+      "pedigree_id": "20103198",
+      "horse_name": "メイデンタワー",
+      "hoof_code": "12"
+    },
+    {
+      "race_id": "08252c08",
+      "race_date": "unknown",
+      "horse_num": "15",
+      "pedigree_id": "19106704",
+      "horse_name": "カンザシ",
+      "hoof_code": "03"
+    },
+    {
+      "race_id": "08252c08",
+      "race_date": "unknown",
+      "horse_num": "16",
+      "pedigree_id": "21105706",
+      "horse_name": "フォルテローザ",
+      "hoof_code": "10"
+    },
+    {
+      "race_id": "08252c09",
+      "race_date": "unknown",
+      "horse_num": "01",
+      "pedigree_id": "21103125",
+      "horse_name": "コパノアントニオ",
+      "hoof_code": "22"
+    },
+    {
+      "race_id": "08252c09",
+      "race_date": "unknown",
+      "horse_num": "02",
+      "pedigree_id": "20106393",
+      "horse_name": "ノボリクレバー",
+      "hoof_code": "23"
+    },
+    {
+      "race_id": "08252c09",
+      "race_date": "unknown",
+      "horse_num": "03",
+      "pedigree_id": "21103263",
+      "horse_name": "メイショウソウタ",
+      "hoof_code": "10"
+    },
+    {
+      "race_id": "08252c09",
+      "race_date": "unknown",
+      "horse_num": "04",
+      "pedigree_id": "21105931",
+      "horse_name": "ギマール",
+      "hoof_code": "10"
+    },
+    {
+      "race_id": "08252c09",
+      "race_date": "unknown",
+      "horse_num": "05",
+      "pedigree_id": "21106359",
+      "horse_name": "バトンインディ",
+      "hoof_code": "11"
+    },
+    {
+      "race_id": "08252c09",
+      "race_date": "unknown",
+      "horse_num": "06",
+      "pedigree_id": "20106579",
+      "horse_name": "ルナビス",
+      "hoof_code": "03"
+    },
+    {
+      "race_id": "08252c09",
+      "race_date": "unknown",
+      "horse_num": "07",
+      "pedigree_id": "19103983",
+      "horse_name": "リジン",
+      "hoof_code": "11"
+    },
+    {
+      "race_id": "08252c09",
+      "race_date": "unknown",
+      "horse_num": "08",
+      "pedigree_id": "19104636",
+      "horse_name": "シュプリンガー",
+      "hoof_code": "10"
+    },
+    {
+      "race_id": "08252c09",
+      "race_date": "unknown",
+      "horse_num": "09",
+      "pedigree_id": "21109027",
+      "horse_name": "テーオールビー",
+      "hoof_code": "03"
+    },
+    {
+      "race_id": "08252c09",
+      "race_date": "unknown",
+      "horse_num": "10",
+      "pedigree_id": "21100329",
+      "horse_name": "プルナチャンドラ",
+      "hoof_code": "03"
+    },
+    {
+      "race_id": "08252c09",
+      "race_date": "unknown",
+      "horse_num": "11",
+      "pedigree_id": "21102905",
+      "horse_name": "ホルトバージ",
+      "hoof_code": "24"
+    },
+    {
+      "race_id": "08252c09",
+      "race_date": "unknown",
+      "horse_num": "12",
+      "pedigree_id": "16100126",
+      "horse_name": "ダディーズトリップ",
+      "hoof_code": "22"
+    },
+    {
+      "race_id": "08252c09",
+      "race_date": "unknown",
+      "horse_num": "13",
+      "pedigree_id": "20100996",
+      "horse_name": "ミヤジレガリア",
+      "hoof_code": "10"
+    },
+    {
+      "race_id": "08252c09",
+      "race_date": "unknown",
+      "horse_num": "14",
+      "pedigree_id": "21103154",
+      "horse_name": "メイショウカシワデ",
+      "hoof_code": "23"
+    },
+    {
+      "race_id": "08252c10",
+      "race_date": "unknown",
+      "horse_num": "01",
+      "pedigree_id": "18102227",
+      "horse_name": "アナゴサン",
+      "hoof_code": "22"
+    },
+    {
+      "race_id": "08252c10",
+      "race_date": "unknown",
+      "horse_num": "02",
+      "pedigree_id": "19101005",
+      "horse_name": "タイセイブリリオ",
+      "hoof_code": "03"
+    },
+    {
+      "race_id": "08252c10",
+      "race_date": "unknown",
+      "horse_num": "03",
+      "pedigree_id": "20104702",
+      "horse_name": "ジョウショーホープ",
+      "hoof_code": "22"
+    },
+    {
+      "race_id": "08252c10",
+      "race_date": "unknown",
+      "horse_num": "04",
+      "pedigree_id": "18106318",
+      "horse_name": "メイショウシンタケ",
+      "hoof_code": "03"
+    },
+    {
+      "race_id": "08252c10",
+      "race_date": "unknown",
+      "horse_num": "05",
+      "pedigree_id": "21100139",
+      "horse_name": "クランフォード",
+      "hoof_code": "18"
+    },
+    {
+      "race_id": "08252c10",
+      "race_date": "unknown",
+      "horse_num": "06",
+      "pedigree_id": "20104572",
+      "horse_name": "ペイシャフラワー",
+      "hoof_code": "23"
+    },
+    {
+      "race_id": "08252c10",
+      "race_date": "unknown",
+      "horse_num": "07",
+      "pedigree_id": "19107075",
+      "horse_name": "ブランデーロック",
+      "hoof_code": "03"
+    },
+    {
+      "race_id": "08252c10",
+      "race_date": "unknown",
+      "horse_num": "08",
+      "pedigree_id": "18105454",
+      "horse_name": "グレイイングリーン",
+      "hoof_code": "23"
+    },
+    {
+      "race_id": "08252c10",
+      "race_date": "unknown",
+      "horse_num": "09",
+      "pedigree_id": "21106834",
+      "horse_name": "コラソンビート",
+      "hoof_code": "23"
+    },
+    {
+      "race_id": "08252c10",
+      "race_date": "unknown",
+      "horse_num": "10",
+      "pedigree_id": "18102020",
+      "horse_name": "ヤマニンサンパ",
+      "hoof_code": "24"
+    },
+    {
+      "race_id": "08252c10",
+      "race_date": "unknown",
+      "horse_num": "11",
+      "pedigree_id": "21104897",
+      "horse_name": "バウンシーステップ",
+      "hoof_code": "02"
+    },
+    {
+      "race_id": "08252c10",
+      "race_date": "unknown",
+      "horse_num": "12",
+      "pedigree_id": "20110155",
+      "horse_name": "レイベリング",
+      "hoof_code": "23"
+    },
+    {
+      "race_id": "08252c10",
+      "race_date": "unknown",
+      "horse_num": "13",
+      "pedigree_id": "20105400",
+      "horse_name": "タマモブラックタイ",
+      "hoof_code": "21"
+    },
+    {
+      "race_id": "08252c10",
+      "race_date": "unknown",
+      "horse_num": "14",
+      "pedigree_id": "20101784",
+      "horse_name": "ラケマーダ",
+      "hoof_code": "11"
+    },
+    {
+      "race_id": "08252c10",
+      "race_date": "unknown",
+      "horse_num": "15",
+      "pedigree_id": "20103482",
+      "horse_name": "スカイロケット",
+      "hoof_code": "19"
+    },
+    {
+      "race_id": "08252c10",
+      "race_date": "unknown",
+      "horse_num": "16",
+      "pedigree_id": "21102315",
+      "horse_name": "アスクワンタイム",
+      "hoof_code": "03"
+    },
+    {
+      "race_id": "08252c11",
+      "race_date": "unknown",
+      "horse_num": "01",
+      "pedigree_id": "22104097",
+      "horse_name": "アタラシイカドデニ",
+      "hoof_code": "22"
+    },
+    {
+      "race_id": "08252c11",
+      "race_date": "unknown",
+      "horse_num": "02",
+      "pedigree_id": "22104171",
+      "horse_name": "スナークピカソ",
+      "hoof_code": "23"
+    },
+    {
+      "race_id": "08252c11",
+      "race_date": "unknown",
+      "horse_num": "03",
+      "pedigree_id": "22109145",
+      "horse_name": "エイヨーアメジスト",
+      "hoof_code": "10"
+    },
+    {
+      "race_id": "08252c11",
+      "race_date": "unknown",
+      "horse_num": "04",
+      "pedigree_id": "22100619",
+      "horse_name": "ロードガレリア",
+      "hoof_code": "02"
+    },
+    {
+      "race_id": "08252c11",
+      "race_date": "unknown",
+      "horse_num": "05",
+      "pedigree_id": "22104902",
+      "horse_name": "マイユニバース",
+      "hoof_code": "10"
+    },
+    {
+      "race_id": "08252c11",
+      "race_date": "unknown",
+      "horse_num": "06",
+      "pedigree_id": "22102744",
+      "horse_name": "キングメーカー",
+      "hoof_code": "24"
+    },
+    {
+      "race_id": "08252c11",
+      "race_date": "unknown",
+      "horse_num": "07",
+      "pedigree_id": "22101648",
+      "horse_name": "センツブラッド",
+      "hoof_code": "23"
+    },
+    {
+      "race_id": "08252c11",
+      "race_date": "unknown",
+      "horse_num": "08",
+      "pedigree_id": "22105580",
+      "horse_name": "ライトトラック",
+      "hoof_code": "10"
+    },
+    {
+      "race_id": "08252c11",
+      "race_date": "unknown",
+      "horse_num": "09",
+      "pedigree_id": "22104940",
+      "horse_name": "エイカイカッシーナ",
+      "hoof_code": "10"
+    },
+    {
+      "race_id": "08252c11",
+      "race_date": "unknown",
+      "horse_num": "10",
+      "pedigree_id": "22101601",
+      "horse_name": "ニュークレド",
+      "hoof_code": "10"
+    },
+    {
+      "race_id": "08252c11",
+      "race_date": "unknown",
+      "horse_num": "11",
+      "pedigree_id": "22104973",
+      "horse_name": "バズアップビート",
+      "hoof_code": "02"
+    },
+    {
+      "race_id": "08252c12",
+      "race_date": "unknown",
+      "horse_num": "01",
+      "pedigree_id": "18103406",
+      "horse_name": "トーホウディアス",
+      "hoof_code": "22"
+    },
+    {
+      "race_id": "08252c12",
+      "race_date": "unknown",
+      "horse_num": "02",
+      "pedigree_id": "20110039",
+      "horse_name": "ユハンヌス",
+      "hoof_code": "22"
+    },
+    {
+      "race_id": "08252c12",
+      "race_date": "unknown",
+      "horse_num": "03",
+      "pedigree_id": "19103898",
+      "horse_name": "スーサンアッシャー",
+      "hoof_code": "03"
+    },
+    {
+      "race_id": "08252c12",
+      "race_date": "unknown",
+      "horse_num": "04",
+      "pedigree_id": "20101872",
+      "horse_name": "デイトナモード",
+      "hoof_code": "03"
+    },
+    {
+      "race_id": "08252c12",
+      "race_date": "unknown",
+      "horse_num": "05",
+      "pedigree_id": "19106925",
+      "horse_name": "ムーンリットナイト",
+      "hoof_code": "03"
+    },
+    {
+      "race_id": "08252c12",
+      "race_date": "unknown",
+      "horse_num": "06",
+      "pedigree_id": "21102461",
+      "horse_name": "バンドシェル",
+      "hoof_code": "04"
+    },
+    {
+      "race_id": "08252c12",
+      "race_date": "unknown",
+      "horse_num": "07",
+      "pedigree_id": "17104092",
+      "horse_name": "プレシオーソ",
+      "hoof_code": "24"
+    },
+    {
+      "race_id": "08252c12",
+      "race_date": "unknown",
+      "horse_num": "08",
+      "pedigree_id": "21100494",
+      "horse_name": "ガロンヌ",
+      "hoof_code": "22"
+    },
+    {
+      "race_id": "08252c12",
+      "race_date": "unknown",
+      "horse_num": "09",
+      "pedigree_id": "19102106",
+      "horse_name": "ブリュットミレジメ",
+      "hoof_code": "02"
+    },
+    {
+      "race_id": "08252c12",
+      "race_date": "unknown",
+      "horse_num": "10",
+      "pedigree_id": "21106594",
+      "horse_name": "ヤマニンアストロン",
+      "hoof_code": "22"
+    },
+    {
+      "race_id": "08252c12",
+      "race_date": "unknown",
+      "horse_num": "11",
+      "pedigree_id": "19104112",
+      "horse_name": "メイショウウネビ",
+      "hoof_code": "02"
+    },
+    {
+      "race_id": "08252c12",
+      "race_date": "unknown",
+      "horse_num": "12",
+      "pedigree_id": "21105370",
+      "horse_name": "キャプテンシー",
+      "hoof_code": "22"
+    },
+    {
+      "race_id": "08252c12",
+      "race_date": "unknown",
+      "horse_num": "13",
+      "pedigree_id": "20105198",
+      "horse_name": "ウインスノーライト",
+      "hoof_code": "22"
+    },
+    {
+      "race_id": "08252c12",
+      "race_date": "unknown",
+      "horse_num": "14",
+      "pedigree_id": "20105354",
+      "horse_name": "サクセスアイ",
+      "hoof_code": "03"
+    }
+  ],
+  "errors": []
+}

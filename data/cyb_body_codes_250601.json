@@ -1,0 +1,6526 @@
+{
+  "metadata": {
+    "source_file": "CYB250601.txt",
+    "extracted_at": "2025-12-31T07:46:47.838223",
+    "total_records": 362,
+    "error_count": 0
+  },
+  "records": [
+    {
+      "race_id": "05252c01",
+      "horse_num": "01",
+      "body_codes": {
+        "code_1": "07",
+        "code_2": "10",
+        "code_3": "10",
+        "code_4": "00",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "10",
+        "code_8": "00"
+      },
+      "weight_change_type": "02",
+      "weight_change_label": "減少",
+      "weight_kg": 4565,
+      "body_evaluation": "6B1"
+    },
+    {
+      "race_id": "05252c01",
+      "horse_num": "02",
+      "body_codes": {
+        "code_1": "08",
+        "code_2": "10",
+        "code_3": "10",
+        "code_4": "00",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "02",
+      "weight_change_label": "減少",
+      "weight_kg": 4485,
+      "body_evaluation": "0C3"
+    },
+    {
+      "race_id": "05252c01",
+      "horse_num": "03",
+      "body_codes": {
+        "code_1": "05",
+        "code_2": "30",
+        "code_3": "10",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "01",
+      "weight_change_label": "増加",
+      "weight_kg": 3495,
+      "body_evaluation": "7B3"
+    },
+    {
+      "race_id": "05252c01",
+      "horse_num": "04",
+      "body_codes": {
+        "code_1": "05",
+        "code_2": "10",
+        "code_3": "10",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "02",
+      "weight_change_label": "減少",
+      "weight_kg": 4505,
+      "body_evaluation": "7A3"
+    },
+    {
+      "race_id": "05252c01",
+      "horse_num": "05",
+      "body_codes": {
+        "code_1": "09",
+        "code_2": "10",
+        "code_3": "10",
+        "code_4": "00",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "02",
+      "weight_change_label": "減少",
+      "weight_kg": 4535,
+      "body_evaluation": "8D3"
+    },
+    {
+      "race_id": "05252c01",
+      "horse_num": "06",
+      "body_codes": {
+        "code_1": "08",
+        "code_2": "10",
+        "code_3": "10",
+        "code_4": "00",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "10",
+        "code_8": "00"
+      },
+      "weight_change_type": "02",
+      "weight_change_label": "減少",
+      "weight_kg": 3425,
+      "body_evaluation": "1B3"
+    },
+    {
+      "race_id": "05252c01",
+      "horse_num": "07",
+      "body_codes": {
+        "code_1": "06",
+        "code_2": "20",
+        "code_3": "00",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "10",
+        "code_8": "00"
+      },
+      "weight_change_type": "01",
+      "weight_change_label": "増加",
+      "weight_kg": 4424,
+      "body_evaluation": "9B3"
+    },
+    {
+      "race_id": "05252c01",
+      "horse_num": "08",
+      "body_codes": {
+        "code_1": "05",
+        "code_2": "30",
+        "code_3": "10",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "02",
+      "weight_change_label": "減少",
+      "weight_kg": 3375,
+      "body_evaluation": "1B4"
+    },
+    {
+      "race_id": "05252c01",
+      "horse_num": "09",
+      "body_codes": {
+        "code_1": "06",
+        "code_2": "20",
+        "code_3": "00",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "02",
+      "weight_change_label": "減少",
+      "weight_kg": 3193,
+      "body_evaluation": "3B4"
+    },
+    {
+      "race_id": "05252c01",
+      "horse_num": "10",
+      "body_codes": {
+        "code_1": "09",
+        "code_2": "30",
+        "code_3": "10",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "01",
+      "weight_change_label": "増加",
+      "weight_kg": 3564,
+      "body_evaluation": "6B3"
+    },
+    {
+      "race_id": "05252c01",
+      "horse_num": "11",
+      "body_codes": {
+        "code_1": "05",
+        "code_2": "20",
+        "code_3": "10",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "01",
+      "weight_change_label": "増加",
+      "weight_kg": 4245,
+      "body_evaluation": "3B4"
+    },
+    {
+      "race_id": "05252c01",
+      "horse_num": "12",
+      "body_codes": {
+        "code_1": "06",
+        "code_2": "10",
+        "code_3": "10",
+        "code_4": "00",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "10",
+        "code_8": "00"
+      },
+      "weight_change_type": "02",
+      "weight_change_label": "減少",
+      "weight_kg": 1304,
+      "body_evaluation": "7B4"
+    },
+    {
+      "race_id": "05252c01",
+      "horse_num": "13",
+      "body_codes": {
+        "code_1": "08",
+        "code_2": "20",
+        "code_3": "10",
+        "code_4": "10",
+        "code_5": "10",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "01",
+      "weight_change_label": "増加",
+      "weight_kg": 3605,
+      "body_evaluation": "3B3"
+    },
+    {
+      "race_id": "05252c01",
+      "horse_num": "14",
+      "body_codes": {
+        "code_1": "02",
+        "code_2": "30",
+        "code_3": "10",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "01",
+      "weight_change_label": "増加",
+      "weight_kg": 3555,
+      "body_evaluation": "5A3"
+    },
+    {
+      "race_id": "05252c01",
+      "horse_num": "15",
+      "body_codes": {
+        "code_1": "09",
+        "code_2": "10",
+        "code_3": "10",
+        "code_4": "00",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "02",
+      "weight_change_label": "減少",
+      "weight_kg": 4606,
+      "body_evaluation": "0D3"
+    },
+    {
+      "race_id": "05252c01",
+      "horse_num": "16",
+      "body_codes": {
+        "code_1": "06",
+        "code_2": "10",
+        "code_3": "10",
+        "code_4": "00",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "02",
+      "weight_change_label": "減少",
+      "weight_kg": 4556,
+      "body_evaluation": "0B3"
+    },
+    {
+      "race_id": "05252c02",
+      "horse_num": "01",
+      "body_codes": {
+        "code_1": "06",
+        "code_2": "20",
+        "code_3": "00",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "11",
+      "weight_change_label": "不明",
+      "weight_kg": 4343,
+      "body_evaluation": "2B3"
+    },
+    {
+      "race_id": "05252c02",
+      "horse_num": "02",
+      "body_codes": {
+        "code_1": "05",
+        "code_2": "30",
+        "code_3": "10",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "01",
+      "weight_change_label": "増加",
+      "weight_kg": 3514,
+      "body_evaluation": "9B3"
+    },
+    {
+      "race_id": "05252c02",
+      "horse_num": "03",
+      "body_codes": {
+        "code_1": "08",
+        "code_2": "10",
+        "code_3": "10",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "01",
+      "weight_change_label": "増加",
+      "weight_kg": 3556,
+      "body_evaluation": "0B4"
+    },
+    {
+      "race_id": "05252c02",
+      "horse_num": "04",
+      "body_codes": {
+        "code_1": "08",
+        "code_2": "20",
+        "code_3": "00",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "01",
+      "weight_change_label": "増加",
+      "weight_kg": 3384,
+      "body_evaluation": "3B3"
+    },
+    {
+      "race_id": "05252c02",
+      "horse_num": "05",
+      "body_codes": {
+        "code_1": "08",
+        "code_2": "10",
+        "code_3": "10",
+        "code_4": "00",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "02",
+      "weight_change_label": "減少",
+      "weight_kg": 2515,
+      "body_evaluation": "0B4"
+    },
+    {
+      "race_id": "05252c02",
+      "horse_num": "06",
+      "body_codes": {
+        "code_1": "05",
+        "code_2": "30",
+        "code_3": "10",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "10",
+        "code_8": "00"
+      },
+      "weight_change_type": "01",
+      "weight_change_label": "増加",
+      "weight_kg": 3524,
+      "body_evaluation": "9C3"
+    },
+    {
+      "race_id": "05252c02",
+      "horse_num": "07",
+      "body_codes": {
+        "code_1": "05",
+        "code_2": "20",
+        "code_3": "10",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "01",
+      "weight_change_label": "増加",
+      "weight_kg": 4384,
+      "body_evaluation": "8B3"
+    },
+    {
+      "race_id": "05252c02",
+      "horse_num": "08",
+      "body_codes": {
+        "code_1": "05",
+        "code_2": "10",
+        "code_3": "10",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "02",
+      "weight_change_label": "減少",
+      "weight_kg": 4616,
+      "body_evaluation": "2B3"
+    },
+    {
+      "race_id": "05252c02",
+      "horse_num": "09",
+      "body_codes": {
+        "code_1": "06",
+        "code_2": "30",
+        "code_3": "10",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "10",
+        "code_8": "00"
+      },
+      "weight_change_type": "01",
+      "weight_change_label": "増加",
+      "weight_kg": 3515,
+      "body_evaluation": "7B3"
+    },
+    {
+      "race_id": "05252c02",
+      "horse_num": "10",
+      "body_codes": {
+        "code_1": "08",
+        "code_2": "20",
+        "code_3": "00",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "01",
+      "weight_change_label": "増加",
+      "weight_kg": 3493,
+      "body_evaluation": "6D4"
+    },
+    {
+      "race_id": "05252c02",
+      "horse_num": "11",
+      "body_codes": {
+        "code_1": "08",
+        "code_2": "30",
+        "code_3": "10",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "01",
+      "weight_change_label": "増加",
+      "weight_kg": 3525,
+      "body_evaluation": "4B3"
+    },
+    {
+      "race_id": "05252c02",
+      "horse_num": "12",
+      "body_codes": {
+        "code_1": "06",
+        "code_2": "20",
+        "code_3": "00",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "01",
+      "weight_change_label": "増加",
+      "weight_kg": 3565,
+      "body_evaluation": "6B3"
+    },
+    {
+      "race_id": "05252c02",
+      "horse_num": "13",
+      "body_codes": {
+        "code_1": "08",
+        "code_2": "20",
+        "code_3": "00",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "10",
+        "code_8": "00"
+      },
+      "weight_change_type": "01",
+      "weight_change_label": "増加",
+      "weight_kg": 3485,
+      "body_evaluation": "4B3"
+    },
+    {
+      "race_id": "05252c02",
+      "horse_num": "14",
+      "body_codes": {
+        "code_1": "08",
+        "code_2": "20",
+        "code_3": "10",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "12",
+      "weight_change_label": "12",
+      "weight_kg": 4534,
+      "body_evaluation": "9B4"
+    },
+    {
+      "race_id": "05252c02",
+      "horse_num": "15",
+      "body_codes": {
+        "code_1": "06",
+        "code_2": "10",
+        "code_3": "10",
+        "code_4": "00",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "02",
+      "weight_change_label": "減少",
+      "weight_kg": 4545,
+      "body_evaluation": "5B3"
+    },
+    {
+      "race_id": "05252c02",
+      "horse_num": "16",
+      "body_codes": {
+        "code_1": "08",
+        "code_2": "10",
+        "code_3": "10",
+        "code_4": "00",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "02",
+      "weight_change_label": "減少",
+      "weight_kg": 4545,
+      "body_evaluation": "3C3"
+    },
+    {
+      "race_id": "05252c03",
+      "horse_num": "01",
+      "body_codes": {
+        "code_1": "08",
+        "code_2": "30",
+        "code_3": "10",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "01",
+      "weight_change_label": "増加",
+      "weight_kg": 3504,
+      "body_evaluation": "4B3"
+    },
+    {
+      "race_id": "05252c03",
+      "horse_num": "02",
+      "body_codes": {
+        "code_1": "02",
+        "code_2": "30",
+        "code_3": "10",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "01",
+      "weight_change_label": "増加",
+      "weight_kg": 3507,
+      "body_evaluation": "6B2"
+    },
+    {
+      "race_id": "05252c03",
+      "horse_num": "03",
+      "body_codes": {
+        "code_1": "06",
+        "code_2": "20",
+        "code_3": "00",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "10",
+        "code_8": "00"
+      },
+      "weight_change_type": "01",
+      "weight_change_label": "増加",
+      "weight_kg": 3454,
+      "body_evaluation": "6B3"
+    },
+    {
+      "race_id": "05252c03",
+      "horse_num": "04",
+      "body_codes": {
+        "code_1": "06",
+        "code_2": "20",
+        "code_3": "00",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "01",
+      "weight_change_label": "増加",
+      "weight_kg": 4555,
+      "body_evaluation": "8B3"
+    },
+    {
+      "race_id": "05252c03",
+      "horse_num": "05",
+      "body_codes": {
+        "code_1": "06",
+        "code_2": "10",
+        "code_3": "10",
+        "code_4": "00",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "02",
+      "weight_change_label": "減少",
+      "weight_kg": 4505,
+      "body_evaluation": "2B3"
+    },
+    {
+      "race_id": "05252c03",
+      "horse_num": "06",
+      "body_codes": {
+        "code_1": "08",
+        "code_2": "20",
+        "code_3": "10",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "01",
+      "weight_change_label": "増加",
+      "weight_kg": 4444,
+      "body_evaluation": "5B4"
+    },
+    {
+      "race_id": "05252c03",
+      "horse_num": "07",
+      "body_codes": {
+        "code_1": "06",
+        "code_2": "30",
+        "code_3": "10",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "01",
+      "weight_change_label": "増加",
+      "weight_kg": 4555,
+      "body_evaluation": "2B3"
+    },
+    {
+      "race_id": "05252c03",
+      "horse_num": "08",
+      "body_codes": {
+        "code_1": "08",
+        "code_2": "20",
+        "code_3": "00",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "01",
+      "weight_change_label": "増加",
+      "weight_kg": 4645,
+      "body_evaluation": "8B3"
+    },
+    {
+      "race_id": "05252c03",
+      "horse_num": "09",
+      "body_codes": {
+        "code_1": "05",
+        "code_2": "20",
+        "code_3": "00",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "01",
+      "weight_change_label": "増加",
+      "weight_kg": 3334,
+      "body_evaluation": "1B4"
+    },
+    {
+      "race_id": "05252c03",
+      "horse_num": "10",
+      "body_codes": {
+        "code_1": "05",
+        "code_2": "20",
+        "code_3": "00",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "01",
+      "weight_change_label": "増加",
+      "weight_kg": 3565,
+      "body_evaluation": "5B3"
+    },
+    {
+      "race_id": "05252c03",
+      "horse_num": "11",
+      "body_codes": {
+        "code_1": "10",
+        "code_2": "00",
+        "code_3": "00",
+        "code_4": "00",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "00",
+      "weight_change_label": "00",
+      "weight_kg": 4,
+      "body_evaluation": "8B3"
+    },
+    {
+      "race_id": "05252c03",
+      "horse_num": "12",
+      "body_codes": {
+        "code_1": "08",
+        "code_2": "10",
+        "code_3": "10",
+        "code_4": "00",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "02",
+      "weight_change_label": "減少",
+      "weight_kg": 4644,
+      "body_evaluation": "7B3"
+    },
+    {
+      "race_id": "05252c03",
+      "horse_num": "13",
+      "body_codes": {
+        "code_1": "05",
+        "code_2": "10",
+        "code_3": "10",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "01",
+      "weight_change_label": "増加",
+      "weight_kg": 3475,
+      "body_evaluation": "5A4"
+    },
+    {
+      "race_id": "05252c03",
+      "horse_num": "14",
+      "body_codes": {
+        "code_1": "05",
+        "code_2": "20",
+        "code_3": "00",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "01",
+      "weight_change_label": "増加",
+      "weight_kg": 4525,
+      "body_evaluation": "4B3"
+    },
+    {
+      "race_id": "05252c03",
+      "horse_num": "15",
+      "body_codes": {
+        "code_1": "09",
+        "code_2": "20",
+        "code_3": "00",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "01",
+      "weight_change_label": "増加",
+      "weight_kg": 3424,
+      "body_evaluation": "8C4"
+    },
+    {
+      "race_id": "05252c03",
+      "horse_num": "16",
+      "body_codes": {
+        "code_1": "07",
+        "code_2": "10",
+        "code_3": "10",
+        "code_4": "00",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "02",
+      "weight_change_label": "減少",
+      "weight_kg": 4504,
+      "body_evaluation": "5B4"
+    },
+    {
+      "race_id": "05252c04",
+      "horse_num": "01",
+      "body_codes": {
+        "code_1": "05",
+        "code_2": "10",
+        "code_3": "10",
+        "code_4": "00",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "10",
+        "code_8": "00"
+      },
+      "weight_change_type": "02",
+      "weight_change_label": "減少",
+      "weight_kg": 4656,
+      "body_evaluation": "3B1"
+    },
+    {
+      "race_id": "05252c04",
+      "horse_num": "02",
+      "body_codes": {
+        "code_1": "10",
+        "code_2": "00",
+        "code_3": "00",
+        "code_4": "00",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "00",
+      "weight_change_label": "00",
+      "weight_kg": 3,
+      "body_evaluation": "1B3"
+    },
+    {
+      "race_id": "05252c04",
+      "horse_num": "03",
+      "body_codes": {
+        "code_1": "06",
+        "code_2": "10",
+        "code_3": "10",
+        "code_4": "00",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "02",
+      "weight_change_label": "減少",
+      "weight_kg": 3495,
+      "body_evaluation": "1B3"
+    },
+    {
+      "race_id": "05252c04",
+      "horse_num": "04",
+      "body_codes": {
+        "code_1": "06",
+        "code_2": "20",
+        "code_3": "10",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "01",
+      "weight_change_label": "増加",
+      "weight_kg": 3516,
+      "body_evaluation": "1B3"
+    },
+    {
+      "race_id": "05252c04",
+      "horse_num": "05",
+      "body_codes": {
+        "code_1": "05",
+        "code_2": "20",
+        "code_3": "00",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "01",
+      "weight_change_label": "増加",
+      "weight_kg": 3626,
+      "body_evaluation": "6B3"
+    },
+    {
+      "race_id": "05252c04",
+      "horse_num": "06",
+      "body_codes": {
+        "code_1": "09",
+        "code_2": "30",
+        "code_3": "10",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "01",
+      "weight_change_label": "増加",
+      "weight_kg": 4432,
+      "body_evaluation": "8C4"
+    },
+    {
+      "race_id": "05252c04",
+      "horse_num": "07",
+      "body_codes": {
+        "code_1": "06",
+        "code_2": "20",
+        "code_3": "00",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "01",
+      "weight_change_label": "増加",
+      "weight_kg": 3435,
+      "body_evaluation": "0B3"
+    },
+    {
+      "race_id": "05252c04",
+      "horse_num": "08",
+      "body_codes": {
+        "code_1": "09",
+        "code_2": "30",
+        "code_3": "10",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "01",
+      "weight_change_label": "増加",
+      "weight_kg": 3565,
+      "body_evaluation": "0D3"
+    },
+    {
+      "race_id": "05252c04",
+      "horse_num": "09",
+      "body_codes": {
+        "code_1": "06",
+        "code_2": "10",
+        "code_3": "10",
+        "code_4": "00",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "02",
+      "weight_change_label": "減少",
+      "weight_kg": 3404,
+      "body_evaluation": "5B3"
+    },
+    {
+      "race_id": "05252c04",
+      "horse_num": "10",
+      "body_codes": {
+        "code_1": "09",
+        "code_2": "20",
+        "code_3": "10",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "01",
+      "weight_change_label": "増加",
+      "weight_kg": 3485,
+      "body_evaluation": "2B3"
+    },
+    {
+      "race_id": "05252c04",
+      "horse_num": "11",
+      "body_codes": {
+        "code_1": "08",
+        "code_2": "20",
+        "code_3": "10",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "01",
+      "weight_change_label": "増加",
+      "weight_kg": 3545,
+      "body_evaluation": "6B3"
+    },
+    {
+      "race_id": "05252c04",
+      "horse_num": "12",
+      "body_codes": {
+        "code_1": "05",
+        "code_2": "30",
+        "code_3": "10",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "02",
+      "weight_change_label": "減少",
+      "weight_kg": 4626,
+      "body_evaluation": "0B3"
+    },
+    {
+      "race_id": "05252c04",
+      "horse_num": "13",
+      "body_codes": {
+        "code_1": "10",
+        "code_2": "00",
+        "code_3": "00",
+        "code_4": "00",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "00",
+      "weight_change_label": "00",
+      "weight_kg": 5,
+      "body_evaluation": "0B3"
+    },
+    {
+      "race_id": "05252c04",
+      "horse_num": "14",
+      "body_codes": {
+        "code_1": "03",
+        "code_2": "20",
+        "code_3": "00",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "01",
+      "weight_change_label": "増加",
+      "weight_kg": 3646,
+      "body_evaluation": "4B2"
+    },
+    {
+      "race_id": "05252c04",
+      "horse_num": "15",
+      "body_codes": {
+        "code_1": "09",
+        "code_2": "20",
+        "code_3": "00",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "01",
+      "weight_change_label": "増加",
+      "weight_kg": 3514,
+      "body_evaluation": "8C3"
+    },
+    {
+      "race_id": "05252c05",
+      "horse_num": "01",
+      "body_codes": {
+        "code_1": "05",
+        "code_2": "20",
+        "code_3": "00",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "01",
+      "weight_change_label": "増加",
+      "weight_kg": 3555,
+      "body_evaluation": "6B3"
+    },
+    {
+      "race_id": "05252c05",
+      "horse_num": "02",
+      "body_codes": {
+        "code_1": "03",
+        "code_2": "30",
+        "code_3": "10",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "02",
+      "weight_change_label": "減少",
+      "weight_kg": 3426,
+      "body_evaluation": "3B2"
+    },
+    {
+      "race_id": "05252c05",
+      "horse_num": "03",
+      "body_codes": {
+        "code_1": "06",
+        "code_2": "10",
+        "code_3": "10",
+        "code_4": "00",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "02",
+      "weight_change_label": "減少",
+      "weight_kg": 4485,
+      "body_evaluation": "4B3"
+    },
+    {
+      "race_id": "05252c05",
+      "horse_num": "04",
+      "body_codes": {
+        "code_1": "03",
+        "code_2": "30",
+        "code_3": "10",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "01",
+      "weight_change_label": "増加",
+      "weight_kg": 3424,
+      "body_evaluation": "3A3"
+    },
+    {
+      "race_id": "05252c05",
+      "horse_num": "05",
+      "body_codes": {
+        "code_1": "06",
+        "code_2": "30",
+        "code_3": "10",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "02",
+      "weight_change_label": "減少",
+      "weight_kg": 3556,
+      "body_evaluation": "0B3"
+    },
+    {
+      "race_id": "05252c05",
+      "horse_num": "06",
+      "body_codes": {
+        "code_1": "05",
+        "code_2": "30",
+        "code_3": "10",
+        "code_4": "00",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "11",
+      "weight_change_label": "不明",
+      "weight_kg": 3545,
+      "body_evaluation": "9B4"
+    },
+    {
+      "race_id": "05252c05",
+      "horse_num": "07",
+      "body_codes": {
+        "code_1": "08",
+        "code_2": "30",
+        "code_3": "10",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "01",
+      "weight_change_label": "増加",
+      "weight_kg": 4475,
+      "body_evaluation": "5B3"
+    },
+    {
+      "race_id": "05252c05",
+      "horse_num": "08",
+      "body_codes": {
+        "code_1": "04",
+        "code_2": "20",
+        "code_3": "00",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "10",
+        "code_8": "00"
+      },
+      "weight_change_type": "01",
+      "weight_change_label": "増加",
+      "weight_kg": 4545,
+      "body_evaluation": "6A3"
+    },
+    {
+      "race_id": "05252c05",
+      "horse_num": "09",
+      "body_codes": {
+        "code_1": "09",
+        "code_2": "30",
+        "code_3": "10",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "01",
+      "weight_change_label": "増加",
+      "weight_kg": 4596,
+      "body_evaluation": "6C4"
+    },
+    {
+      "race_id": "05252c05",
+      "horse_num": "10",
+      "body_codes": {
+        "code_1": "05",
+        "code_2": "30",
+        "code_3": "10",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "01",
+      "weight_change_label": "増加",
+      "weight_kg": 3575,
+      "body_evaluation": "5B4"
+    },
+    {
+      "race_id": "05252c05",
+      "horse_num": "11",
+      "body_codes": {
+        "code_1": "06",
+        "code_2": "20",
+        "code_3": "10",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "01",
+      "weight_change_label": "増加",
+      "weight_kg": 4625,
+      "body_evaluation": "5B3"
+    },
+    {
+      "race_id": "05252c06",
+      "horse_num": "01",
+      "body_codes": {
+        "code_1": "04",
+        "code_2": "10",
+        "code_3": "10",
+        "code_4": "00",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "02",
+      "weight_change_label": "減少",
+      "weight_kg": 4567,
+      "body_evaluation": "5B4"
+    },
+    {
+      "race_id": "05252c06",
+      "horse_num": "02",
+      "body_codes": {
+        "code_1": "06",
+        "code_2": "10",
+        "code_3": "10",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "02",
+      "weight_change_label": "減少",
+      "weight_kg": 4545,
+      "body_evaluation": "5B3"
+    },
+    {
+      "race_id": "05252c06",
+      "horse_num": "03",
+      "body_codes": {
+        "code_1": "08",
+        "code_2": "20",
+        "code_3": "00",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "01",
+      "weight_change_label": "増加",
+      "weight_kg": 3545,
+      "body_evaluation": "6B3"
+    },
+    {
+      "race_id": "05252c06",
+      "horse_num": "04",
+      "body_codes": {
+        "code_1": "05",
+        "code_2": "10",
+        "code_3": "10",
+        "code_4": "00",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "02",
+      "weight_change_label": "減少",
+      "weight_kg": 4595,
+      "body_evaluation": "9B3"
+    },
+    {
+      "race_id": "05252c06",
+      "horse_num": "05",
+      "body_codes": {
+        "code_1": "06",
+        "code_2": "20",
+        "code_3": "00",
+        "code_4": "00",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "12",
+      "weight_change_label": "12",
+      "weight_kg": 4313,
+      "body_evaluation": "8B3"
+    },
+    {
+      "race_id": "05252c06",
+      "horse_num": "06",
+      "body_codes": {
+        "code_1": "05",
+        "code_2": "30",
+        "code_3": "10",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "10",
+        "code_8": "00"
+      },
+      "weight_change_type": "01",
+      "weight_change_label": "増加",
+      "weight_kg": 3525,
+      "body_evaluation": "6B3"
+    },
+    {
+      "race_id": "05252c06",
+      "horse_num": "07",
+      "body_codes": {
+        "code_1": "05",
+        "code_2": "30",
+        "code_3": "10",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "01",
+      "weight_change_label": "増加",
+      "weight_kg": 3585,
+      "body_evaluation": "2B3"
+    },
+    {
+      "race_id": "05252c06",
+      "horse_num": "08",
+      "body_codes": {
+        "code_1": "03",
+        "code_2": "30",
+        "code_3": "10",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "01",
+      "weight_change_label": "増加",
+      "weight_kg": 2415,
+      "body_evaluation": "8B4"
+    },
+    {
+      "race_id": "05252c06",
+      "horse_num": "09",
+      "body_codes": {
+        "code_1": "05",
+        "code_2": "10",
+        "code_3": "10",
+        "code_4": "00",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "02",
+      "weight_change_label": "減少",
+      "weight_kg": 4605,
+      "body_evaluation": "7A3"
+    },
+    {
+      "race_id": "05252c06",
+      "horse_num": "10",
+      "body_codes": {
+        "code_1": "05",
+        "code_2": "20",
+        "code_3": "00",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "01",
+      "weight_change_label": "増加",
+      "weight_kg": 3656,
+      "body_evaluation": "2B2"
+    },
+    {
+      "race_id": "05252c06",
+      "horse_num": "11",
+      "body_codes": {
+        "code_1": "09",
+        "code_2": "30",
+        "code_3": "10",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "02",
+      "weight_change_label": "減少",
+      "weight_kg": 4594,
+      "body_evaluation": "5D3"
+    },
+    {
+      "race_id": "05252c06",
+      "horse_num": "12",
+      "body_codes": {
+        "code_1": "05",
+        "code_2": "20",
+        "code_3": "00",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "01",
+      "weight_change_label": "増加",
+      "weight_kg": 3485,
+      "body_evaluation": "3B3"
+    },
+    {
+      "race_id": "05252c06",
+      "horse_num": "13",
+      "body_codes": {
+        "code_1": "08",
+        "code_2": "10",
+        "code_3": "10",
+        "code_4": "00",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "02",
+      "weight_change_label": "減少",
+      "weight_kg": 4645,
+      "body_evaluation": "5B3"
+    },
+    {
+      "race_id": "05252c06",
+      "horse_num": "14",
+      "body_codes": {
+        "code_1": "05",
+        "code_2": "30",
+        "code_3": "10",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "01",
+      "weight_change_label": "増加",
+      "weight_kg": 3626,
+      "body_evaluation": "2B3"
+    },
+    {
+      "race_id": "05252c06",
+      "horse_num": "15",
+      "body_codes": {
+        "code_1": "05",
+        "code_2": "20",
+        "code_3": "00",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "01",
+      "weight_change_label": "増加",
+      "weight_kg": 3374,
+      "body_evaluation": "4B3"
+    },
+    {
+      "race_id": "05252c06",
+      "horse_num": "16",
+      "body_codes": {
+        "code_1": "06",
+        "code_2": "10",
+        "code_3": "10",
+        "code_4": "00",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "02",
+      "weight_change_label": "減少",
+      "weight_kg": 4505,
+      "body_evaluation": "0B2"
+    },
+    {
+      "race_id": "05252c07",
+      "horse_num": "01",
+      "body_codes": {
+        "code_1": "05",
+        "code_2": "10",
+        "code_3": "10",
+        "code_4": "00",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "02",
+      "weight_change_label": "減少",
+      "weight_kg": 4626,
+      "body_evaluation": "6B3"
+    },
+    {
+      "race_id": "05252c07",
+      "horse_num": "02",
+      "body_codes": {
+        "code_1": "09",
+        "code_2": "20",
+        "code_3": "00",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "01",
+      "weight_change_label": "増加",
+      "weight_kg": 3464,
+      "body_evaluation": "3B3"
+    },
+    {
+      "race_id": "05252c07",
+      "horse_num": "03",
+      "body_codes": {
+        "code_1": "04",
+        "code_2": "10",
+        "code_3": "10",
+        "code_4": "00",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "02",
+      "weight_change_label": "減少",
+      "weight_kg": 4605,
+      "body_evaluation": "5B2"
+    },
+    {
+      "race_id": "05252c07",
+      "horse_num": "04",
+      "body_codes": {
+        "code_1": "06",
+        "code_2": "20",
+        "code_3": "10",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "01",
+      "weight_change_label": "増加",
+      "weight_kg": 4545,
+      "body_evaluation": "7B3"
+    },
+    {
+      "race_id": "05252c07",
+      "horse_num": "05",
+      "body_codes": {
+        "code_1": "06",
+        "code_2": "30",
+        "code_3": "10",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "01",
+      "weight_change_label": "増加",
+      "weight_kg": 3565,
+      "body_evaluation": "4B3"
+    },
+    {
+      "race_id": "05252c07",
+      "horse_num": "06",
+      "body_codes": {
+        "code_1": "03",
+        "code_2": "30",
+        "code_3": "10",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "01",
+      "weight_change_label": "増加",
+      "weight_kg": 4575,
+      "body_evaluation": "7A3"
+    },
+    {
+      "race_id": "05252c07",
+      "horse_num": "07",
+      "body_codes": {
+        "code_1": "05",
+        "code_2": "30",
+        "code_3": "10",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "10",
+        "code_8": "00"
+      },
+      "weight_change_type": "02",
+      "weight_change_label": "減少",
+      "weight_kg": 3525,
+      "body_evaluation": "4B3"
+    },
+    {
+      "race_id": "05252c07",
+      "horse_num": "08",
+      "body_codes": {
+        "code_1": "08",
+        "code_2": "10",
+        "code_3": "10",
+        "code_4": "00",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "10",
+        "code_8": "00"
+      },
+      "weight_change_type": "02",
+      "weight_change_label": "減少",
+      "weight_kg": 4666,
+      "body_evaluation": "3B3"
+    },
+    {
+      "race_id": "05252c07",
+      "horse_num": "09",
+      "body_codes": {
+        "code_1": "05",
+        "code_2": "30",
+        "code_3": "10",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "01",
+      "weight_change_label": "増加",
+      "weight_kg": 3455,
+      "body_evaluation": "4B3"
+    },
+    {
+      "race_id": "05252c07",
+      "horse_num": "10",
+      "body_codes": {
+        "code_1": "02",
+        "code_2": "10",
+        "code_3": "10",
+        "code_4": "00",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "02",
+      "weight_change_label": "減少",
+      "weight_kg": 1737,
+      "body_evaluation": "3B2"
+    },
+    {
+      "race_id": "05252c07",
+      "horse_num": "11",
+      "body_codes": {
+        "code_1": "09",
+        "code_2": "10",
+        "code_3": "10",
+        "code_4": "00",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "02",
+      "weight_change_label": "減少",
+      "weight_kg": 4625,
+      "body_evaluation": "1B4"
+    },
+    {
+      "race_id": "05252c07",
+      "horse_num": "12",
+      "body_codes": {
+        "code_1": "03",
+        "code_2": "20",
+        "code_3": "00",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "01",
+      "weight_change_label": "増加",
+      "weight_kg": 4606,
+      "body_evaluation": "6B3"
+    },
+    {
+      "race_id": "05252c07",
+      "horse_num": "13",
+      "body_codes": {
+        "code_1": "06",
+        "code_2": "10",
+        "code_3": "10",
+        "code_4": "00",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "10",
+        "code_8": "00"
+      },
+      "weight_change_type": "02",
+      "weight_change_label": "減少",
+      "weight_kg": 4596,
+      "body_evaluation": "0B3"
+    },
+    {
+      "race_id": "05252c07",
+      "horse_num": "14",
+      "body_codes": {
+        "code_1": "05",
+        "code_2": "20",
+        "code_3": "10",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "01",
+      "weight_change_label": "増加",
+      "weight_kg": 3606,
+      "body_evaluation": "8B1"
+    },
+    {
+      "race_id": "05252c07",
+      "horse_num": "15",
+      "body_codes": {
+        "code_1": "10",
+        "code_2": "20",
+        "code_3": "00",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "01",
+      "weight_change_label": "増加",
+      "weight_kg": 4374,
+      "body_evaluation": "7A3"
+    },
+    {
+      "race_id": "05252c07",
+      "horse_num": "16",
+      "body_codes": {
+        "code_1": "08",
+        "code_2": "20",
+        "code_3": "00",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "01",
+      "weight_change_label": "増加",
+      "weight_kg": 4463,
+      "body_evaluation": "2D4"
+    },
+    {
+      "race_id": "05252c08",
+      "horse_num": "01",
+      "body_codes": {
+        "code_1": "05",
+        "code_2": "10",
+        "code_3": "10",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "02",
+      "weight_change_label": "減少",
+      "weight_kg": 3525,
+      "body_evaluation": "3B3"
+    },
+    {
+      "race_id": "05252c08",
+      "horse_num": "02",
+      "body_codes": {
+        "code_1": "05",
+        "code_2": "20",
+        "code_3": "00",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "01",
+      "weight_change_label": "増加",
+      "weight_kg": 3445,
+      "body_evaluation": "3B3"
+    },
+    {
+      "race_id": "05252c08",
+      "horse_num": "03",
+      "body_codes": {
+        "code_1": "06",
+        "code_2": "30",
+        "code_3": "10",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "02",
+      "weight_change_label": "減少",
+      "weight_kg": 4615,
+      "body_evaluation": "5B3"
+    },
+    {
+      "race_id": "05252c08",
+      "horse_num": "04",
+      "body_codes": {
+        "code_1": "06",
+        "code_2": "30",
+        "code_3": "10",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "01",
+      "weight_change_label": "増加",
+      "weight_kg": 4666,
+      "body_evaluation": "3B3"
+    },
+    {
+      "race_id": "05252c08",
+      "horse_num": "05",
+      "body_codes": {
+        "code_1": "08",
+        "code_2": "30",
+        "code_3": "10",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "01",
+      "weight_change_label": "増加",
+      "weight_kg": 3425,
+      "body_evaluation": "3B3"
+    },
+    {
+      "race_id": "05252c08",
+      "horse_num": "06",
+      "body_codes": {
+        "code_1": "05",
+        "code_2": "30",
+        "code_3": "10",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "01",
+      "weight_change_label": "増加",
+      "weight_kg": 3626,
+      "body_evaluation": "1B3"
+    },
+    {
+      "race_id": "05252c08",
+      "horse_num": "07",
+      "body_codes": {
+        "code_1": "05",
+        "code_2": "30",
+        "code_3": "10",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "01",
+      "weight_change_label": "増加",
+      "weight_kg": 3635,
+      "body_evaluation": "7B3"
+    },
+    {
+      "race_id": "05252c08",
+      "horse_num": "08",
+      "body_codes": {
+        "code_1": "05",
+        "code_2": "30",
+        "code_3": "10",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "01",
+      "weight_change_label": "増加",
+      "weight_kg": 3646,
+      "body_evaluation": "0B3"
+    },
+    {
+      "race_id": "05252c08",
+      "horse_num": "09",
+      "body_codes": {
+        "code_1": "05",
+        "code_2": "20",
+        "code_3": "00",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "01",
+      "weight_change_label": "増加",
+      "weight_kg": 3485,
+      "body_evaluation": "7B3"
+    },
+    {
+      "race_id": "05252c08",
+      "horse_num": "10",
+      "body_codes": {
+        "code_1": "05",
+        "code_2": "30",
+        "code_3": "10",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "01",
+      "weight_change_label": "増加",
+      "weight_kg": 3454,
+      "body_evaluation": "4B4"
+    },
+    {
+      "race_id": "05252c08",
+      "horse_num": "11",
+      "body_codes": {
+        "code_1": "05",
+        "code_2": "20",
+        "code_3": "00",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "01",
+      "weight_change_label": "増加",
+      "weight_kg": 3575,
+      "body_evaluation": "9B3"
+    },
+    {
+      "race_id": "05252c08",
+      "horse_num": "12",
+      "body_codes": {
+        "code_1": "09",
+        "code_2": "30",
+        "code_3": "10",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "01",
+      "weight_change_label": "増加",
+      "weight_kg": 3616,
+      "body_evaluation": "0B3"
+    },
+    {
+      "race_id": "05252c08",
+      "horse_num": "13",
+      "body_codes": {
+        "code_1": "07",
+        "code_2": "10",
+        "code_3": "10",
+        "code_4": "00",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "02",
+      "weight_change_label": "減少",
+      "weight_kg": 4636,
+      "body_evaluation": "0B3"
+    },
+    {
+      "race_id": "05252c08",
+      "horse_num": "14",
+      "body_codes": {
+        "code_1": "02",
+        "code_2": "30",
+        "code_3": "10",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "10",
+        "code_8": "00"
+      },
+      "weight_change_type": "01",
+      "weight_change_label": "増加",
+      "weight_kg": 3335,
+      "body_evaluation": "3B4"
+    },
+    {
+      "race_id": "05252c08",
+      "horse_num": "15",
+      "body_codes": {
+        "code_1": "08",
+        "code_2": "20",
+        "code_3": "10",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "01",
+      "weight_change_label": "増加",
+      "weight_kg": 3536,
+      "body_evaluation": "0B3"
+    },
+    {
+      "race_id": "05252c08",
+      "horse_num": "16",
+      "body_codes": {
+        "code_1": "06",
+        "code_2": "30",
+        "code_3": "10",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "01",
+      "weight_change_label": "増加",
+      "weight_kg": 2455,
+      "body_evaluation": "1B3"
+    },
+    {
+      "race_id": "05252c09",
+      "horse_num": "01",
+      "body_codes": {
+        "code_1": "06",
+        "code_2": "30",
+        "code_3": "10",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "01",
+      "weight_change_label": "増加",
+      "weight_kg": 3475,
+      "body_evaluation": "6B3"
+    },
+    {
+      "race_id": "05252c09",
+      "horse_num": "02",
+      "body_codes": {
+        "code_1": "06",
+        "code_2": "10",
+        "code_3": "10",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "02",
+      "weight_change_label": "減少",
+      "weight_kg": 4476,
+      "body_evaluation": "8B3"
+    },
+    {
+      "race_id": "05252c09",
+      "horse_num": "03",
+      "body_codes": {
+        "code_1": "05",
+        "code_2": "10",
+        "code_3": "10",
+        "code_4": "00",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "02",
+      "weight_change_label": "減少",
+      "weight_kg": 4666,
+      "body_evaluation": "8B1"
+    },
+    {
+      "race_id": "05252c09",
+      "horse_num": "04",
+      "body_codes": {
+        "code_1": "08",
+        "code_2": "20",
+        "code_3": "00",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "01",
+      "weight_change_label": "増加",
+      "weight_kg": 3543,
+      "body_evaluation": "5C3"
+    },
+    {
+      "race_id": "05252c09",
+      "horse_num": "05",
+      "body_codes": {
+        "code_1": "09",
+        "code_2": "20",
+        "code_3": "00",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "01",
+      "weight_change_label": "増加",
+      "weight_kg": 3645,
+      "body_evaluation": "1B3"
+    },
+    {
+      "race_id": "05252c09",
+      "horse_num": "06",
+      "body_codes": {
+        "code_1": "05",
+        "code_2": "30",
+        "code_3": "10",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "01",
+      "weight_change_label": "増加",
+      "weight_kg": 3535,
+      "body_evaluation": "4B3"
+    },
+    {
+      "race_id": "05252c09",
+      "horse_num": "07",
+      "body_codes": {
+        "code_1": "02",
+        "code_2": "10",
+        "code_3": "10",
+        "code_4": "00",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "02",
+      "weight_change_label": "減少",
+      "weight_kg": 4585,
+      "body_evaluation": "4A3"
+    },
+    {
+      "race_id": "05252c09",
+      "horse_num": "08",
+      "body_codes": {
+        "code_1": "05",
+        "code_2": "30",
+        "code_3": "10",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "10",
+        "code_8": "00"
+      },
+      "weight_change_type": "02",
+      "weight_change_label": "減少",
+      "weight_kg": 4646,
+      "body_evaluation": "3B3"
+    },
+    {
+      "race_id": "05252c09",
+      "horse_num": "09",
+      "body_codes": {
+        "code_1": "02",
+        "code_2": "30",
+        "code_3": "10",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "01",
+      "weight_change_label": "増加",
+      "weight_kg": 3697,
+      "body_evaluation": "0A3"
+    },
+    {
+      "race_id": "05252c09",
+      "horse_num": "10",
+      "body_codes": {
+        "code_1": "08",
+        "code_2": "30",
+        "code_3": "10",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "10",
+        "code_8": "00"
+      },
+      "weight_change_type": "02",
+      "weight_change_label": "減少",
+      "weight_kg": 4646,
+      "body_evaluation": "4B3"
+    },
+    {
+      "race_id": "05252c09",
+      "horse_num": "11",
+      "body_codes": {
+        "code_1": "05",
+        "code_2": "20",
+        "code_3": "00",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "01",
+      "weight_change_label": "増加",
+      "weight_kg": 3485,
+      "body_evaluation": "5B3"
+    },
+    {
+      "race_id": "05252c09",
+      "horse_num": "12",
+      "body_codes": {
+        "code_1": "05",
+        "code_2": "20",
+        "code_3": "00",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "01",
+      "weight_change_label": "増加",
+      "weight_kg": 3636,
+      "body_evaluation": "1B3"
+    },
+    {
+      "race_id": "05252c09",
+      "horse_num": "13",
+      "body_codes": {
+        "code_1": "04",
+        "code_2": "10",
+        "code_3": "10",
+        "code_4": "00",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "02",
+      "weight_change_label": "減少",
+      "weight_kg": 4646,
+      "body_evaluation": "5B3"
+    },
+    {
+      "race_id": "05252c09",
+      "horse_num": "14",
+      "body_codes": {
+        "code_1": "05",
+        "code_2": "20",
+        "code_3": "00",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "01",
+      "weight_change_label": "増加",
+      "weight_kg": 4475,
+      "body_evaluation": "0B3"
+    },
+    {
+      "race_id": "05252c09",
+      "horse_num": "15",
+      "body_codes": {
+        "code_1": "06",
+        "code_2": "20",
+        "code_3": "00",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "10",
+        "code_8": "00"
+      },
+      "weight_change_type": "01",
+      "weight_change_label": "増加",
+      "weight_kg": 3526,
+      "body_evaluation": "9B2"
+    },
+    {
+      "race_id": "05252c09",
+      "horse_num": "16",
+      "body_codes": {
+        "code_1": "09",
+        "code_2": "30",
+        "code_3": "10",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "10",
+        "code_8": "00"
+      },
+      "weight_change_type": "02",
+      "weight_change_label": "減少",
+      "weight_kg": 4636,
+      "body_evaluation": "3B3"
+    },
+    {
+      "race_id": "05252c10",
+      "horse_num": "01",
+      "body_codes": {
+        "code_1": "03",
+        "code_2": "30",
+        "code_3": "10",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "01",
+      "weight_change_label": "増加",
+      "weight_kg": 3585,
+      "body_evaluation": "9A3"
+    },
+    {
+      "race_id": "05252c10",
+      "horse_num": "02",
+      "body_codes": {
+        "code_1": "03",
+        "code_2": "30",
+        "code_3": "10",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "01",
+      "weight_change_label": "増加",
+      "weight_kg": 3616,
+      "body_evaluation": "1B2"
+    },
+    {
+      "race_id": "05252c10",
+      "horse_num": "03",
+      "body_codes": {
+        "code_1": "06",
+        "code_2": "30",
+        "code_3": "10",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "01",
+      "weight_change_label": "増加",
+      "weight_kg": 3556,
+      "body_evaluation": "3B3"
+    },
+    {
+      "race_id": "05252c10",
+      "horse_num": "04",
+      "body_codes": {
+        "code_1": "06",
+        "code_2": "30",
+        "code_3": "10",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "01",
+      "weight_change_label": "増加",
+      "weight_kg": 3515,
+      "body_evaluation": "6B3"
+    },
+    {
+      "race_id": "05252c10",
+      "horse_num": "05",
+      "body_codes": {
+        "code_1": "09",
+        "code_2": "20",
+        "code_3": "00",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "10",
+        "code_8": "00"
+      },
+      "weight_change_type": "01",
+      "weight_change_label": "増加",
+      "weight_kg": 3545,
+      "body_evaluation": "1B4"
+    },
+    {
+      "race_id": "05252c10",
+      "horse_num": "06",
+      "body_codes": {
+        "code_1": "06",
+        "code_2": "30",
+        "code_3": "10",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "01",
+      "weight_change_label": "増加",
+      "weight_kg": 3595,
+      "body_evaluation": "8B2"
+    },
+    {
+      "race_id": "05252c10",
+      "horse_num": "07",
+      "body_codes": {
+        "code_1": "02",
+        "code_2": "10",
+        "code_3": "10",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "10",
+        "code_8": "00"
+      },
+      "weight_change_type": "02",
+      "weight_change_label": "減少",
+      "weight_kg": 4576,
+      "body_evaluation": "6B3"
+    },
+    {
+      "race_id": "05252c10",
+      "horse_num": "08",
+      "body_codes": {
+        "code_1": "07",
+        "code_2": "20",
+        "code_3": "00",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "10",
+        "code_8": "00"
+      },
+      "weight_change_type": "01",
+      "weight_change_label": "増加",
+      "weight_kg": 4544,
+      "body_evaluation": "8C4"
+    },
+    {
+      "race_id": "05252c10",
+      "horse_num": "09",
+      "body_codes": {
+        "code_1": "05",
+        "code_2": "10",
+        "code_3": "10",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "02",
+      "weight_change_label": "減少",
+      "weight_kg": 3505,
+      "body_evaluation": "4B3"
+    },
+    {
+      "race_id": "05252c10",
+      "horse_num": "10",
+      "body_codes": {
+        "code_1": "06",
+        "code_2": "20",
+        "code_3": "00",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "01",
+      "weight_change_label": "増加",
+      "weight_kg": 3626,
+      "body_evaluation": "2B3"
+    },
+    {
+      "race_id": "05252c10",
+      "horse_num": "11",
+      "body_codes": {
+        "code_1": "02",
+        "code_2": "10",
+        "code_3": "10",
+        "code_4": "00",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "02",
+      "weight_change_label": "減少",
+      "weight_kg": 4566,
+      "body_evaluation": "8A3"
+    },
+    {
+      "race_id": "05252c10",
+      "horse_num": "12",
+      "body_codes": {
+        "code_1": "06",
+        "code_2": "20",
+        "code_3": "00",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "01",
+      "weight_change_label": "増加",
+      "weight_kg": 3676,
+      "body_evaluation": "7B3"
+    },
+    {
+      "race_id": "05252c10",
+      "horse_num": "13",
+      "body_codes": {
+        "code_1": "08",
+        "code_2": "20",
+        "code_3": "00",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "01",
+      "weight_change_label": "増加",
+      "weight_kg": 3205,
+      "body_evaluation": "2B4"
+    },
+    {
+      "race_id": "05252c10",
+      "horse_num": "14",
+      "body_codes": {
+        "code_1": "05",
+        "code_2": "30",
+        "code_3": "10",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "01",
+      "weight_change_label": "増加",
+      "weight_kg": 4625,
+      "body_evaluation": "8A3"
+    },
+    {
+      "race_id": "05252c10",
+      "horse_num": "15",
+      "body_codes": {
+        "code_1": "05",
+        "code_2": "30",
+        "code_3": "10",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "01",
+      "weight_change_label": "増加",
+      "weight_kg": 3636,
+      "body_evaluation": "5B3"
+    },
+    {
+      "race_id": "05252c10",
+      "horse_num": "16",
+      "body_codes": {
+        "code_1": "06",
+        "code_2": "30",
+        "code_3": "10",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "01",
+      "weight_change_label": "増加",
+      "weight_kg": 3555,
+      "body_evaluation": "4B3"
+    },
+    {
+      "race_id": "05252c10",
+      "horse_num": "17",
+      "body_codes": {
+        "code_1": "06",
+        "code_2": "20",
+        "code_3": "00",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "01",
+      "weight_change_label": "増加",
+      "weight_kg": 3174,
+      "body_evaluation": "1B4"
+    },
+    {
+      "race_id": "05252c10",
+      "horse_num": "18",
+      "body_codes": {
+        "code_1": "05",
+        "code_2": "30",
+        "code_3": "10",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "01",
+      "weight_change_label": "増加",
+      "weight_kg": 2515,
+      "body_evaluation": "1B3"
+    },
+    {
+      "race_id": "05252c11",
+      "horse_num": "01",
+      "body_codes": {
+        "code_1": "05",
+        "code_2": "10",
+        "code_3": "10",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "02",
+      "weight_change_label": "減少",
+      "weight_kg": 4545,
+      "body_evaluation": "3B3"
+    },
+    {
+      "race_id": "05252c11",
+      "horse_num": "02",
+      "body_codes": {
+        "code_1": "03",
+        "code_2": "20",
+        "code_3": "00",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "10",
+        "code_8": "00"
+      },
+      "weight_change_type": "11",
+      "weight_change_label": "不明",
+      "weight_kg": 4656,
+      "body_evaluation": "5B2"
+    },
+    {
+      "race_id": "05252c11",
+      "horse_num": "03",
+      "body_codes": {
+        "code_1": "02",
+        "code_2": "10",
+        "code_3": "10",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "02",
+      "weight_change_label": "減少",
+      "weight_kg": 4555,
+      "body_evaluation": "9B3"
+    },
+    {
+      "race_id": "05252c11",
+      "horse_num": "04",
+      "body_codes": {
+        "code_1": "05",
+        "code_2": "10",
+        "code_3": "10",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "01",
+      "weight_change_label": "増加",
+      "weight_kg": 3405,
+      "body_evaluation": "9B3"
+    },
+    {
+      "race_id": "05252c11",
+      "horse_num": "05",
+      "body_codes": {
+        "code_1": "06",
+        "code_2": "30",
+        "code_3": "10",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "01",
+      "weight_change_label": "増加",
+      "weight_kg": 4596,
+      "body_evaluation": "5B3"
+    },
+    {
+      "race_id": "05252c11",
+      "horse_num": "06",
+      "body_codes": {
+        "code_1": "05",
+        "code_2": "20",
+        "code_3": "00",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "01",
+      "weight_change_label": "増加",
+      "weight_kg": 3485,
+      "body_evaluation": "4B3"
+    },
+    {
+      "race_id": "05252c11",
+      "horse_num": "07",
+      "body_codes": {
+        "code_1": "05",
+        "code_2": "10",
+        "code_3": "10",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "02",
+      "weight_change_label": "減少",
+      "weight_kg": 3455,
+      "body_evaluation": "8B3"
+    },
+    {
+      "race_id": "05252c11",
+      "horse_num": "08",
+      "body_codes": {
+        "code_1": "05",
+        "code_2": "20",
+        "code_3": "00",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "02",
+      "weight_change_label": "減少",
+      "weight_kg": 4405,
+      "body_evaluation": "1B3"
+    },
+    {
+      "race_id": "05252c11",
+      "horse_num": "09",
+      "body_codes": {
+        "code_1": "06",
+        "code_2": "10",
+        "code_3": "10",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "02",
+      "weight_change_label": "減少",
+      "weight_kg": 3576,
+      "body_evaluation": "0B3"
+    },
+    {
+      "race_id": "05252c11",
+      "horse_num": "10",
+      "body_codes": {
+        "code_1": "03",
+        "code_2": "30",
+        "code_3": "10",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "02",
+      "weight_change_label": "減少",
+      "weight_kg": 1566,
+      "body_evaluation": "1B3"
+    },
+    {
+      "race_id": "05252c11",
+      "horse_num": "11",
+      "body_codes": {
+        "code_1": "05",
+        "code_2": "20",
+        "code_3": "10",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "01",
+      "weight_change_label": "増加",
+      "weight_kg": 4576,
+      "body_evaluation": "2B3"
+    },
+    {
+      "race_id": "05252c11",
+      "horse_num": "12",
+      "body_codes": {
+        "code_1": "05",
+        "code_2": "20",
+        "code_3": "00",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "01",
+      "weight_change_label": "増加",
+      "weight_kg": 3595,
+      "body_evaluation": "8B3"
+    },
+    {
+      "race_id": "05252c11",
+      "horse_num": "13",
+      "body_codes": {
+        "code_1": "05",
+        "code_2": "20",
+        "code_3": "00",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "01",
+      "weight_change_label": "増加",
+      "weight_kg": 3565,
+      "body_evaluation": "9B3"
+    },
+    {
+      "race_id": "05252c11",
+      "horse_num": "14",
+      "body_codes": {
+        "code_1": "04",
+        "code_2": "10",
+        "code_3": "10",
+        "code_4": "00",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "02",
+      "weight_change_label": "減少",
+      "weight_kg": 3475,
+      "body_evaluation": "4A3"
+    },
+    {
+      "race_id": "05252c11",
+      "horse_num": "15",
+      "body_codes": {
+        "code_1": "05",
+        "code_2": "20",
+        "code_3": "10",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "02",
+      "weight_change_label": "減少",
+      "weight_kg": 3495,
+      "body_evaluation": "1B3"
+    },
+    {
+      "race_id": "05252c11",
+      "horse_num": "16",
+      "body_codes": {
+        "code_1": "06",
+        "code_2": "30",
+        "code_3": "10",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "01",
+      "weight_change_label": "増加",
+      "weight_kg": 2415,
+      "body_evaluation": "6B4"
+    },
+    {
+      "race_id": "05252c11",
+      "horse_num": "17",
+      "body_codes": {
+        "code_1": "05",
+        "code_2": "10",
+        "code_3": "10",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "02",
+      "weight_change_label": "減少",
+      "weight_kg": 4666,
+      "body_evaluation": "4B3"
+    },
+    {
+      "race_id": "05252c11",
+      "horse_num": "18",
+      "body_codes": {
+        "code_1": "05",
+        "code_2": "10",
+        "code_3": "10",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "02",
+      "weight_change_label": "減少",
+      "weight_kg": 3626,
+      "body_evaluation": "2B2"
+    },
+    {
+      "race_id": "05252c12",
+      "horse_num": "01",
+      "body_codes": {
+        "code_1": "05",
+        "code_2": "20",
+        "code_3": "00",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "01",
+      "weight_change_label": "増加",
+      "weight_kg": 4535,
+      "body_evaluation": "8B3"
+    },
+    {
+      "race_id": "05252c12",
+      "horse_num": "02",
+      "body_codes": {
+        "code_1": "05",
+        "code_2": "20",
+        "code_3": "10",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "01",
+      "weight_change_label": "増加",
+      "weight_kg": 3565,
+      "body_evaluation": "9B3"
+    },
+    {
+      "race_id": "05252c12",
+      "horse_num": "03",
+      "body_codes": {
+        "code_1": "08",
+        "code_2": "30",
+        "code_3": "10",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "02",
+      "weight_change_label": "減少",
+      "weight_kg": 4625,
+      "body_evaluation": "8C3"
+    },
+    {
+      "race_id": "05252c12",
+      "horse_num": "04",
+      "body_codes": {
+        "code_1": "02",
+        "code_2": "30",
+        "code_3": "10",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "01",
+      "weight_change_label": "増加",
+      "weight_kg": 3596,
+      "body_evaluation": "0B3"
+    },
+    {
+      "race_id": "05252c12",
+      "horse_num": "05",
+      "body_codes": {
+        "code_1": "05",
+        "code_2": "10",
+        "code_3": "10",
+        "code_4": "00",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "02",
+      "weight_change_label": "減少",
+      "weight_kg": 4676,
+      "body_evaluation": "7B3"
+    },
+    {
+      "race_id": "05252c12",
+      "horse_num": "06",
+      "body_codes": {
+        "code_1": "05",
+        "code_2": "10",
+        "code_3": "10",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "02",
+      "weight_change_label": "減少",
+      "weight_kg": 4565,
+      "body_evaluation": "1B3"
+    },
+    {
+      "race_id": "05252c12",
+      "horse_num": "07",
+      "body_codes": {
+        "code_1": "05",
+        "code_2": "20",
+        "code_3": "00",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "01",
+      "weight_change_label": "増加",
+      "weight_kg": 3595,
+      "body_evaluation": "9B2"
+    },
+    {
+      "race_id": "05252c12",
+      "horse_num": "08",
+      "body_codes": {
+        "code_1": "06",
+        "code_2": "30",
+        "code_3": "10",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "01",
+      "weight_change_label": "増加",
+      "weight_kg": 3505,
+      "body_evaluation": "1B4"
+    },
+    {
+      "race_id": "05252c12",
+      "horse_num": "09",
+      "body_codes": {
+        "code_1": "08",
+        "code_2": "20",
+        "code_3": "00",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "01",
+      "weight_change_label": "増加",
+      "weight_kg": 4505,
+      "body_evaluation": "7B3"
+    },
+    {
+      "race_id": "05252c12",
+      "horse_num": "10",
+      "body_codes": {
+        "code_1": "05",
+        "code_2": "10",
+        "code_3": "10",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "02",
+      "weight_change_label": "減少",
+      "weight_kg": 4605,
+      "body_evaluation": "5A3"
+    },
+    {
+      "race_id": "05252c12",
+      "horse_num": "11",
+      "body_codes": {
+        "code_1": "05",
+        "code_2": "30",
+        "code_3": "10",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "01",
+      "weight_change_label": "増加",
+      "weight_kg": 3505,
+      "body_evaluation": "5B3"
+    },
+    {
+      "race_id": "05252c12",
+      "horse_num": "12",
+      "body_codes": {
+        "code_1": "05",
+        "code_2": "30",
+        "code_3": "10",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "01",
+      "weight_change_label": "増加",
+      "weight_kg": 3606,
+      "body_evaluation": "1B3"
+    },
+    {
+      "race_id": "05252c12",
+      "horse_num": "13",
+      "body_codes": {
+        "code_1": "05",
+        "code_2": "30",
+        "code_3": "10",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "02",
+      "weight_change_label": "減少",
+      "weight_kg": 4525,
+      "body_evaluation": "6B3"
+    },
+    {
+      "race_id": "05252c12",
+      "horse_num": "14",
+      "body_codes": {
+        "code_1": "05",
+        "code_2": "10",
+        "code_3": "10",
+        "code_4": "00",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "10",
+        "code_8": "00"
+      },
+      "weight_change_type": "02",
+      "weight_change_label": "減少",
+      "weight_kg": 4676,
+      "body_evaluation": "6B3"
+    },
+    {
+      "race_id": "05252c12",
+      "horse_num": "15",
+      "body_codes": {
+        "code_1": "08",
+        "code_2": "10",
+        "code_3": "10",
+        "code_4": "00",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "02",
+      "weight_change_label": "減少",
+      "weight_kg": 4535,
+      "body_evaluation": "5B3"
+    },
+    {
+      "race_id": "05252c12",
+      "horse_num": "16",
+      "body_codes": {
+        "code_1": "05",
+        "code_2": "10",
+        "code_3": "10",
+        "code_4": "00",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "02",
+      "weight_change_label": "減少",
+      "weight_kg": 4706,
+      "body_evaluation": "3B2"
+    },
+    {
+      "race_id": "05252c12",
+      "horse_num": "17",
+      "body_codes": {
+        "code_1": "05",
+        "code_2": "20",
+        "code_3": "10",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "01",
+      "weight_change_label": "増加",
+      "weight_kg": 3465,
+      "body_evaluation": "4B3"
+    },
+    {
+      "race_id": "05252c12",
+      "horse_num": "18",
+      "body_codes": {
+        "code_1": "09",
+        "code_2": "20",
+        "code_3": "00",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "01",
+      "weight_change_label": "増加",
+      "weight_kg": 3595,
+      "body_evaluation": "6C4"
+    },
+    {
+      "race_id": "08252c01",
+      "horse_num": "01",
+      "body_codes": {
+        "code_1": "09",
+        "code_2": "10",
+        "code_3": "10",
+        "code_4": "00",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "10",
+        "code_8": "00"
+      },
+      "weight_change_type": "02",
+      "weight_change_label": "減少",
+      "weight_kg": 4586,
+      "body_evaluation": "0C3"
+    },
+    {
+      "race_id": "08252c01",
+      "horse_num": "02",
+      "body_codes": {
+        "code_1": "09",
+        "code_2": "30",
+        "code_3": "10",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "02",
+      "weight_change_label": "減少",
+      "weight_kg": 4584,
+      "body_evaluation": "2C3"
+    },
+    {
+      "race_id": "08252c01",
+      "horse_num": "03",
+      "body_codes": {
+        "code_1": "05",
+        "code_2": "10",
+        "code_3": "10",
+        "code_4": "00",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "02",
+      "weight_change_label": "減少",
+      "weight_kg": 4514,
+      "body_evaluation": "6B1"
+    },
+    {
+      "race_id": "08252c01",
+      "horse_num": "04",
+      "body_codes": {
+        "code_1": "09",
+        "code_2": "30",
+        "code_3": "10",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "01",
+      "weight_change_label": "増加",
+      "weight_kg": 4434,
+      "body_evaluation": "1B3"
+    },
+    {
+      "race_id": "08252c01",
+      "horse_num": "05",
+      "body_codes": {
+        "code_1": "08",
+        "code_2": "10",
+        "code_3": "10",
+        "code_4": "00",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "02",
+      "weight_change_label": "減少",
+      "weight_kg": 3383,
+      "body_evaluation": "1B3"
+    },
+    {
+      "race_id": "08252c01",
+      "horse_num": "06",
+      "body_codes": {
+        "code_1": "09",
+        "code_2": "20",
+        "code_3": "00",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "01",
+      "weight_change_label": "増加",
+      "weight_kg": 3505,
+      "body_evaluation": "2C3"
+    },
+    {
+      "race_id": "08252c01",
+      "horse_num": "07",
+      "body_codes": {
+        "code_1": "05",
+        "code_2": "30",
+        "code_3": "10",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "02",
+      "weight_change_label": "減少",
+      "weight_kg": 4606,
+      "body_evaluation": "0B4"
+    },
+    {
+      "race_id": "08252c01",
+      "horse_num": "08",
+      "body_codes": {
+        "code_1": "08",
+        "code_2": "10",
+        "code_3": "10",
+        "code_4": "00",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "02",
+      "weight_change_label": "減少",
+      "weight_kg": 1554,
+      "body_evaluation": "1B3"
+    },
+    {
+      "race_id": "08252c01",
+      "horse_num": "09",
+      "body_codes": {
+        "code_1": "09",
+        "code_2": "20",
+        "code_3": "00",
+        "code_4": "00",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "11",
+      "weight_change_label": "不明",
+      "weight_kg": 3535,
+      "body_evaluation": "3C2"
+    },
+    {
+      "race_id": "08252c01",
+      "horse_num": "10",
+      "body_codes": {
+        "code_1": "08",
+        "code_2": "10",
+        "code_3": "10",
+        "code_4": "00",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "10",
+        "code_8": "00"
+      },
+      "weight_change_type": "02",
+      "weight_change_label": "減少",
+      "weight_kg": 4523,
+      "body_evaluation": "2B4"
+    },
+    {
+      "race_id": "08252c01",
+      "horse_num": "11",
+      "body_codes": {
+        "code_1": "08",
+        "code_2": "30",
+        "code_3": "10",
+        "code_4": "00",
+        "code_5": "10",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "02",
+      "weight_change_label": "減少",
+      "weight_kg": 3384,
+      "body_evaluation": "3B3"
+    },
+    {
+      "race_id": "08252c01",
+      "horse_num": "12",
+      "body_codes": {
+        "code_1": "05",
+        "code_2": "10",
+        "code_3": "10",
+        "code_4": "00",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "02",
+      "weight_change_label": "減少",
+      "weight_kg": 4535,
+      "body_evaluation": "5B3"
+    },
+    {
+      "race_id": "08252c01",
+      "horse_num": "13",
+      "body_codes": {
+        "code_1": "05",
+        "code_2": "10",
+        "code_3": "10",
+        "code_4": "00",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "02",
+      "weight_change_label": "減少",
+      "weight_kg": 4565,
+      "body_evaluation": "7A3"
+    },
+    {
+      "race_id": "08252c01",
+      "horse_num": "14",
+      "body_codes": {
+        "code_1": "09",
+        "code_2": "20",
+        "code_3": "00",
+        "code_4": "00",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "10",
+        "code_8": "00"
+      },
+      "weight_change_type": "11",
+      "weight_change_label": "不明",
+      "weight_kg": 3362,
+      "body_evaluation": "0B3"
+    },
+    {
+      "race_id": "08252c01",
+      "horse_num": "15",
+      "body_codes": {
+        "code_1": "07",
+        "code_2": "20",
+        "code_3": "00",
+        "code_4": "00",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "10",
+        "code_8": "00"
+      },
+      "weight_change_type": "11",
+      "weight_change_label": "不明",
+      "weight_kg": 4494,
+      "body_evaluation": "1B4"
+    },
+    {
+      "race_id": "08252c01",
+      "horse_num": "16",
+      "body_codes": {
+        "code_1": "08",
+        "code_2": "10",
+        "code_3": "10",
+        "code_4": "00",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "10",
+        "code_8": "00"
+      },
+      "weight_change_type": "02",
+      "weight_change_label": "減少",
+      "weight_kg": 4395,
+      "body_evaluation": "0B3"
+    },
+    {
+      "race_id": "08252c02",
+      "horse_num": "01",
+      "body_codes": {
+        "code_1": "08",
+        "code_2": "30",
+        "code_3": "10",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "02",
+      "weight_change_label": "減少",
+      "weight_kg": 3465,
+      "body_evaluation": "8B4"
+    },
+    {
+      "race_id": "08252c02",
+      "horse_num": "02",
+      "body_codes": {
+        "code_1": "10",
+        "code_2": "00",
+        "code_3": "00",
+        "code_4": "00",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "00",
+      "weight_change_label": "00",
+      "weight_kg": 3,
+      "body_evaluation": "4B3"
+    },
+    {
+      "race_id": "08252c02",
+      "horse_num": "03",
+      "body_codes": {
+        "code_1": "04",
+        "code_2": "10",
+        "code_3": "10",
+        "code_4": "00",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "02",
+      "weight_change_label": "減少",
+      "weight_kg": 3464,
+      "body_evaluation": "7A3"
+    },
+    {
+      "race_id": "08252c02",
+      "horse_num": "04",
+      "body_codes": {
+        "code_1": "05",
+        "code_2": "10",
+        "code_3": "10",
+        "code_4": "00",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "02",
+      "weight_change_label": "減少",
+      "weight_kg": 4596,
+      "body_evaluation": "0B1"
+    },
+    {
+      "race_id": "08252c02",
+      "horse_num": "05",
+      "body_codes": {
+        "code_1": "05",
+        "code_2": "20",
+        "code_3": "00",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "12",
+      "weight_change_label": "12",
+      "weight_kg": 4374,
+      "body_evaluation": "1B2"
+    },
+    {
+      "race_id": "08252c02",
+      "horse_num": "06",
+      "body_codes": {
+        "code_1": "06",
+        "code_2": "10",
+        "code_3": "10",
+        "code_4": "00",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "02",
+      "weight_change_label": "減少",
+      "weight_kg": 3515,
+      "body_evaluation": "1B3"
+    },
+    {
+      "race_id": "08252c02",
+      "horse_num": "07",
+      "body_codes": {
+        "code_1": "05",
+        "code_2": "30",
+        "code_3": "10",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "02",
+      "weight_change_label": "減少",
+      "weight_kg": 3525,
+      "body_evaluation": "5B3"
+    },
+    {
+      "race_id": "08252c02",
+      "horse_num": "08",
+      "body_codes": {
+        "code_1": "05",
+        "code_2": "10",
+        "code_3": "10",
+        "code_4": "00",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "02",
+      "weight_change_label": "減少",
+      "weight_kg": 3656,
+      "body_evaluation": "5B2"
+    },
+    {
+      "race_id": "08252c02",
+      "horse_num": "09",
+      "body_codes": {
+        "code_1": "04",
+        "code_2": "20",
+        "code_3": "00",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "02",
+      "weight_change_label": "減少",
+      "weight_kg": 4484,
+      "body_evaluation": "8A3"
+    },
+    {
+      "race_id": "08252c02",
+      "horse_num": "10",
+      "body_codes": {
+        "code_1": "05",
+        "code_2": "10",
+        "code_3": "10",
+        "code_4": "00",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "02",
+      "weight_change_label": "減少",
+      "weight_kg": 3395,
+      "body_evaluation": "3B3"
+    },
+    {
+      "race_id": "08252c02",
+      "horse_num": "11",
+      "body_codes": {
+        "code_1": "06",
+        "code_2": "10",
+        "code_3": "10",
+        "code_4": "00",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "02",
+      "weight_change_label": "減少",
+      "weight_kg": 4555,
+      "body_evaluation": "5B3"
+    },
+    {
+      "race_id": "08252c02",
+      "horse_num": "12",
+      "body_codes": {
+        "code_1": "05",
+        "code_2": "10",
+        "code_3": "10",
+        "code_4": "00",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "02",
+      "weight_change_label": "減少",
+      "weight_kg": 4304,
+      "body_evaluation": "1B3"
+    },
+    {
+      "race_id": "08252c02",
+      "horse_num": "13",
+      "body_codes": {
+        "code_1": "08",
+        "code_2": "30",
+        "code_3": "10",
+        "code_4": "10",
+        "code_5": "10",
+        "code_6": "00",
+        "code_7": "10",
+        "code_8": "00"
+      },
+      "weight_change_type": "02",
+      "weight_change_label": "減少",
+      "weight_kg": 3445,
+      "body_evaluation": "2B3"
+    },
+    {
+      "race_id": "08252c02",
+      "horse_num": "14",
+      "body_codes": {
+        "code_1": "06",
+        "code_2": "20",
+        "code_3": "00",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "02",
+      "weight_change_label": "減少",
+      "weight_kg": 3103,
+      "body_evaluation": "1B4"
+    },
+    {
+      "race_id": "08252c03",
+      "horse_num": "01",
+      "body_codes": {
+        "code_1": "06",
+        "code_2": "20",
+        "code_3": "00",
+        "code_4": "00",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "10",
+        "code_8": "00"
+      },
+      "weight_change_type": "12",
+      "weight_change_label": "12",
+      "weight_kg": 3254,
+      "body_evaluation": "0B4"
+    },
+    {
+      "race_id": "08252c03",
+      "horse_num": "02",
+      "body_codes": {
+        "code_1": "05",
+        "code_2": "10",
+        "code_3": "10",
+        "code_4": "00",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "02",
+      "weight_change_label": "減少",
+      "weight_kg": 3637,
+      "body_evaluation": "0B3"
+    },
+    {
+      "race_id": "08252c03",
+      "horse_num": "03",
+      "body_codes": {
+        "code_1": "05",
+        "code_2": "10",
+        "code_3": "10",
+        "code_4": "00",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "02",
+      "weight_change_label": "減少",
+      "weight_kg": 4524,
+      "body_evaluation": "8B3"
+    },
+    {
+      "race_id": "08252c03",
+      "horse_num": "04",
+      "body_codes": {
+        "code_1": "06",
+        "code_2": "30",
+        "code_3": "10",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "02",
+      "weight_change_label": "減少",
+      "weight_kg": 4455,
+      "body_evaluation": "4B3"
+    },
+    {
+      "race_id": "08252c03",
+      "horse_num": "05",
+      "body_codes": {
+        "code_1": "09",
+        "code_2": "20",
+        "code_3": "00",
+        "code_4": "00",
+        "code_5": "10",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "00",
+      "weight_change_label": "00",
+      "weight_kg": 3,
+      "body_evaluation": "6B3"
+    },
+    {
+      "race_id": "08252c03",
+      "horse_num": "06",
+      "body_codes": {
+        "code_1": "05",
+        "code_2": "10",
+        "code_3": "10",
+        "code_4": "00",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "02",
+      "weight_change_label": "減少",
+      "weight_kg": 4494,
+      "body_evaluation": "9B3"
+    },
+    {
+      "race_id": "08252c03",
+      "horse_num": "07",
+      "body_codes": {
+        "code_1": "06",
+        "code_2": "10",
+        "code_3": "10",
+        "code_4": "00",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "02",
+      "weight_change_label": "減少",
+      "weight_kg": 443,
+      "body_evaluation": "5B4"
+    },
+    {
+      "race_id": "08252c03",
+      "horse_num": "08",
+      "body_codes": {
+        "code_1": "06",
+        "code_2": "20",
+        "code_3": "00",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "01",
+      "weight_change_label": "増加",
+      "weight_kg": 3424,
+      "body_evaluation": "2B2"
+    },
+    {
+      "race_id": "08252c03",
+      "horse_num": "09",
+      "body_codes": {
+        "code_1": "06",
+        "code_2": "10",
+        "code_3": "10",
+        "code_4": "00",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "02",
+      "weight_change_label": "減少",
+      "weight_kg": 4536,
+      "body_evaluation": "0B3"
+    },
+    {
+      "race_id": "08252c03",
+      "horse_num": "10",
+      "body_codes": {
+        "code_1": "02",
+        "code_2": "10",
+        "code_3": "10",
+        "code_4": "00",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "02",
+      "weight_change_label": "減少",
+      "weight_kg": 3535,
+      "body_evaluation": "4A3"
+    },
+    {
+      "race_id": "08252c03",
+      "horse_num": "11",
+      "body_codes": {
+        "code_1": "06",
+        "code_2": "10",
+        "code_3": "10",
+        "code_4": "00",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "02",
+      "weight_change_label": "減少",
+      "weight_kg": 4474,
+      "body_evaluation": "7B2"
+    },
+    {
+      "race_id": "08252c03",
+      "horse_num": "12",
+      "body_codes": {
+        "code_1": "06",
+        "code_2": "10",
+        "code_3": "10",
+        "code_4": "00",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "02",
+      "weight_change_label": "減少",
+      "weight_kg": 3324,
+      "body_evaluation": "2B3"
+    },
+    {
+      "race_id": "08252c03",
+      "horse_num": "13",
+      "body_codes": {
+        "code_1": "03",
+        "code_2": "30",
+        "code_3": "10",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "01",
+      "weight_change_label": "増加",
+      "weight_kg": 3405,
+      "body_evaluation": "2B3"
+    },
+    {
+      "race_id": "08252c03",
+      "horse_num": "14",
+      "body_codes": {
+        "code_1": "06",
+        "code_2": "20",
+        "code_3": "00",
+        "code_4": "00",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "11",
+      "weight_change_label": "不明",
+      "weight_kg": 3464,
+      "body_evaluation": "7B3"
+    },
+    {
+      "race_id": "08252c03",
+      "horse_num": "15",
+      "body_codes": {
+        "code_1": "09",
+        "code_2": "30",
+        "code_3": "10",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "10",
+        "code_8": "00"
+      },
+      "weight_change_type": "01",
+      "weight_change_label": "増加",
+      "weight_kg": 3494,
+      "body_evaluation": "9B3"
+    },
+    {
+      "race_id": "08252c03",
+      "horse_num": "16",
+      "body_codes": {
+        "code_1": "02",
+        "code_2": "10",
+        "code_3": "10",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "10",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "12",
+      "weight_change_label": "12",
+      "weight_kg": 3525,
+      "body_evaluation": "6A3"
+    },
+    {
+      "race_id": "08252c03",
+      "horse_num": "17",
+      "body_codes": {
+        "code_1": "07",
+        "code_2": "20",
+        "code_3": "00",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "01",
+      "weight_change_label": "増加",
+      "weight_kg": 3494,
+      "body_evaluation": "7B3"
+    },
+    {
+      "race_id": "08252c03",
+      "horse_num": "18",
+      "body_codes": {
+        "code_1": "08",
+        "code_2": "30",
+        "code_3": "10",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "01",
+      "weight_change_label": "増加",
+      "weight_kg": 3544,
+      "body_evaluation": "6B3"
+    },
+    {
+      "race_id": "08252c04",
+      "horse_num": "01",
+      "body_codes": {
+        "code_1": "09",
+        "code_2": "20",
+        "code_3": "00",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "02",
+      "weight_change_label": "減少",
+      "weight_kg": 3455,
+      "body_evaluation": "0B3"
+    },
+    {
+      "race_id": "08252c04",
+      "horse_num": "02",
+      "body_codes": {
+        "code_1": "09",
+        "code_2": "20",
+        "code_3": "00",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "01",
+      "weight_change_label": "増加",
+      "weight_kg": 3534,
+      "body_evaluation": "7C3"
+    },
+    {
+      "race_id": "08252c04",
+      "horse_num": "03",
+      "body_codes": {
+        "code_1": "06",
+        "code_2": "20",
+        "code_3": "00",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "10",
+        "code_8": "00"
+      },
+      "weight_change_type": "01",
+      "weight_change_label": "増加",
+      "weight_kg": 3485,
+      "body_evaluation": "3B3"
+    },
+    {
+      "race_id": "08252c04",
+      "horse_num": "04",
+      "body_codes": {
+        "code_1": "05",
+        "code_2": "20",
+        "code_3": "10",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "10",
+        "code_8": "00"
+      },
+      "weight_change_type": "01",
+      "weight_change_label": "増加",
+      "weight_kg": 4465,
+      "body_evaluation": "1B3"
+    },
+    {
+      "race_id": "08252c04",
+      "horse_num": "05",
+      "body_codes": {
+        "code_1": "02",
+        "code_2": "30",
+        "code_3": "10",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "01",
+      "weight_change_label": "増加",
+      "weight_kg": 4547,
+      "body_evaluation": "5A1"
+    },
+    {
+      "race_id": "08252c04",
+      "horse_num": "06",
+      "body_codes": {
+        "code_1": "09",
+        "code_2": "40",
+        "code_3": "00",
+        "code_4": "00",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "10"
+      },
+      "weight_change_type": "02",
+      "weight_change_label": "減少",
+      "weight_kg": 3404,
+      "body_evaluation": "9C4"
+    },
+    {
+      "race_id": "08252c04",
+      "horse_num": "07",
+      "body_codes": {
+        "code_1": "05",
+        "code_2": "20",
+        "code_3": "00",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "10",
+        "code_8": "00"
+      },
+      "weight_change_type": "01",
+      "weight_change_label": "増加",
+      "weight_kg": 4474,
+      "body_evaluation": "7B3"
+    },
+    {
+      "race_id": "08252c04",
+      "horse_num": "08",
+      "body_codes": {
+        "code_1": "05",
+        "code_2": "10",
+        "code_3": "10",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "02",
+      "weight_change_label": "減少",
+      "weight_kg": 4555,
+      "body_evaluation": "2B3"
+    },
+    {
+      "race_id": "08252c04",
+      "horse_num": "09",
+      "body_codes": {
+        "code_1": "05",
+        "code_2": "30",
+        "code_3": "10",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "01",
+      "weight_change_label": "増加",
+      "weight_kg": 3414,
+      "body_evaluation": "6B3"
+    },
+    {
+      "race_id": "08252c04",
+      "horse_num": "10",
+      "body_codes": {
+        "code_1": "06",
+        "code_2": "50",
+        "code_3": "10",
+        "code_4": "00",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "10"
+      },
+      "weight_change_type": "02",
+      "weight_change_label": "減少",
+      "weight_kg": 3245,
+      "body_evaluation": "4B4"
+    },
+    {
+      "race_id": "08252c04",
+      "horse_num": "11",
+      "body_codes": {
+        "code_1": "05",
+        "code_2": "20",
+        "code_3": "00",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "01",
+      "weight_change_label": "増加",
+      "weight_kg": 3545,
+      "body_evaluation": "2B2"
+    },
+    {
+      "race_id": "08252c04",
+      "horse_num": "12",
+      "body_codes": {
+        "code_1": "08",
+        "code_2": "20",
+        "code_3": "00",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "01",
+      "weight_change_label": "増加",
+      "weight_kg": 3505,
+      "body_evaluation": "8B3"
+    },
+    {
+      "race_id": "08252c05",
+      "horse_num": "01",
+      "body_codes": {
+        "code_1": "08",
+        "code_2": "10",
+        "code_3": "10",
+        "code_4": "00",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "02",
+      "weight_change_label": "減少",
+      "weight_kg": 4575,
+      "body_evaluation": "6B3"
+    },
+    {
+      "race_id": "08252c05",
+      "horse_num": "02",
+      "body_codes": {
+        "code_1": "03",
+        "code_2": "30",
+        "code_3": "10",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "01",
+      "weight_change_label": "増加",
+      "weight_kg": 3334,
+      "body_evaluation": "7B4"
+    },
+    {
+      "race_id": "08252c05",
+      "horse_num": "03",
+      "body_codes": {
+        "code_1": "05",
+        "code_2": "20",
+        "code_3": "00",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "01",
+      "weight_change_label": "増加",
+      "weight_kg": 3465,
+      "body_evaluation": "3B3"
+    },
+    {
+      "race_id": "08252c05",
+      "horse_num": "04",
+      "body_codes": {
+        "code_1": "06",
+        "code_2": "10",
+        "code_3": "10",
+        "code_4": "00",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "02",
+      "weight_change_label": "減少",
+      "weight_kg": 1294,
+      "body_evaluation": "6B4"
+    },
+    {
+      "race_id": "08252c05",
+      "horse_num": "05",
+      "body_codes": {
+        "code_1": "07",
+        "code_2": "30",
+        "code_3": "10",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "02",
+      "weight_change_label": "減少",
+      "weight_kg": 3504,
+      "body_evaluation": "5B3"
+    },
+    {
+      "race_id": "08252c05",
+      "horse_num": "06",
+      "body_codes": {
+        "code_1": "06",
+        "code_2": "20",
+        "code_3": "00",
+        "code_4": "00",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "10",
+        "code_8": "00"
+      },
+      "weight_change_type": "11",
+      "weight_change_label": "不明",
+      "weight_kg": 4616,
+      "body_evaluation": "2B3"
+    },
+    {
+      "race_id": "08252c05",
+      "horse_num": "07",
+      "body_codes": {
+        "code_1": "08",
+        "code_2": "10",
+        "code_3": "10",
+        "code_4": "00",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "02",
+      "weight_change_label": "減少",
+      "weight_kg": 4485,
+      "body_evaluation": "1B3"
+    },
+    {
+      "race_id": "08252c05",
+      "horse_num": "08",
+      "body_codes": {
+        "code_1": "06",
+        "code_2": "20",
+        "code_3": "00",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "01",
+      "weight_change_label": "増加",
+      "weight_kg": 3353,
+      "body_evaluation": "5B3"
+    },
+    {
+      "race_id": "08252c05",
+      "horse_num": "09",
+      "body_codes": {
+        "code_1": "05",
+        "code_2": "10",
+        "code_3": "10",
+        "code_4": "00",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "02",
+      "weight_change_label": "減少",
+      "weight_kg": 4455,
+      "body_evaluation": "1B2"
+    },
+    {
+      "race_id": "08252c05",
+      "horse_num": "10",
+      "body_codes": {
+        "code_1": "06",
+        "code_2": "10",
+        "code_3": "10",
+        "code_4": "00",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "10",
+        "code_8": "00"
+      },
+      "weight_change_type": "02",
+      "weight_change_label": "減少",
+      "weight_kg": 4485,
+      "body_evaluation": "4B3"
+    },
+    {
+      "race_id": "08252c05",
+      "horse_num": "11",
+      "body_codes": {
+        "code_1": "04",
+        "code_2": "10",
+        "code_3": "10",
+        "code_4": "00",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "02",
+      "weight_change_label": "減少",
+      "weight_kg": 4525,
+      "body_evaluation": "2A3"
+    },
+    {
+      "race_id": "08252c05",
+      "horse_num": "12",
+      "body_codes": {
+        "code_1": "06",
+        "code_2": "10",
+        "code_3": "10",
+        "code_4": "00",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "02",
+      "weight_change_label": "減少",
+      "weight_kg": 3344,
+      "body_evaluation": "5B4"
+    },
+    {
+      "race_id": "08252c05",
+      "horse_num": "13",
+      "body_codes": {
+        "code_1": "02",
+        "code_2": "10",
+        "code_3": "10",
+        "code_4": "00",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "02",
+      "weight_change_label": "減少",
+      "weight_kg": 4525,
+      "body_evaluation": "2A2"
+    },
+    {
+      "race_id": "08252c06",
+      "horse_num": "01",
+      "body_codes": {
+        "code_1": "06",
+        "code_2": "30",
+        "code_3": "10",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "01",
+      "weight_change_label": "増加",
+      "weight_kg": 3455,
+      "body_evaluation": "0B3"
+    },
+    {
+      "race_id": "08252c06",
+      "horse_num": "02",
+      "body_codes": {
+        "code_1": "05",
+        "code_2": "10",
+        "code_3": "10",
+        "code_4": "00",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "02",
+      "weight_change_label": "減少",
+      "weight_kg": 4545,
+      "body_evaluation": "2B3"
+    },
+    {
+      "race_id": "08252c06",
+      "horse_num": "03",
+      "body_codes": {
+        "code_1": "08",
+        "code_2": "30",
+        "code_3": "10",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "10",
+        "code_8": "00"
+      },
+      "weight_change_type": "01",
+      "weight_change_label": "増加",
+      "weight_kg": 2434,
+      "body_evaluation": "5B3"
+    },
+    {
+      "race_id": "08252c06",
+      "horse_num": "04",
+      "body_codes": {
+        "code_1": "08",
+        "code_2": "20",
+        "code_3": "00",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "01",
+      "weight_change_label": "増加",
+      "weight_kg": 3544,
+      "body_evaluation": "4C3"
+    },
+    {
+      "race_id": "08252c06",
+      "horse_num": "05",
+      "body_codes": {
+        "code_1": "05",
+        "code_2": "10",
+        "code_3": "10",
+        "code_4": "00",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "02",
+      "weight_change_label": "減少",
+      "weight_kg": 4656,
+      "body_evaluation": "5B2"
+    },
+    {
+      "race_id": "08252c06",
+      "horse_num": "06",
+      "body_codes": {
+        "code_1": "08",
+        "code_2": "10",
+        "code_3": "10",
+        "code_4": "00",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "02",
+      "weight_change_label": "減少",
+      "weight_kg": 4656,
+      "body_evaluation": "1B3"
+    },
+    {
+      "race_id": "08252c06",
+      "horse_num": "07",
+      "body_codes": {
+        "code_1": "06",
+        "code_2": "10",
+        "code_3": "10",
+        "code_4": "00",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "02",
+      "weight_change_label": "減少",
+      "weight_kg": 4565,
+      "body_evaluation": "6B3"
+    },
+    {
+      "race_id": "08252c06",
+      "horse_num": "08",
+      "body_codes": {
+        "code_1": "08",
+        "code_2": "10",
+        "code_3": "10",
+        "code_4": "00",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "02",
+      "weight_change_label": "減少",
+      "weight_kg": 4594,
+      "body_evaluation": "8B3"
+    },
+    {
+      "race_id": "08252c06",
+      "horse_num": "09",
+      "body_codes": {
+        "code_1": "09",
+        "code_2": "30",
+        "code_3": "10",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "01",
+      "weight_change_label": "増加",
+      "weight_kg": 3414,
+      "body_evaluation": "8C4"
+    },
+    {
+      "race_id": "08252c06",
+      "horse_num": "10",
+      "body_codes": {
+        "code_1": "05",
+        "code_2": "30",
+        "code_3": "10",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "02",
+      "weight_change_label": "減少",
+      "weight_kg": 3555,
+      "body_evaluation": "4B2"
+    },
+    {
+      "race_id": "08252c06",
+      "horse_num": "11",
+      "body_codes": {
+        "code_1": "05",
+        "code_2": "30",
+        "code_3": "10",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "01",
+      "weight_change_label": "増加",
+      "weight_kg": 4606,
+      "body_evaluation": "0B2"
+    },
+    {
+      "race_id": "08252c06",
+      "horse_num": "12",
+      "body_codes": {
+        "code_1": "08",
+        "code_2": "10",
+        "code_3": "10",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "02",
+      "weight_change_label": "減少",
+      "weight_kg": 4655,
+      "body_evaluation": "3B4"
+    },
+    {
+      "race_id": "08252c06",
+      "horse_num": "13",
+      "body_codes": {
+        "code_1": "05",
+        "code_2": "30",
+        "code_3": "10",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "01",
+      "weight_change_label": "増加",
+      "weight_kg": 3414,
+      "body_evaluation": "8B3"
+    },
+    {
+      "race_id": "08252c06",
+      "horse_num": "14",
+      "body_codes": {
+        "code_1": "05",
+        "code_2": "20",
+        "code_3": "00",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "01",
+      "weight_change_label": "増加",
+      "weight_kg": 3464,
+      "body_evaluation": "4B3"
+    },
+    {
+      "race_id": "08252c07",
+      "horse_num": "01",
+      "body_codes": {
+        "code_1": "06",
+        "code_2": "10",
+        "code_3": "10",
+        "code_4": "00",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "02",
+      "weight_change_label": "減少",
+      "weight_kg": 4525,
+      "body_evaluation": "2B2"
+    },
+    {
+      "race_id": "08252c07",
+      "horse_num": "02",
+      "body_codes": {
+        "code_1": "08",
+        "code_2": "30",
+        "code_3": "10",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "02",
+      "weight_change_label": "減少",
+      "weight_kg": 3534,
+      "body_evaluation": "7B4"
+    },
+    {
+      "race_id": "08252c07",
+      "horse_num": "03",
+      "body_codes": {
+        "code_1": "02",
+        "code_2": "30",
+        "code_3": "10",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "02",
+      "weight_change_label": "減少",
+      "weight_kg": 3505,
+      "body_evaluation": "3A3"
+    },
+    {
+      "race_id": "08252c07",
+      "horse_num": "04",
+      "body_codes": {
+        "code_1": "05",
+        "code_2": "10",
+        "code_3": "10",
+        "code_4": "00",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "02",
+      "weight_change_label": "減少",
+      "weight_kg": 4476,
+      "body_evaluation": "0B2"
+    },
+    {
+      "race_id": "08252c07",
+      "horse_num": "05",
+      "body_codes": {
+        "code_1": "05",
+        "code_2": "10",
+        "code_3": "10",
+        "code_4": "00",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "10",
+        "code_8": "00"
+      },
+      "weight_change_type": "02",
+      "weight_change_label": "減少",
+      "weight_kg": 4555,
+      "body_evaluation": "8A3"
+    },
+    {
+      "race_id": "08252c07",
+      "horse_num": "06",
+      "body_codes": {
+        "code_1": "06",
+        "code_2": "10",
+        "code_3": "10",
+        "code_4": "00",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "10",
+        "code_8": "00"
+      },
+      "weight_change_type": "02",
+      "weight_change_label": "減少",
+      "weight_kg": 4455,
+      "body_evaluation": "2B3"
+    },
+    {
+      "race_id": "08252c07",
+      "horse_num": "07",
+      "body_codes": {
+        "code_1": "02",
+        "code_2": "10",
+        "code_3": "10",
+        "code_4": "00",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "10",
+        "code_8": "00"
+      },
+      "weight_change_type": "02",
+      "weight_change_label": "減少",
+      "weight_kg": 2555,
+      "body_evaluation": "7B3"
+    },
+    {
+      "race_id": "08252c07",
+      "horse_num": "08",
+      "body_codes": {
+        "code_1": "03",
+        "code_2": "30",
+        "code_3": "10",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "02",
+      "weight_change_label": "減少",
+      "weight_kg": 4586,
+      "body_evaluation": "1B3"
+    },
+    {
+      "race_id": "08252c07",
+      "horse_num": "09",
+      "body_codes": {
+        "code_1": "05",
+        "code_2": "30",
+        "code_3": "10",
+        "code_4": "10",
+        "code_5": "10",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "01",
+      "weight_change_label": "増加",
+      "weight_kg": 3585,
+      "body_evaluation": "1B4"
+    },
+    {
+      "race_id": "08252c07",
+      "horse_num": "10",
+      "body_codes": {
+        "code_1": "05",
+        "code_2": "10",
+        "code_3": "10",
+        "code_4": "00",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "02",
+      "weight_change_label": "減少",
+      "weight_kg": 3455,
+      "body_evaluation": "7B3"
+    },
+    {
+      "race_id": "08252c07",
+      "horse_num": "11",
+      "body_codes": {
+        "code_1": "09",
+        "code_2": "20",
+        "code_3": "10",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "10",
+        "code_8": "00"
+      },
+      "weight_change_type": "01",
+      "weight_change_label": "増加",
+      "weight_kg": 4373,
+      "body_evaluation": "3B3"
+    },
+    {
+      "race_id": "08252c07",
+      "horse_num": "12",
+      "body_codes": {
+        "code_1": "08",
+        "code_2": "30",
+        "code_3": "10",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "10",
+        "code_8": "00"
+      },
+      "weight_change_type": "02",
+      "weight_change_label": "減少",
+      "weight_kg": 4605,
+      "body_evaluation": "1B3"
+    },
+    {
+      "race_id": "08252c08",
+      "horse_num": "01",
+      "body_codes": {
+        "code_1": "06",
+        "code_2": "10",
+        "code_3": "10",
+        "code_4": "00",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "02",
+      "weight_change_label": "減少",
+      "weight_kg": 4616,
+      "body_evaluation": "1B3"
+    },
+    {
+      "race_id": "08252c08",
+      "horse_num": "02",
+      "body_codes": {
+        "code_1": "10",
+        "code_2": "00",
+        "code_3": "00",
+        "code_4": "00",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "00",
+      "weight_change_label": "00",
+      "weight_kg": 5,
+      "body_evaluation": "8B3"
+    },
+    {
+      "race_id": "08252c08",
+      "horse_num": "03",
+      "body_codes": {
+        "code_1": "05",
+        "code_2": "10",
+        "code_3": "10",
+        "code_4": "00",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "02",
+      "weight_change_label": "減少",
+      "weight_kg": 4575,
+      "body_evaluation": "5A2"
+    },
+    {
+      "race_id": "08252c08",
+      "horse_num": "04",
+      "body_codes": {
+        "code_1": "06",
+        "code_2": "10",
+        "code_3": "10",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "02",
+      "weight_change_label": "減少",
+      "weight_kg": 4505,
+      "body_evaluation": "0B3"
+    },
+    {
+      "race_id": "08252c08",
+      "horse_num": "05",
+      "body_codes": {
+        "code_1": "08",
+        "code_2": "10",
+        "code_3": "10",
+        "code_4": "00",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "02",
+      "weight_change_label": "減少",
+      "weight_kg": 3525,
+      "body_evaluation": "6B3"
+    },
+    {
+      "race_id": "08252c08",
+      "horse_num": "06",
+      "body_codes": {
+        "code_1": "10",
+        "code_2": "20",
+        "code_3": "00",
+        "code_4": "00",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "12",
+      "weight_change_label": "12",
+      "weight_kg": 1164,
+      "body_evaluation": "3A4"
+    },
+    {
+      "race_id": "08252c08",
+      "horse_num": "07",
+      "body_codes": {
+        "code_1": "05",
+        "code_2": "20",
+        "code_3": "10",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "10",
+        "code_8": "00"
+      },
+      "weight_change_type": "01",
+      "weight_change_label": "増加",
+      "weight_kg": 3536,
+      "body_evaluation": "8B4"
+    },
+    {
+      "race_id": "08252c08",
+      "horse_num": "08",
+      "body_codes": {
+        "code_1": "05",
+        "code_2": "30",
+        "code_3": "10",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "10",
+        "code_8": "00"
+      },
+      "weight_change_type": "01",
+      "weight_change_label": "増加",
+      "weight_kg": 3506,
+      "body_evaluation": "4B4"
+    },
+    {
+      "race_id": "08252c08",
+      "horse_num": "09",
+      "body_codes": {
+        "code_1": "06",
+        "code_2": "10",
+        "code_3": "10",
+        "code_4": "00",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "02",
+      "weight_change_label": "減少",
+      "weight_kg": 4445,
+      "body_evaluation": "1B3"
+    },
+    {
+      "race_id": "08252c08",
+      "horse_num": "10",
+      "body_codes": {
+        "code_1": "06",
+        "code_2": "10",
+        "code_3": "10",
+        "code_4": "00",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "10",
+        "code_8": "00"
+      },
+      "weight_change_type": "02",
+      "weight_change_label": "減少",
+      "weight_kg": 4585,
+      "body_evaluation": "8B3"
+    },
+    {
+      "race_id": "08252c08",
+      "horse_num": "11",
+      "body_codes": {
+        "code_1": "08",
+        "code_2": "10",
+        "code_3": "10",
+        "code_4": "00",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "10",
+        "code_8": "00"
+      },
+      "weight_change_type": "02",
+      "weight_change_label": "減少",
+      "weight_kg": 4665,
+      "body_evaluation": "6B3"
+    },
+    {
+      "race_id": "08252c08",
+      "horse_num": "12",
+      "body_codes": {
+        "code_1": "08",
+        "code_2": "30",
+        "code_3": "10",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "02",
+      "weight_change_label": "減少",
+      "weight_kg": 3285,
+      "body_evaluation": "1B3"
+    },
+    {
+      "race_id": "08252c08",
+      "horse_num": "13",
+      "body_codes": {
+        "code_1": "08",
+        "code_2": "10",
+        "code_3": "10",
+        "code_4": "00",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "02",
+      "weight_change_label": "減少",
+      "weight_kg": 4675,
+      "body_evaluation": "4B3"
+    },
+    {
+      "race_id": "08252c08",
+      "horse_num": "14",
+      "body_codes": {
+        "code_1": "08",
+        "code_2": "30",
+        "code_3": "10",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "02",
+      "weight_change_label": "減少",
+      "weight_kg": 4655,
+      "body_evaluation": "8B3"
+    },
+    {
+      "race_id": "08252c08",
+      "horse_num": "15",
+      "body_codes": {
+        "code_1": "02",
+        "code_2": "30",
+        "code_3": "10",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "01",
+      "weight_change_label": "増加",
+      "weight_kg": 3455,
+      "body_evaluation": "4A3"
+    },
+    {
+      "race_id": "08252c08",
+      "horse_num": "16",
+      "body_codes": {
+        "code_1": "06",
+        "code_2": "20",
+        "code_3": "00",
+        "code_4": "00",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "11",
+      "weight_change_label": "不明",
+      "weight_kg": 3505,
+      "body_evaluation": "0B3"
+    },
+    {
+      "race_id": "08252c09",
+      "horse_num": "01",
+      "body_codes": {
+        "code_1": "08",
+        "code_2": "10",
+        "code_3": "10",
+        "code_4": "00",
+        "code_5": "10",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "02",
+      "weight_change_label": "減少",
+      "weight_kg": 4595,
+      "body_evaluation": "2B3"
+    },
+    {
+      "race_id": "08252c09",
+      "horse_num": "02",
+      "body_codes": {
+        "code_1": "05",
+        "code_2": "30",
+        "code_3": "10",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "01",
+      "weight_change_label": "増加",
+      "weight_kg": 3585,
+      "body_evaluation": "6B3"
+    },
+    {
+      "race_id": "08252c09",
+      "horse_num": "03",
+      "body_codes": {
+        "code_1": "06",
+        "code_2": "20",
+        "code_3": "10",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "01",
+      "weight_change_label": "増加",
+      "weight_kg": 4626,
+      "body_evaluation": "0B3"
+    },
+    {
+      "race_id": "08252c09",
+      "horse_num": "04",
+      "body_codes": {
+        "code_1": "05",
+        "code_2": "30",
+        "code_3": "10",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "02",
+      "weight_change_label": "減少",
+      "weight_kg": 4465,
+      "body_evaluation": "1B3"
+    },
+    {
+      "race_id": "08252c09",
+      "horse_num": "05",
+      "body_codes": {
+        "code_1": "05",
+        "code_2": "10",
+        "code_3": "10",
+        "code_4": "00",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "02",
+      "weight_change_label": "減少",
+      "weight_kg": 4545,
+      "body_evaluation": "0B3"
+    },
+    {
+      "race_id": "08252c09",
+      "horse_num": "06",
+      "body_codes": {
+        "code_1": "05",
+        "code_2": "10",
+        "code_3": "10",
+        "code_4": "00",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "10",
+        "code_8": "00"
+      },
+      "weight_change_type": "02",
+      "weight_change_label": "減少",
+      "weight_kg": 4456,
+      "body_evaluation": "8B2"
+    },
+    {
+      "race_id": "08252c09",
+      "horse_num": "07",
+      "body_codes": {
+        "code_1": "09",
+        "code_2": "30",
+        "code_3": "10",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "02",
+      "weight_change_label": "減少",
+      "weight_kg": 4454,
+      "body_evaluation": "8B3"
+    },
+    {
+      "race_id": "08252c09",
+      "horse_num": "08",
+      "body_codes": {
+        "code_1": "06",
+        "code_2": "10",
+        "code_3": "10",
+        "code_4": "00",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "02",
+      "weight_change_label": "減少",
+      "weight_kg": 4364,
+      "body_evaluation": "2B3"
+    },
+    {
+      "race_id": "08252c09",
+      "horse_num": "09",
+      "body_codes": {
+        "code_1": "05",
+        "code_2": "10",
+        "code_3": "10",
+        "code_4": "00",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "02",
+      "weight_change_label": "減少",
+      "weight_kg": 4687,
+      "body_evaluation": "1B3"
+    },
+    {
+      "race_id": "08252c09",
+      "horse_num": "10",
+      "body_codes": {
+        "code_1": "06",
+        "code_2": "20",
+        "code_3": "00",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "10",
+        "code_8": "00"
+      },
+      "weight_change_type": "01",
+      "weight_change_label": "増加",
+      "weight_kg": 3254,
+      "body_evaluation": "5B4"
+    },
+    {
+      "race_id": "08252c09",
+      "horse_num": "11",
+      "body_codes": {
+        "code_1": "06",
+        "code_2": "20",
+        "code_3": "00",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "01",
+      "weight_change_label": "増加",
+      "weight_kg": 4425,
+      "body_evaluation": "0B3"
+    },
+    {
+      "race_id": "08252c09",
+      "horse_num": "12",
+      "body_codes": {
+        "code_1": "06",
+        "code_2": "20",
+        "code_3": "00",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "01",
+      "weight_change_label": "増加",
+      "weight_kg": 3404,
+      "body_evaluation": "5B3"
+    },
+    {
+      "race_id": "08252c09",
+      "horse_num": "13",
+      "body_codes": {
+        "code_1": "07",
+        "code_2": "20",
+        "code_3": "00",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "01",
+      "weight_change_label": "増加",
+      "weight_kg": 4495,
+      "body_evaluation": "1B3"
+    },
+    {
+      "race_id": "08252c09",
+      "horse_num": "14",
+      "body_codes": {
+        "code_1": "06",
+        "code_2": "10",
+        "code_3": "10",
+        "code_4": "00",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "10",
+        "code_8": "00"
+      },
+      "weight_change_type": "02",
+      "weight_change_label": "減少",
+      "weight_kg": 4394,
+      "body_evaluation": "0B3"
+    },
+    {
+      "race_id": "08252c10",
+      "horse_num": "01",
+      "body_codes": {
+        "code_1": "04",
+        "code_2": "10",
+        "code_3": "10",
+        "code_4": "00",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "02",
+      "weight_change_label": "減少",
+      "weight_kg": 4636,
+      "body_evaluation": "3A2"
+    },
+    {
+      "race_id": "08252c10",
+      "horse_num": "02",
+      "body_codes": {
+        "code_1": "06",
+        "code_2": "10",
+        "code_3": "10",
+        "code_4": "00",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "02",
+      "weight_change_label": "減少",
+      "weight_kg": 4505,
+      "body_evaluation": "7B3"
+    },
+    {
+      "race_id": "08252c10",
+      "horse_num": "03",
+      "body_codes": {
+        "code_1": "05",
+        "code_2": "10",
+        "code_3": "10",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "02",
+      "weight_change_label": "減少",
+      "weight_kg": 3595,
+      "body_evaluation": "8B3"
+    },
+    {
+      "race_id": "08252c10",
+      "horse_num": "04",
+      "body_codes": {
+        "code_1": "02",
+        "code_2": "30",
+        "code_3": "10",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "01",
+      "weight_change_label": "増加",
+      "weight_kg": 3535,
+      "body_evaluation": "8B2"
+    },
+    {
+      "race_id": "08252c10",
+      "horse_num": "05",
+      "body_codes": {
+        "code_1": "09",
+        "code_2": "10",
+        "code_3": "10",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "02",
+      "weight_change_label": "減少",
+      "weight_kg": 4595,
+      "body_evaluation": "4B3"
+    },
+    {
+      "race_id": "08252c10",
+      "horse_num": "06",
+      "body_codes": {
+        "code_1": "06",
+        "code_2": "10",
+        "code_3": "10",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "02",
+      "weight_change_label": "減少",
+      "weight_kg": 3385,
+      "body_evaluation": "0C4"
+    },
+    {
+      "race_id": "08252c10",
+      "horse_num": "07",
+      "body_codes": {
+        "code_1": "06",
+        "code_2": "30",
+        "code_3": "10",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "01",
+      "weight_change_label": "増加",
+      "weight_kg": 3495,
+      "body_evaluation": "7B3"
+    },
+    {
+      "race_id": "08252c10",
+      "horse_num": "08",
+      "body_codes": {
+        "code_1": "08",
+        "code_2": "10",
+        "code_3": "10",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "02",
+      "weight_change_label": "減少",
+      "weight_kg": 4726,
+      "body_evaluation": "5B3"
+    },
+    {
+      "race_id": "08252c10",
+      "horse_num": "09",
+      "body_codes": {
+        "code_1": "05",
+        "code_2": "10",
+        "code_3": "10",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "10",
+        "code_8": "00"
+      },
+      "weight_change_type": "02",
+      "weight_change_label": "減少",
+      "weight_kg": 4596,
+      "body_evaluation": "0B3"
+    },
+    {
+      "race_id": "08252c10",
+      "horse_num": "10",
+      "body_codes": {
+        "code_1": "06",
+        "code_2": "10",
+        "code_3": "10",
+        "code_4": "00",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "02",
+      "weight_change_label": "減少",
+      "weight_kg": 3465,
+      "body_evaluation": "0B3"
+    },
+    {
+      "race_id": "08252c10",
+      "horse_num": "11",
+      "body_codes": {
+        "code_1": "05",
+        "code_2": "10",
+        "code_3": "10",
+        "code_4": "00",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "02",
+      "weight_change_label": "減少",
+      "weight_kg": 3596,
+      "body_evaluation": "2B2"
+    },
+    {
+      "race_id": "08252c10",
+      "horse_num": "12",
+      "body_codes": {
+        "code_1": "03",
+        "code_2": "30",
+        "code_3": "10",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "01",
+      "weight_change_label": "増加",
+      "weight_kg": 3506,
+      "body_evaluation": "3B3"
+    },
+    {
+      "race_id": "08252c10",
+      "horse_num": "13",
+      "body_codes": {
+        "code_1": "03",
+        "code_2": "30",
+        "code_3": "10",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "01",
+      "weight_change_label": "増加",
+      "weight_kg": 3606,
+      "body_evaluation": "5B3"
+    },
+    {
+      "race_id": "08252c10",
+      "horse_num": "14",
+      "body_codes": {
+        "code_1": "02",
+        "code_2": "30",
+        "code_3": "10",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "01",
+      "weight_change_label": "増加",
+      "weight_kg": 3465,
+      "body_evaluation": "9A1"
+    },
+    {
+      "race_id": "08252c10",
+      "horse_num": "15",
+      "body_codes": {
+        "code_1": "06",
+        "code_2": "10",
+        "code_3": "10",
+        "code_4": "00",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "02",
+      "weight_change_label": "減少",
+      "weight_kg": 4506,
+      "body_evaluation": "0B3"
+    },
+    {
+      "race_id": "08252c10",
+      "horse_num": "16",
+      "body_codes": {
+        "code_1": "06",
+        "code_2": "10",
+        "code_3": "10",
+        "code_4": "00",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "02",
+      "weight_change_label": "減少",
+      "weight_kg": 3495,
+      "body_evaluation": "8B3"
+    },
+    {
+      "race_id": "08252c11",
+      "horse_num": "01",
+      "body_codes": {
+        "code_1": "04",
+        "code_2": "20",
+        "code_3": "00",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "01",
+      "weight_change_label": "増加",
+      "weight_kg": 4675,
+      "body_evaluation": "7B3"
+    },
+    {
+      "race_id": "08252c11",
+      "horse_num": "02",
+      "body_codes": {
+        "code_1": "08",
+        "code_2": "30",
+        "code_3": "10",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "02",
+      "weight_change_label": "減少",
+      "weight_kg": 4645,
+      "body_evaluation": "4B3"
+    },
+    {
+      "race_id": "08252c11",
+      "horse_num": "03",
+      "body_codes": {
+        "code_1": "08",
+        "code_2": "10",
+        "code_3": "10",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "02",
+      "weight_change_label": "減少",
+      "weight_kg": 4575,
+      "body_evaluation": "5B3"
+    },
+    {
+      "race_id": "08252c11",
+      "horse_num": "04",
+      "body_codes": {
+        "code_1": "05",
+        "code_2": "10",
+        "code_3": "10",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "01",
+      "weight_change_label": "増加",
+      "weight_kg": 3556,
+      "body_evaluation": "1A3"
+    },
+    {
+      "race_id": "08252c11",
+      "horse_num": "05",
+      "body_codes": {
+        "code_1": "02",
+        "code_2": "10",
+        "code_3": "10",
+        "code_4": "00",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "02",
+      "weight_change_label": "減少",
+      "weight_kg": 4626,
+      "body_evaluation": "2A2"
+    },
+    {
+      "race_id": "08252c11",
+      "horse_num": "06",
+      "body_codes": {
+        "code_1": "05",
+        "code_2": "30",
+        "code_3": "10",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "10",
+        "code_8": "00"
+      },
+      "weight_change_type": "02",
+      "weight_change_label": "減少",
+      "weight_kg": 3375,
+      "body_evaluation": "8B4"
+    },
+    {
+      "race_id": "08252c11",
+      "horse_num": "07",
+      "body_codes": {
+        "code_1": "05",
+        "code_2": "30",
+        "code_3": "10",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "01",
+      "weight_change_label": "増加",
+      "weight_kg": 3465,
+      "body_evaluation": "3B3"
+    },
+    {
+      "race_id": "08252c11",
+      "horse_num": "08",
+      "body_codes": {
+        "code_1": "03",
+        "code_2": "30",
+        "code_3": "10",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "10",
+        "code_8": "00"
+      },
+      "weight_change_type": "01",
+      "weight_change_label": "増加",
+      "weight_kg": 3345,
+      "body_evaluation": "0B3"
+    },
+    {
+      "race_id": "08252c11",
+      "horse_num": "09",
+      "body_codes": {
+        "code_1": "02",
+        "code_2": "30",
+        "code_3": "10",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "10",
+        "code_8": "00"
+      },
+      "weight_change_type": "01",
+      "weight_change_label": "増加",
+      "weight_kg": 3424,
+      "body_evaluation": "5A3"
+    },
+    {
+      "race_id": "08252c11",
+      "horse_num": "10",
+      "body_codes": {
+        "code_1": "05",
+        "code_2": "10",
+        "code_3": "10",
+        "code_4": "00",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "10",
+        "code_8": "00"
+      },
+      "weight_change_type": "02",
+      "weight_change_label": "減少",
+      "weight_kg": 4354,
+      "body_evaluation": "4B3"
+    },
+    {
+      "race_id": "08252c11",
+      "horse_num": "11",
+      "body_codes": {
+        "code_1": "05",
+        "code_2": "20",
+        "code_3": "10",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "10",
+        "code_8": "00"
+      },
+      "weight_change_type": "11",
+      "weight_change_label": "不明",
+      "weight_kg": 4616,
+      "body_evaluation": "0A2"
+    },
+    {
+      "race_id": "08252c12",
+      "horse_num": "01",
+      "body_codes": {
+        "code_1": "08",
+        "code_2": "20",
+        "code_3": "00",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "01",
+      "weight_change_label": "増加",
+      "weight_kg": 4525,
+      "body_evaluation": "5B3"
+    },
+    {
+      "race_id": "08252c12",
+      "horse_num": "02",
+      "body_codes": {
+        "code_1": "05",
+        "code_2": "30",
+        "code_3": "10",
+        "code_4": "00",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "12",
+      "weight_change_label": "12",
+      "weight_kg": 2606,
+      "body_evaluation": "9B3"
+    },
+    {
+      "race_id": "08252c12",
+      "horse_num": "03",
+      "body_codes": {
+        "code_1": "09",
+        "code_2": "10",
+        "code_3": "10",
+        "code_4": "00",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "02",
+      "weight_change_label": "減少",
+      "weight_kg": 4706,
+      "body_evaluation": "5B3"
+    },
+    {
+      "race_id": "08252c12",
+      "horse_num": "04",
+      "body_codes": {
+        "code_1": "06",
+        "code_2": "30",
+        "code_3": "10",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "01",
+      "weight_change_label": "増加",
+      "weight_kg": 3465,
+      "body_evaluation": "4B3"
+    },
+    {
+      "race_id": "08252c12",
+      "horse_num": "05",
+      "body_codes": {
+        "code_1": "03",
+        "code_2": "30",
+        "code_3": "10",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "02",
+      "weight_change_label": "減少",
+      "weight_kg": 3435,
+      "body_evaluation": "0B3"
+    },
+    {
+      "race_id": "08252c12",
+      "horse_num": "06",
+      "body_codes": {
+        "code_1": "07",
+        "code_2": "10",
+        "code_3": "10",
+        "code_4": "00",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "10",
+        "code_8": "00"
+      },
+      "weight_change_type": "02",
+      "weight_change_label": "減少",
+      "weight_kg": 3666,
+      "body_evaluation": "5B3"
+    },
+    {
+      "race_id": "08252c12",
+      "horse_num": "07",
+      "body_codes": {
+        "code_1": "05",
+        "code_2": "10",
+        "code_3": "10",
+        "code_4": "00",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "10",
+        "code_8": "00"
+      },
+      "weight_change_type": "02",
+      "weight_change_label": "減少",
+      "weight_kg": 4586,
+      "body_evaluation": "9B4"
+    },
+    {
+      "race_id": "08252c12",
+      "horse_num": "08",
+      "body_codes": {
+        "code_1": "05",
+        "code_2": "30",
+        "code_3": "10",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "02",
+      "weight_change_label": "減少",
+      "weight_kg": 4495,
+      "body_evaluation": "9B3"
+    },
+    {
+      "race_id": "08252c12",
+      "horse_num": "09",
+      "body_codes": {
+        "code_1": "05",
+        "code_2": "10",
+        "code_3": "10",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "10",
+        "code_8": "00"
+      },
+      "weight_change_type": "02",
+      "weight_change_label": "減少",
+      "weight_kg": 4536,
+      "body_evaluation": "5B3"
+    },
+    {
+      "race_id": "08252c12",
+      "horse_num": "10",
+      "body_codes": {
+        "code_1": "09",
+        "code_2": "30",
+        "code_3": "10",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "02",
+      "weight_change_label": "減少",
+      "weight_kg": 4806,
+      "body_evaluation": "9B3"
+    },
+    {
+      "race_id": "08252c12",
+      "horse_num": "11",
+      "body_codes": {
+        "code_1": "04",
+        "code_2": "20",
+        "code_3": "00",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "01",
+      "weight_change_label": "増加",
+      "weight_kg": 3485,
+      "body_evaluation": "3A3"
+    },
+    {
+      "race_id": "08252c12",
+      "horse_num": "12",
+      "body_codes": {
+        "code_1": "05",
+        "code_2": "30",
+        "code_3": "10",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "10",
+        "code_8": "00"
+      },
+      "weight_change_type": "01",
+      "weight_change_label": "増加",
+      "weight_kg": 3595,
+      "body_evaluation": "8B3"
+    },
+    {
+      "race_id": "08252c12",
+      "horse_num": "13",
+      "body_codes": {
+        "code_1": "09",
+        "code_2": "30",
+        "code_3": "10",
+        "code_4": "10",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "01",
+      "weight_change_label": "増加",
+      "weight_kg": 4614,
+      "body_evaluation": "9C3"
+    },
+    {
+      "race_id": "08252c12",
+      "horse_num": "14",
+      "body_codes": {
+        "code_1": "09",
+        "code_2": "10",
+        "code_3": "10",
+        "code_4": "00",
+        "code_5": "00",
+        "code_6": "00",
+        "code_7": "00",
+        "code_8": "00"
+      },
+      "weight_change_type": "02",
+      "weight_change_label": "減少",
+      "weight_kg": 4223,
+      "body_evaluation": "9C4"
+    }
+  ]
+}

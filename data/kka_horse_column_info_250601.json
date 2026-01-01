@@ -1,0 +1,1820 @@
+{
+  "metadata": {
+    "source_file": "KKA250601.txt",
+    "extracted_at": "2025-12-31T07:48:06.519938",
+    "total_records": 362,
+    "error_count": 0
+  },
+  "records": [
+    {
+      "race_id": "05252c01",
+      "horse_num": "01",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "05252c01",
+      "horse_num": "02",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "05252c01",
+      "horse_num": "03",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "05252c01",
+      "horse_num": "04",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "05252c01",
+      "horse_num": "05",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "05252c01",
+      "horse_num": "06",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "05252c01",
+      "horse_num": "07",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "05252c01",
+      "horse_num": "08",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "05252c01",
+      "horse_num": "09",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "05252c01",
+      "horse_num": "10",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "05252c01",
+      "horse_num": "11",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "05252c01",
+      "horse_num": "12",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "05252c01",
+      "horse_num": "13",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "05252c01",
+      "horse_num": "14",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "05252c01",
+      "horse_num": "15",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "05252c01",
+      "horse_num": "16",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "05252c02",
+      "horse_num": "01",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "05252c02",
+      "horse_num": "02",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "05252c02",
+      "horse_num": "03",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "05252c02",
+      "horse_num": "04",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "05252c02",
+      "horse_num": "05",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "05252c02",
+      "horse_num": "06",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "05252c02",
+      "horse_num": "07",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "05252c02",
+      "horse_num": "08",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "05252c02",
+      "horse_num": "09",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "05252c02",
+      "horse_num": "10",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "05252c02",
+      "horse_num": "11",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "05252c02",
+      "horse_num": "12",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "05252c02",
+      "horse_num": "13",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "05252c02",
+      "horse_num": "14",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "05252c02",
+      "horse_num": "15",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "05252c02",
+      "horse_num": "16",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "05252c03",
+      "horse_num": "01",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "05252c03",
+      "horse_num": "02",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "05252c03",
+      "horse_num": "03",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "05252c03",
+      "horse_num": "04",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "05252c03",
+      "horse_num": "05",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "05252c03",
+      "horse_num": "06",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "05252c03",
+      "horse_num": "07",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "05252c03",
+      "horse_num": "08",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "05252c03",
+      "horse_num": "09",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "05252c03",
+      "horse_num": "10",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "05252c03",
+      "horse_num": "11",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "05252c03",
+      "horse_num": "12",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "05252c03",
+      "horse_num": "13",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "05252c03",
+      "horse_num": "14",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "05252c03",
+      "horse_num": "15",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "05252c03",
+      "horse_num": "16",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "05252c04",
+      "horse_num": "01",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "05252c04",
+      "horse_num": "02",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "05252c04",
+      "horse_num": "03",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "05252c04",
+      "horse_num": "04",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "05252c04",
+      "horse_num": "05",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "05252c04",
+      "horse_num": "06",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "05252c04",
+      "horse_num": "07",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "05252c04",
+      "horse_num": "08",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "05252c04",
+      "horse_num": "09",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "05252c04",
+      "horse_num": "10",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "05252c04",
+      "horse_num": "11",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "05252c04",
+      "horse_num": "12",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "05252c04",
+      "horse_num": "13",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "05252c04",
+      "horse_num": "14",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "05252c04",
+      "horse_num": "15",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "05252c05",
+      "horse_num": "01",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "05252c05",
+      "horse_num": "02",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "05252c05",
+      "horse_num": "03",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "05252c05",
+      "horse_num": "04",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "05252c05",
+      "horse_num": "05",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "05252c05",
+      "horse_num": "06",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "05252c05",
+      "horse_num": "07",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "05252c05",
+      "horse_num": "08",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "05252c05",
+      "horse_num": "09",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "05252c05",
+      "horse_num": "10",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "05252c05",
+      "horse_num": "11",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "05252c06",
+      "horse_num": "01",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "05252c06",
+      "horse_num": "02",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "05252c06",
+      "horse_num": "03",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "05252c06",
+      "horse_num": "04",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "05252c06",
+      "horse_num": "05",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "05252c06",
+      "horse_num": "06",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "05252c06",
+      "horse_num": "07",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "05252c06",
+      "horse_num": "08",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "05252c06",
+      "horse_num": "09",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "05252c06",
+      "horse_num": "10",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "05252c06",
+      "horse_num": "11",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "05252c06",
+      "horse_num": "12",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "05252c06",
+      "horse_num": "13",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "05252c06",
+      "horse_num": "14",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "05252c06",
+      "horse_num": "15",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "05252c06",
+      "horse_num": "16",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "05252c07",
+      "horse_num": "01",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "05252c07",
+      "horse_num": "02",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "05252c07",
+      "horse_num": "03",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "05252c07",
+      "horse_num": "04",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "05252c07",
+      "horse_num": "05",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "05252c07",
+      "horse_num": "06",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "05252c07",
+      "horse_num": "07",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "05252c07",
+      "horse_num": "08",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "05252c07",
+      "horse_num": "09",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "05252c07",
+      "horse_num": "10",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "05252c07",
+      "horse_num": "11",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "05252c07",
+      "horse_num": "12",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "05252c07",
+      "horse_num": "13",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "05252c07",
+      "horse_num": "14",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "05252c07",
+      "horse_num": "15",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "05252c07",
+      "horse_num": "16",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "05252c08",
+      "horse_num": "01",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "05252c08",
+      "horse_num": "02",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "05252c08",
+      "horse_num": "03",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "05252c08",
+      "horse_num": "04",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "05252c08",
+      "horse_num": "05",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "05252c08",
+      "horse_num": "06",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "05252c08",
+      "horse_num": "07",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "05252c08",
+      "horse_num": "08",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "05252c08",
+      "horse_num": "09",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "05252c08",
+      "horse_num": "10",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "05252c08",
+      "horse_num": "11",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "05252c08",
+      "horse_num": "12",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "05252c08",
+      "horse_num": "13",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "05252c08",
+      "horse_num": "14",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "05252c08",
+      "horse_num": "15",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "05252c08",
+      "horse_num": "16",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "05252c09",
+      "horse_num": "01",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "05252c09",
+      "horse_num": "02",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "05252c09",
+      "horse_num": "03",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "05252c09",
+      "horse_num": "04",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "05252c09",
+      "horse_num": "05",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "05252c09",
+      "horse_num": "06",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "05252c09",
+      "horse_num": "07",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "05252c09",
+      "horse_num": "08",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "05252c09",
+      "horse_num": "09",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "05252c09",
+      "horse_num": "10",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "05252c09",
+      "horse_num": "11",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "05252c09",
+      "horse_num": "12",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "05252c09",
+      "horse_num": "13",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "05252c09",
+      "horse_num": "14",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "05252c09",
+      "horse_num": "15",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "05252c09",
+      "horse_num": "16",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "05252c10",
+      "horse_num": "01",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "05252c10",
+      "horse_num": "02",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "05252c10",
+      "horse_num": "03",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "05252c10",
+      "horse_num": "04",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "05252c10",
+      "horse_num": "05",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "05252c10",
+      "horse_num": "06",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "05252c10",
+      "horse_num": "07",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "05252c10",
+      "horse_num": "08",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "05252c10",
+      "horse_num": "09",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "05252c10",
+      "horse_num": "10",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "05252c10",
+      "horse_num": "11",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "05252c10",
+      "horse_num": "12",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "05252c10",
+      "horse_num": "13",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "05252c10",
+      "horse_num": "14",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "05252c10",
+      "horse_num": "15",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "05252c10",
+      "horse_num": "16",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "05252c10",
+      "horse_num": "17",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "05252c10",
+      "horse_num": "18",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "05252c11",
+      "horse_num": "01",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "05252c11",
+      "horse_num": "02",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "05252c11",
+      "horse_num": "03",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "05252c11",
+      "horse_num": "04",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "05252c11",
+      "horse_num": "05",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "05252c11",
+      "horse_num": "06",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "05252c11",
+      "horse_num": "07",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "05252c11",
+      "horse_num": "08",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "05252c11",
+      "horse_num": "09",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "05252c11",
+      "horse_num": "10",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "05252c11",
+      "horse_num": "11",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "05252c11",
+      "horse_num": "12",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "05252c11",
+      "horse_num": "13",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "05252c11",
+      "horse_num": "14",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "05252c11",
+      "horse_num": "15",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "05252c11",
+      "horse_num": "16",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "05252c11",
+      "horse_num": "17",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "05252c11",
+      "horse_num": "18",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "05252c12",
+      "horse_num": "01",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "05252c12",
+      "horse_num": "02",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "05252c12",
+      "horse_num": "03",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "05252c12",
+      "horse_num": "04",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "05252c12",
+      "horse_num": "05",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "05252c12",
+      "horse_num": "06",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "05252c12",
+      "horse_num": "07",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "05252c12",
+      "horse_num": "08",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "05252c12",
+      "horse_num": "09",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "05252c12",
+      "horse_num": "10",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "05252c12",
+      "horse_num": "11",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "05252c12",
+      "horse_num": "12",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "05252c12",
+      "horse_num": "13",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "05252c12",
+      "horse_num": "14",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "05252c12",
+      "horse_num": "15",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "05252c12",
+      "horse_num": "16",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "05252c12",
+      "horse_num": "17",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "05252c12",
+      "horse_num": "18",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "08252c01",
+      "horse_num": "01",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "08252c01",
+      "horse_num": "02",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "08252c01",
+      "horse_num": "03",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "08252c01",
+      "horse_num": "04",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "08252c01",
+      "horse_num": "05",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "08252c01",
+      "horse_num": "06",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "08252c01",
+      "horse_num": "07",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "08252c01",
+      "horse_num": "08",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "08252c01",
+      "horse_num": "09",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "08252c01",
+      "horse_num": "10",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "08252c01",
+      "horse_num": "11",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "08252c01",
+      "horse_num": "12",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "08252c01",
+      "horse_num": "13",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "08252c01",
+      "horse_num": "14",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "08252c01",
+      "horse_num": "15",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "08252c01",
+      "horse_num": "16",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "08252c02",
+      "horse_num": "01",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "08252c02",
+      "horse_num": "02",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "08252c02",
+      "horse_num": "03",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "08252c02",
+      "horse_num": "04",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "08252c02",
+      "horse_num": "05",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "08252c02",
+      "horse_num": "06",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "08252c02",
+      "horse_num": "07",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "08252c02",
+      "horse_num": "08",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "08252c02",
+      "horse_num": "09",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "08252c02",
+      "horse_num": "10",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "08252c02",
+      "horse_num": "11",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "08252c02",
+      "horse_num": "12",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "08252c02",
+      "horse_num": "13",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "08252c02",
+      "horse_num": "14",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "08252c03",
+      "horse_num": "01",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "08252c03",
+      "horse_num": "02",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "08252c03",
+      "horse_num": "03",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "08252c03",
+      "horse_num": "04",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "08252c03",
+      "horse_num": "05",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "08252c03",
+      "horse_num": "06",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "08252c03",
+      "horse_num": "07",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "08252c03",
+      "horse_num": "08",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "08252c03",
+      "horse_num": "09",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "08252c03",
+      "horse_num": "10",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "08252c03",
+      "horse_num": "11",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "08252c03",
+      "horse_num": "12",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "08252c03",
+      "horse_num": "13",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "08252c03",
+      "horse_num": "14",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "08252c03",
+      "horse_num": "15",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "08252c03",
+      "horse_num": "16",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "08252c03",
+      "horse_num": "17",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "08252c03",
+      "horse_num": "18",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "08252c04",
+      "horse_num": "01",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "08252c04",
+      "horse_num": "02",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "08252c04",
+      "horse_num": "03",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "08252c04",
+      "horse_num": "04",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "08252c04",
+      "horse_num": "05",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "08252c04",
+      "horse_num": "06",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "08252c04",
+      "horse_num": "07",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "08252c04",
+      "horse_num": "08",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "08252c04",
+      "horse_num": "09",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "08252c04",
+      "horse_num": "10",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "08252c04",
+      "horse_num": "11",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "08252c04",
+      "horse_num": "12",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "08252c05",
+      "horse_num": "01",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "08252c05",
+      "horse_num": "02",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "08252c05",
+      "horse_num": "03",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "08252c05",
+      "horse_num": "04",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "08252c05",
+      "horse_num": "05",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "08252c05",
+      "horse_num": "06",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "08252c05",
+      "horse_num": "07",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "08252c05",
+      "horse_num": "08",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "08252c05",
+      "horse_num": "09",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "08252c05",
+      "horse_num": "10",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "08252c05",
+      "horse_num": "11",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "08252c05",
+      "horse_num": "12",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "08252c05",
+      "horse_num": "13",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "08252c06",
+      "horse_num": "01",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "08252c06",
+      "horse_num": "02",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "08252c06",
+      "horse_num": "03",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "08252c06",
+      "horse_num": "04",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "08252c06",
+      "horse_num": "05",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "08252c06",
+      "horse_num": "06",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "08252c06",
+      "horse_num": "07",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "08252c06",
+      "horse_num": "08",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "08252c06",
+      "horse_num": "09",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "08252c06",
+      "horse_num": "10",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "08252c06",
+      "horse_num": "11",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "08252c06",
+      "horse_num": "12",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "08252c06",
+      "horse_num": "13",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "08252c06",
+      "horse_num": "14",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "08252c07",
+      "horse_num": "01",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "08252c07",
+      "horse_num": "02",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "08252c07",
+      "horse_num": "03",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "08252c07",
+      "horse_num": "04",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "08252c07",
+      "horse_num": "05",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "08252c07",
+      "horse_num": "06",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "08252c07",
+      "horse_num": "07",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "08252c07",
+      "horse_num": "08",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "08252c07",
+      "horse_num": "09",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "08252c07",
+      "horse_num": "10",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "08252c07",
+      "horse_num": "11",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "08252c07",
+      "horse_num": "12",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "08252c08",
+      "horse_num": "01",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "08252c08",
+      "horse_num": "02",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "08252c08",
+      "horse_num": "03",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "08252c08",
+      "horse_num": "04",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "08252c08",
+      "horse_num": "05",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "08252c08",
+      "horse_num": "06",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "08252c08",
+      "horse_num": "07",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "08252c08",
+      "horse_num": "08",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "08252c08",
+      "horse_num": "09",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "08252c08",
+      "horse_num": "10",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "08252c08",
+      "horse_num": "11",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "08252c08",
+      "horse_num": "12",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "08252c08",
+      "horse_num": "13",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "08252c08",
+      "horse_num": "14",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "08252c08",
+      "horse_num": "15",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "08252c08",
+      "horse_num": "16",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "08252c09",
+      "horse_num": "01",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "08252c09",
+      "horse_num": "02",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "08252c09",
+      "horse_num": "03",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "08252c09",
+      "horse_num": "04",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "08252c09",
+      "horse_num": "05",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "08252c09",
+      "horse_num": "06",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "08252c09",
+      "horse_num": "07",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "08252c09",
+      "horse_num": "08",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "08252c09",
+      "horse_num": "09",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "08252c09",
+      "horse_num": "10",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "08252c09",
+      "horse_num": "11",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "08252c09",
+      "horse_num": "12",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "08252c09",
+      "horse_num": "13",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "08252c09",
+      "horse_num": "14",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "08252c10",
+      "horse_num": "01",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "08252c10",
+      "horse_num": "02",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "08252c10",
+      "horse_num": "03",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "08252c10",
+      "horse_num": "04",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "08252c10",
+      "horse_num": "05",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "08252c10",
+      "horse_num": "06",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "08252c10",
+      "horse_num": "07",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "08252c10",
+      "horse_num": "08",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "08252c10",
+      "horse_num": "09",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "08252c10",
+      "horse_num": "10",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "08252c10",
+      "horse_num": "11",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "08252c10",
+      "horse_num": "12",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "08252c10",
+      "horse_num": "13",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "08252c10",
+      "horse_num": "14",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "08252c10",
+      "horse_num": "15",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "08252c10",
+      "horse_num": "16",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "08252c11",
+      "horse_num": "01",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "08252c11",
+      "horse_num": "02",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "08252c11",
+      "horse_num": "03",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "08252c11",
+      "horse_num": "04",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "08252c11",
+      "horse_num": "05",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "08252c11",
+      "horse_num": "06",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "08252c11",
+      "horse_num": "07",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "08252c11",
+      "horse_num": "08",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "08252c11",
+      "horse_num": "09",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "08252c11",
+      "horse_num": "10",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "08252c11",
+      "horse_num": "11",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "08252c12",
+      "horse_num": "01",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "08252c12",
+      "horse_num": "02",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "08252c12",
+      "horse_num": "03",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "08252c12",
+      "horse_num": "04",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "08252c12",
+      "horse_num": "05",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "08252c12",
+      "horse_num": "06",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "08252c12",
+      "horse_num": "07",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "08252c12",
+      "horse_num": "08",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "08252c12",
+      "horse_num": "09",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "08252c12",
+      "horse_num": "10",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "08252c12",
+      "horse_num": "11",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "08252c12",
+      "horse_num": "12",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "08252c12",
+      "horse_num": "13",
+      "raw_data_length": 324
+    },
+    {
+      "race_id": "08252c12",
+      "horse_num": "14",
+      "raw_data_length": 324
+    }
+  ]
+}

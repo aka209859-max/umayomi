@@ -1,0 +1,40 @@
+# Dependencies
+node_modules/
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Compiled binary addons
+build
+dist
+
+# Environment files
+.env
+.env.local
+.dev.vars
+
+# PM2
+.pm2/
+pids/
+logs/
+*.log
+
+# Backup files
+*.backup
+*.bak
+*.tar.gz
+*.zip
+
+# Wrangler
+.wrangler/
+
+# Credentials and sensitive information (IMPORTANT!)
+docs/CREDENTIALS_AND_IMPORTANT_INFO.md
+**/credentials.md
+**/*credentials*.md
+**/*password*.txt
+**/*secret*.txt
+**/*token*.txt
