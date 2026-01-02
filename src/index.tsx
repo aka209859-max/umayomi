@@ -3,6 +3,7 @@ import { serveStatic } from 'hono/cloudflare-workers'
 import api from './routes/api'
 import horses from './routes/horses'
 import conditionSettings from './routes/condition-settings'
+import analysis from './routes/analysis'
 
 const app = new Hono()
 
@@ -10,6 +11,7 @@ const app = new Hono()
 app.route('/api', api)
 app.route('/', horses)
 app.route('/', conditionSettings)
+app.route('/', analysis)
 
 // Serve static files from public directory
 app.use('/static/*', serveStatic({ root: './public' }))
