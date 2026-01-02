@@ -337,13 +337,11 @@ async function saveConditions() {
     
     console.log('Saving conditions:', conditions);
     
-    // TODO: APIに保存
-    // await axios.post('/api/conditions', conditions);
+    // sessionStorageに保存
+    sessionStorage.setItem('pendingConditions', JSON.stringify(conditions));
     
-    alert('条件を保存しました！\\n次に回収率分析を実行します。');
-    
-    // 回収率分析ページへ遷移
-    window.location.href = '/analysis';
+    // ファクター登録ページへ遷移
+    window.location.href = '/factor-register';
 }
 
 // テスト実行

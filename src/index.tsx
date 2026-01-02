@@ -1,17 +1,19 @@
 import { Hono } from 'hono'
 import { serveStatic } from 'hono/cloudflare-workers'
 import api from './routes/api'
-import horses from './routes/horses'
+// import horses from './routes/horses'  // Disabled: uses Node.js fs module
 import conditionSettings from './routes/condition-settings'
 import analysis from './routes/analysis'
+import factorRegister from './routes/factor-register'
 
 const app = new Hono()
 
 // API Routes
 app.route('/api', api)
-app.route('/', horses)
+// app.route('/', horses)  // Disabled: uses Node.js fs module
 app.route('/', conditionSettings)
 app.route('/', analysis)
+app.route('/', factorRegister)
 
 // Serve static files from public directory
 app.use('/static/*', serveStatic({ root: './public' }))
