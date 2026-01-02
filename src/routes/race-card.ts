@@ -8,12 +8,10 @@
 
 import { Hono } from 'hono';
 import { HCParser, type HCRecord } from '../parsers/ck/hc';
+import { FactorCalculator, type HorseData, type FactorConditions } from '../lib/factor-calculator';
+import { globalState } from '../lib/shared-state';
 
 const app = new Hono();
-
-// In-memory storage (shared with tomorrow-races)
-// TODO: Move to shared state or D1
-let tomorrowRaces: Map<string, HCRecord[]> = new Map();
 
 // 出走表UI
 app.get('/race-card', (c) => {
@@ -326,14 +324,36 @@ function showHorseDetail(index) {
                         <span class="text-gray-400">血統登録番号:</span>
                         <span class="text-white font-semibold">\${horse.horse_id}</span>
                     </div>
-                    \${horse.score !== null && horse.score !== undefined ? \`
-                    <div class="flex justify-between">
-                        <span class="text-gray-400">ファクター得点:</span>
-                        <span class="text-white font-semibold">\${horse.score.toFixed(1)} 点</span>
-                    </div>
-                    \` : ''}
                 </div>
             </div>
+            
+            \${horse.score !== null && horse.score !== undefined ? \`
+            <div>
+                <h4 class="font-semibold text-gray-300 mb-2">ファクター得点</h4>
+                <div class="bg-gray-900 rounded-lg p-4 space-y-3">
+                    <div class="flex justify-between items-center">
+                        <span class="text-gray-400">総合得点:</span>
+                        <span class="text-2xl font-bold text-white">\${horse.score.toFixed(1)} 点</span>
+                    </div>
+                    <div class="border-t border-gray-800 pt-3 space-y-2 text-sm">
+                        <div class="flex justify-between">
+                            <span class="text-gray-400">RGS (レース適性):</span>
+                            <span class="text-blue-400 font-semibold">\${horse.rgs?.toFixed(1) || 'N/A'}</span>
+                        </div>
+                        <div class="flex justify-between">
+                            <span class="text-gray-400">AAS (能力評価):</span>
+                            <span class="text-green-400 font-semibold">\${horse.aas?.toFixed(1) || 'N/A'}</span>
+                        </div>
+                        <div class="flex justify-between">
+                            <span class="text-gray-400">条件一致:</span>
+                            <span class="text-purple-400 font-semibold">
+                                \${horse.matched_conditions || 0} / \${horse.total_conditions || 0}
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            \` : ''}
             
             <div>
                 <h4 class="font-semibold text-gray-300 mb-2">Raw Data</h4>
@@ -357,7 +377,7 @@ function closeModal() {
 // Load factors
 async function loadFactors() {
     try {
-        const response = await axios.get('/api/factors');
+        const response = await axios.get('/api/race-card/factors');
         const factors = response.data;
         
         const select = document.getElementById('factorSelect');
@@ -378,20 +398,54 @@ async function applyFactor() {
     }
     
     try {
-        // TODO: Implement factor calculation
-        // For now, generate random scores
-        allHorses = allHorses.map(horse => ({
-            ...horse,
-            score: Math.random() * 100
+        // Show loading
+        const emptyState = document.getElementById('emptyState');
+        emptyState.classList.remove('hidden');
+        emptyState.innerHTML = \`
+            <i class="fas fa-spinner fa-spin text-4xl text-blue-500 mb-4"></i>
+            <p class="text-gray-400">ファクターを適用中...</p>
+        \`;
+        document.getElementById('horseList').classList.add('hidden');
+        
+        // Apply factor
+        const response = await axios.post('/api/race-card/apply-factor', {
+            factorId: parseInt(factorId),
+            horses: allHorses,
+            raceInfo: {
+                track: trackCode,
+                distance: 1800, // TODO: Get from race data
+                surface: '芝'   // TODO: Get from race data
+            }
+        });
+        
+        const data = response.data;
+        allHorses = data.horses.map(h => ({
+            ...h,
+            score: h.total_score,
+            rgs: h.rgs,
+            aas: h.aas,
+            matched_conditions: h.matched_conditions,
+            total_conditions: h.total_conditions
         }));
         
+        // Hide loading, show horses
+        emptyState.classList.add('hidden');
+        document.getElementById('horseList').classList.remove('hidden');
+        
+        // Sort by score and render
         currentSort = 'score';
         renderHorses(allHorses);
         
-        alert('ファクターを適用しました！（デモ版：ランダムスコア）');
+        // Show success message
+        const factorName = data.factor.name;
+        alert(\`ファクター「\${factorName}」を適用しました！\\n\\n得点順に並び替えました。\`);
     } catch (error) {
         console.error('Failed to apply factor:', error);
         alert('ファクターの適用に失敗しました: ' + error.message);
+        
+        // Reset view
+        document.getElementById('emptyState').classList.add('hidden');
+        document.getElementById('horseList').classList.remove('hidden');
     }
 }
 
@@ -423,19 +477,74 @@ app.get('/api/race-card', async (c) => {
       date,
       raceNumber: raceNum,
       horses: [
-        { horse_number: '01', horse_id: '01910696', score: null },
-        { horse_number: '02', horse_id: '02210009', score: null },
-        { horse_number: '03', horse_id: '02210058', score: null },
-        { horse_number: '04', horse_id: '02210142', score: null },
-        { horse_number: '05', horse_id: '02210363', score: null },
-        { horse_number: '06', horse_id: '02210413', score: null },
-        { horse_number: '07', horse_id: '02210544', score: null },
-        { horse_number: '08', horse_id: '02210550', score: null },
+        { horse_number: '01', horse_id: '01910696' },
+        { horse_number: '02', horse_id: '02210009' },
+        { horse_number: '03', horse_id: '02210058' },
+        { horse_number: '04', horse_id: '02210142' },
+        { horse_number: '05', horse_id: '02210363' },
+        { horse_number: '06', horse_id: '02210413' },
+        { horse_number: '07', horse_id: '02210544' },
+        { horse_number: '08', horse_id: '02210550' },
+        { horse_number: '09', horse_id: '02210617' },
+        { horse_number: '10', horse_id: '02210643' },
+        { horse_number: '11', horse_id: '02210734' },
+        { horse_number: '12', horse_id: '01910669' },
       ]
     });
   } catch (error) {
     console.error('Failed to get race card:', error);
     return c.json({ error: 'Failed to get race card' }, 500);
+  }
+});
+
+// API: ファクター適用
+app.post('/api/race-card/apply-factor', async (c) => {
+  try {
+    const { factorId, horses, raceInfo } = await c.req.json();
+    
+    if (!factorId || !horses || !raceInfo) {
+      return c.json({ error: 'Missing required fields' }, 400);
+    }
+    
+    // Find factor from global state
+    const factor = globalState.getFactor(parseInt(factorId));
+    
+    if (!factor) {
+      return c.json({ error: 'Factor not found' }, 404);
+    }
+    
+    // Parse conditions
+    const conditions: FactorConditions = JSON.parse(factor.conditions);
+    
+    // Apply factor
+    const calculator = new FactorCalculator();
+    const scoredHorses = calculator.applyFactor(
+      horses as HorseData[],
+      conditions,
+      raceInfo
+    );
+    
+    return c.json({
+      horses: scoredHorses,
+      factor: {
+        id: factor.id,
+        name: factor.name,
+        description: factor.description
+      }
+    });
+  } catch (error) {
+    console.error('Failed to apply factor:', error);
+    return c.json({ error: 'Failed to apply factor: ' + error.message }, 500);
+  }
+});
+
+// API: 登録済みファクター一覧取得（shared with factor-register）
+app.get('/api/race-card/factors', async (c) => {
+  try {
+    return c.json(globalState.getAllFactors());
+  } catch (error) {
+    console.error('Failed to get factors:', error);
+    return c.json({ error: 'Failed to get factors' }, 500);
   }
 });
 

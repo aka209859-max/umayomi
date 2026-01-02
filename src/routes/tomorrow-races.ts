@@ -9,12 +9,9 @@
 
 import { Hono } from 'hono';
 import { HCParser, type HCRecord } from '../parsers/ck/hc';
+import { globalState } from '../lib/shared-state';
 
 const app = new Hono();
-
-// In-memory storage (TODO: Replace with D1)
-let tomorrowRaces: Map<string, HCRecord[]> = new Map();
-let uploadedDate: string = '';
 
 // 翌日レースUI
 app.get('/tomorrow-races', (c) => {
@@ -291,15 +288,15 @@ app.post('/api/tomorrow-races/upload', async (c) => {
     // Group by race
     const raceMap = parser.groupByRace(records);
     
-    // Store in memory
-    tomorrowRaces = raceMap;
-    uploadedDate = parser.parseFilenameDate(filename);
+    // Store in global state
+    globalState.tomorrowRaces = raceMap;
+    globalState.uploadedDate = parser.parseFilenameDate(filename);
     
     return c.json({ 
       message: 'File uploaded successfully',
       totalRecords: records.length,
       totalRaces: raceMap.size,
-      uploadedDate
+      uploadedDate: globalState.uploadedDate
     });
   } catch (error) {
     console.error('Failed to upload CK_DATA:', error);
@@ -313,12 +310,12 @@ app.get('/api/tomorrow-races', async (c) => {
     const races = [];
     const parser = new HCParser();
     
-    for (const [key, horses] of tomorrowRaces) {
+    for (const [key, horses] of globalState.tomorrowRaces) {
       const firstHorse = horses[0];
       races.push({
         trackCode: firstHorse.track_code,
         trackName: parser.getTrackName(firstHorse.track_code),
-        date: uploadedDate || firstHorse.race_date,
+        date: globalState.uploadedDate || firstHorse.race_date,
         raceNumber: firstHorse.race_number,
         horseCount: horses.length,
         horses: horses.map(h => ({
@@ -333,7 +330,7 @@ app.get('/api/tomorrow-races', async (c) => {
     
     return c.json({
       races,
-      uploadedDate
+      uploadedDate: globalState.uploadedDate
     });
   } catch (error) {
     console.error('Failed to get tomorrow races:', error);

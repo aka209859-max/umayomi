@@ -10,12 +10,9 @@
  */
 
 import { Hono } from 'hono';
+import { globalState } from '../lib/shared-state';
 
 const app = new Hono();
-
-// TODO: Replace with D1 database in production
-// For now, using in-memory storage for demonstration
-const factorsStore: any[] = [];
 
 // ファクター登録UI
 app.get('/factor-register', (c) => {
@@ -591,8 +588,7 @@ function escapeHtml(text) {
 // API: ファクター一覧取得
 app.get('/api/factors', async (c) => {
   try {
-    // TODO: Replace with D1 query
-    return c.json(factorsStore);
+    return c.json(globalState.getAllFactors());
   } catch (error) {
     console.error('Failed to get factors:', error);
     return c.json({ error: 'Failed to get factors' }, 500);
@@ -616,7 +612,7 @@ app.post('/api/factors', async (c) => {
       created_at: new Date().toISOString()
     };
     
-    factorsStore.push(newFactor);
+    globalState.addFactor(newFactor);
     
     return c.json({ 
       id: newFactor.id,
@@ -632,13 +628,7 @@ app.post('/api/factors', async (c) => {
 app.delete('/api/factors/:id', async (c) => {
   try {
     const id = parseInt(c.req.param('id'));
-    const index = factorsStore.findIndex(f => f.id === id);
-    
-    if (index === -1) {
-      return c.json({ error: 'Factor not found' }, 404);
-    }
-    
-    factorsStore.splice(index, 1);
+    globalState.deleteFactor(id);
     
     return c.json({ message: 'Factor deleted successfully' });
   } catch (error) {
@@ -653,15 +643,11 @@ app.put('/api/factors/:id', async (c) => {
     const id = parseInt(c.req.param('id'));
     const { name, description, conditions } = await c.req.json();
     
-    const factor = factorsStore.find(f => f.id === id);
-    
-    if (!factor) {
-      return c.json({ error: 'Factor not found' }, 404);
-    }
-    
-    factor.name = name;
-    factor.description = description;
-    factor.conditions = JSON.stringify(conditions);
+    globalState.updateFactor(id, {
+      name,
+      description,
+      conditions: JSON.stringify(conditions)
+    });
     
     return c.json({ message: 'Factor updated successfully' });
   } catch (error) {
