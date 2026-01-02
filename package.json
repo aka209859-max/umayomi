@@ -16,7 +16,10 @@
     "db:migrate": "tsx scripts/run_migrations.ts",
     "import:jrdb": "tsx scripts/import_jrdb_data.ts",
     "import:jravan": "tsx scripts/import_jravan_data.ts",
-    "import:all": "npm run db:migrate && npm run import:jrdb && npm run import:jravan"
+    "import:all": "npm run db:migrate && npm run import:jrdb && npm run import:jravan",
+    "import:jrdb:d1": "tsx scripts/import_jrdb_data_d1.ts",
+    "import:jravan:d1": "tsx scripts/import_jravan_data_d1.ts",
+    "import:all:d1": "npm run import:jrdb:d1 && npm run import:jravan:d1"
   },
   "dependencies": {
     "@types/iconv-lite": "^0.0.1",
