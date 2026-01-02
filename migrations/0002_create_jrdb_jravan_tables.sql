@@ -103,6 +103,7 @@ CREATE TABLE IF NOT EXISTS jrdb_sed (
   track_code TEXT NOT NULL,
   race_number INTEGER NOT NULL,
   horse_number INTEGER NOT NULL,
+  horse_id TEXT,
   finish_position INTEGER,
   finish_time REAL,
   raw_data TEXT,
@@ -110,6 +111,7 @@ CREATE TABLE IF NOT EXISTS jrdb_sed (
 );
 
 CREATE INDEX IF NOT EXISTS idx_jrdb_sed_race ON jrdb_sed(race_date, track_code, race_number);
+CREATE INDEX IF NOT EXISTS idx_jrdb_sed_horse ON jrdb_sed(horse_id);
 
 -- 7. JRDB TYB (出馬表データ)
 CREATE TABLE IF NOT EXISTS jrdb_tyb (
