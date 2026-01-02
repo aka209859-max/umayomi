@@ -12,7 +12,11 @@
     "deploy": "npm run build && wrangler pages deploy dist",
     "clean-port": "fuser -k 3000/tcp 2>/dev/null || true",
     "db:init": "tsx scripts/init_db.ts",
-    "db:test": "tsx scripts/test_db.ts"
+    "db:test": "tsx scripts/test_db.ts",
+    "db:migrate": "tsx scripts/run_migrations.ts",
+    "import:jrdb": "tsx scripts/import_jrdb_data.ts",
+    "import:jravan": "tsx scripts/import_jravan_data.ts",
+    "import:all": "npm run db:migrate && npm run import:jrdb && npm run import:jravan"
   },
   "dependencies": {
     "@types/iconv-lite": "^0.0.1",
