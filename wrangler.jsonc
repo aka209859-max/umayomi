@@ -8,8 +8,8 @@
   "d1_databases": [
     {
       "binding": "DB",
-      "database_name": "webapp-production",
-      "database_id": "local-webapp-production"
+      "database_name": "umayomi-production",
+      "database_id": "f4d87b77-117e-453f-b554-323fade4b21c"
     }
   ]
 }
