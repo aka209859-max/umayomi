@@ -15,8 +15,10 @@
     "db:test": "tsx scripts/test_db.ts"
   },
   "dependencies": {
+    "@types/iconv-lite": "^0.0.1",
+    "better-sqlite3": "^9.0.0",
     "hono": "^4.0.0",
-    "better-sqlite3": "^9.0.0"
+    "iconv-lite": "^0.7.1"
   },
   "devDependencies": {
     "@cloudflare/workers-types": "4.20250705.0",

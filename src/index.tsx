@@ -1,11 +1,13 @@
 import { Hono } from 'hono'
 import { serveStatic } from 'hono/cloudflare-workers'
 import api from './routes/api'
+import horses from './routes/horses'
 
 const app = new Hono()
 
 // API Routes
 app.route('/api', api)
+app.route('/', horses)
 
 // Serve static files from public directory
 app.use('/static/*', serveStatic({ root: './public' }))
