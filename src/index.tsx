@@ -5,6 +5,7 @@ import api from './routes/api'
 import conditionSettings from './routes/condition-settings'
 import analysis from './routes/analysis'
 import factorRegister from './routes/factor-register'
+import tomorrowRaces from './routes/tomorrow-races'
 
 const app = new Hono()
 
@@ -14,6 +15,7 @@ app.route('/api', api)
 app.route('/', conditionSettings)
 app.route('/', analysis)
 app.route('/', factorRegister)
+app.route('/', tomorrowRaces)
 
 // Serve static files from public directory
 app.use('/static/*', serveStatic({ root: './public' }))
