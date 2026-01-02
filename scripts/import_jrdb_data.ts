@@ -23,6 +23,20 @@ import { parseCHA } from '../src/parsers/jrdb/cha';
 import { parseJOA } from '../src/parsers/jrdb/joa';
 import { parseSED } from '../src/parsers/jrdb/sed';
 import { parseTYB } from '../src/parsers/jrdb/tyb';
+import { parseUKC } from '../src/parsers/jrdb/ukc';
+import { parseCYB } from '../src/parsers/jrdb/cyb';
+import { parseZED } from '../src/parsers/jrdb/zed';
+import { parseOW } from '../src/parsers/jrdb/ow';
+import { parseOU } from '../src/parsers/jrdb/ou';
+import { parseOT } from '../src/parsers/jrdb/ot';
+import { parseKKA } from '../src/parsers/jrdb/kka';
+import { parseHJC } from '../src/parsers/jrdb/hjc';
+import { parseSRB } from '../src/parsers/jrdb/srb';
+import { parseOZ } from '../src/parsers/jrdb/oz';
+import { parseZKB } from '../src/parsers/jrdb/zkb';
+import { parseOV } from '../src/parsers/jrdb/ov';
+import { parseCE } from '../src/parsers/jrdb/ce';
+import { parseBV } from '../src/parsers/jrdb/bv';
 
 // ================================================
 // 設定
@@ -39,7 +53,21 @@ const FILE_TYPE_DIRS = {
   CHA: 'cha_extracted',
   JOA: 'joa_extracted',
   SED: 'sed_extracted',
-  TYB: 'tyb_extracted'
+  TYB: 'tyb_extracted',
+  UKC: 'ukc_extracted',
+  CYB: 'cyb_extracted',
+  ZED: 'zed_extracted',
+  OW: 'ow_extracted',
+  OU: 'ou_extracted',
+  OT: 'ot_extracted',
+  KKA: 'kka_extracted',
+  HJC: 'hjc_extracted',
+  SRB: 'srb_extracted',
+  OZ: 'oz_extracted',
+  ZKB: 'zkb_extracted',
+  OV: 'ov_extracted',
+  CE: 'ce_extracted',
+  BV: 'bv_extracted'
 };
 
 // ================================================
