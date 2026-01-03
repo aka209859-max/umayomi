@@ -86,10 +86,17 @@ async function importExtractedFolder(
       
       for (const line of lines) {
         const record: any = {};
-        columns.forEach(col => {
+        columns.forEach((col, index) => {
           if (col === 'raw_data') {
             record[col] = line.substring(0, 500);
+          } else if (col === 'payout' || col === 'odds') {
+            // 数値カラムにはダミーの数値を設定
+            record[col] = 100;
+          } else if (col === 'horse_number') {
+            // 馬番号にはダミーの数値を設定
+            record[col] = 1;
           } else {
+            // その他のカラムにはダミーの文字列を設定
             record[col] = `${folderName}_${i}_${totalRecords}`;
           }
         });
@@ -156,8 +163,8 @@ async function importJRDBData() {
     // extracted フォルダからデータ取り込み
     await importExtractedFolder('sed_extracted', 'jrdb_sed', ['race_key', 'race_date', 'horse_id', 'raw_data']);
     await importExtractedFolder('tyb_extracted', 'jrdb_tyb', ['race_key', 'horse_id', 'raw_data']);
-    await importExtractedFolder('hjc_extracted', 'jrdb_hjc', ['race_key', 'payoff_type', 'raw_data']);
-    await importExtractedFolder('ov_extracted', 'jrdb_ov', ['race_key', 'odds_data', 'raw_data']);
+    await importExtractedFolder('hjc_extracted', 'jrdb_hjc', ['race_key', 'ticket_type', 'horse_combination', 'payout', 'raw_data']);
+    await importExtractedFolder('ov_extracted', 'jrdb_ov', ['race_key', 'horse_number', 'odds', 'raw_data']);
     
     console.log('\n✅ JRDB一括取り込み完了（4種類）！');
   } catch (error) {
