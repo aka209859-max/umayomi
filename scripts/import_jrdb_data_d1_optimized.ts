@@ -51,27 +51,27 @@ function executeD1SQL(sqlFilePath: string): void {
 }
 
 function getExistingRecordCount(tableName: string): number {
-  const command = `npx wrangler d1 execute ${DB_NAME} --local --command="SELECT COUNT(*) as count FROM ${tableName};" --json`;
+  const command = `npx wrangler d1 execute ${DB_NAME} --local --command="SELECT COUNT(*) as count FROM ${tableName};"`;
   
   try {
     const result = execSync(command, {
       encoding: 'utf-8',
-      shell: 'powershell.exe'
+      shell: 'powershell.exe',
+      stdio: 'pipe'
     });
     
-    // JSONレスポンスをパース
+    // 出力から数値を抽出（テーブル形式）
     const lines = result.split('\n');
     for (const line of lines) {
-      if (line.trim().startsWith('[')) {
-        const jsonData = JSON.parse(line);
-        if (jsonData && jsonData[0] && jsonData[0].results && jsonData[0].results[0]) {
-          return jsonData[0].results[0].count || 0;
-        }
+      // 数値のみの行を探す
+      const match = line.match(/^\s*│\s*(\d+)\s*│\s*$/);
+      if (match) {
+        return parseInt(match[1], 10);
       }
     }
     return 0;
   } catch (error: any) {
-    console.error(`⚠️  既存レコード数の取得に失敗: ${tableName}`);
+    // テーブルが存在しない場合は0を返す
     return 0;
   }
 }
