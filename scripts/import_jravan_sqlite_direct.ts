@@ -28,27 +28,27 @@ const DATA_CONFIGS: DataConfig[] = [
   { 
     folderName: 'CK_DATA', 
     tableName: 'jravan_hc', 
-    columns: ['horse_id', 'training_date', 'raw_data'] 
+    columns: ['race_date', 'track_code', 'race_number', 'horse_number', 'horse_id', 'raw_data'] 
   },
   { 
     folderName: 'ES_DATA', 
     tableName: 'jravan_tm', 
-    columns: ['horse_id', 'training_date', 'raw_data'] 
+    columns: ['race_date', 'data_date', 'track_code', 'race_number', 'horse_number', 'raw_data'] 
   },
   { 
     folderName: 'HY_DATA', 
     tableName: 'jravan_jg', 
-    columns: ['jockey_id', 'jockey_name', 'raw_data'] 
+    columns: ['race_date', 'data_date', 'track_code', 'race_number', 'horse_number', 'horse_id', 'raw_data'] 
   },
   { 
     folderName: 'BY_DATA', 
     tableName: 'jravan_by', 
-    columns: ['horse_id', 'horse_name', 'raw_data'] 
+    columns: ['race_date', 'horse_id', 'raw_data'] 
   },
   { 
     folderName: 'OW_DATA', 
     tableName: 'jravan_ow', 
-    columns: ['race_date', 'track_code', 'race_number', 'raw_data'] 
+    columns: ['registration_date', 'owner_id', 'raw_data'] 
   },
 ];
 
@@ -125,8 +125,8 @@ function parseFile(filePath: string, columns: string[], fileIndex: number): any[
         if (col === 'raw_data') {
           // raw_dataは全文保存
           record[col] = line;
-        } else if (col === 'race_date') {
-          // race_dateはファイル名から推測（YYYYMMDD形式）
+        } else if (col === 'race_date' || col === 'data_date' || col === 'registration_date') {
+          // 日付はファイル名から推測（YYYYMMDD形式）
           record[col] = fileName.substring(2, 10) || '19540101';
         } else if (col === 'track_code') {
           // track_codeはファイル名の最初の2文字
@@ -137,7 +137,7 @@ function parseFile(filePath: string, columns: string[], fileIndex: number): any[
         } else if (col === 'horse_number') {
           // horse_numberは行番号を使用
           record[col] = (i % 18) + 1; // 1番～18番
-        } else if (col === 'horse_id' || col === 'jockey_id') {
+        } else if (col === 'horse_id' || col === 'owner_id') {
           // IDはファイル名+行番号で一意性を確保
           record[col] = `${fileName}_${i}`;
         } else {
