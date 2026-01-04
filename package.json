@@ -23,7 +23,9 @@
     "import:zed": "tsx scripts/import_jrdb_zed_standalone.ts",
     "import:zed:all": "tsx scripts/import_jrdb_zed_standalone.ts \"E:\\test_zed\\ZED*.txt\" 2014-01-01 2025-08-24",
     "import:zed:2024": "tsx scripts/import_jrdb_zed_standalone.ts \"E:\\test_zed\\ZED*.txt\" 2024-01-01 2024-12-31",
-    "import:zed:2025": "tsx scripts/import_jrdb_zed_standalone.ts \"E:\\test_zed\\ZED*.txt\" 2025-01-01 2025-08-24"
+    "import:zed:2025": "tsx scripts/import_jrdb_zed_standalone.ts \"E:\\test_zed\\ZED*.txt\" 2025-01-01 2025-08-24",
+    "calculate:factors": "tsx scripts/calculate_factor_scores.ts",
+    "test:phase5": "tsx scripts/test_phase5.ts"
   },
   "dependencies": {
     "better-sqlite3": "^9.0.0",
