@@ -1,6 +1,7 @@
 import { Hono } from 'hono'
 import { serveStatic } from 'hono/cloudflare-workers'
 import api from './routes/api'
+import factorApi from './routes/factor-api'
 // import horses from './routes/horses'  // Disabled: uses Node.js fs module
 import conditionSettings from './routes/condition-settings'
 import analysis from './routes/analysis'
@@ -13,6 +14,7 @@ const app = new Hono()
 
 // API Routes
 app.route('/api', api)
+app.route('/api/factors', factorApi)
 app.route('/api/data-import', dataImport)
 // app.route('/', horses)  // Disabled: uses Node.js fs module
 app.route('/', conditionSettings)

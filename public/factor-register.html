@@ -6,6 +6,7 @@
     <title>ファクター登録 - UMAYOMI</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.0/dist/axios.min.js"></script>
     <style>
         .factor-table {
             font-size: 14px;
@@ -36,11 +37,112 @@
         .score-neutral {
             color: #6b7280;
         }
+        .loading {
+            display: none;
+        }
+        .loading.active {
+            display: block;
+        }
     </style>
 </head>
 <body class="bg-gray-50">
     <div class="container mx-auto px-4 py-6">
-        <!-- 省略：ヘッダーと入力フォーム -->
+        <!-- ヘッダー -->
+        <div class="bg-white shadow-sm rounded-lg p-6 mb-6">
+            <h1 class="text-2xl font-bold text-gray-800 mb-2">
+                <i class="fas fa-filter mr-2 text-blue-600"></i>
+                ファクター登録
+            </h1>
+            <p class="text-gray-600">条件を設定して過去データを集計し、RGS1.0/AASを計算します。</p>
+        </div>
+
+        <!-- ファクター条件入力 -->
+        <div class="bg-white shadow-sm rounded-lg p-6 mb-6">
+            <h2 class="text-lg font-bold text-gray-800 mb-4">ファクター条件入力</h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-4">
+                <div>
+                    <label class="block text-sm font-medium text-gray-700 mb-2">キー1（競馬場・地域）</label>
+                    <input type="text" id="key1" class="w-full px-3 py-2 border border-gray-300 rounded-lg" placeholder="中山">
+                </div>
+                <div>
+                    <label class="block text-sm font-medium text-gray-700 mb-2">キー2（コース種別）</label>
+                    <input type="text" id="key2" class="w-full px-3 py-2 border border-gray-300 rounded-lg" placeholder="芝">
+                </div>
+                <div>
+                    <label class="block text-sm font-medium text-gray-700 mb-2">キー3（距離）</label>
+                    <input type="text" id="key3" class="w-full px-3 py-2 border border-gray-300 rounded-lg" placeholder="1200m">
+                </div>
+                <div>
+                    <label class="block text-sm font-medium text-gray-700 mb-2">キー4（馬齢・性別）</label>
+                    <input type="text" id="key4" class="w-full px-3 py-2 border border-gray-300 rounded-lg" placeholder="3歳">
+                </div>
+                <div>
+                    <label class="block text-sm font-medium text-gray-700 mb-2">キー5（産地）</label>
+                    <input type="text" id="key5" class="w-full px-3 py-2 border border-gray-300 rounded-lg" placeholder="えりも町">
+                </div>
+                <div>
+                    <label class="block text-sm font-medium text-gray-700 mb-2">キー6（シーズン）</label>
+                    <input type="text" id="key6" class="w-full px-3 py-2 border border-gray-300 rounded-lg" placeholder="春">
+                </div>
+            </div>
+
+            <div class="flex gap-4">
+                <button onclick="calculateFactor()" class="px-6 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition">
+                    <i class="fas fa-calculator mr-2"></i>集計実行
+                </button>
+                <button onclick="loadSavedFactors()" class="px-6 py-2 bg-gray-600 text-white rounded-lg hover:bg-gray-700 transition">
+                    <i class="fas fa-download mr-2"></i>保存済み読み込み
+                </button>
+            </div>
+
+            <!-- ローディング表示 -->
+            <div id="loading" class="loading mt-4 text-center">
+                <i class="fas fa-spinner fa-spin text-blue-600 text-2xl"></i>
+                <p class="text-gray-600 mt-2">計算中...</p>
+            </div>
+
+            <!-- エラー表示 -->
+            <div id="error" class="hidden mt-4 p-4 bg-red-50 border border-red-200 rounded-lg">
+                <p class="text-red-600"><i class="fas fa-exclamation-circle mr-2"></i><span id="errorMessage"></span></p>
+            </div>
+        </div>
+
+        <!-- 保存条件設定 -->
+        <div class="bg-white shadow-sm rounded-lg p-6 mb-6">
+            <h2 class="text-lg font-bold text-gray-800 mb-4">保存条件設定</h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <div>
+                    <label class="block text-sm font-medium text-gray-700 mb-2">保存モード</label>
+                    <select id="saveMode" class="w-full px-3 py-2 border border-gray-300 rounded-lg">
+                        <option value="manual">手動選択</option>
+                        <option value="aas">AAS重視</option>
+                        <option value="rgs">RGS重視</option>
+                        <option value="both">両方必須（AND）</option>
+                        <option value="either">どちらか（OR）</option>
+                    </select>
+                </div>
+                <div>
+                    <label class="block text-sm font-medium text-gray-700 mb-2">AAS閾値</label>
+                    <input type="number" id="aasThreshold" class="w-full px-3 py-2 border border-gray-300 rounded-lg" value="2.0" step="0.1">
+                </div>
+                <div>
+                    <label class="block text-sm font-medium text-gray-700 mb-2">RGS閾値</label>
+                    <input type="number" id="rgsThreshold" class="w-full px-3 py-2 border border-gray-300 rounded-lg" value="1.0" step="0.1">
+                </div>
+                <div>
+                    <label class="block text-sm font-medium text-gray-700 mb-2">最小レース件数</label>
+                    <input type="number" id="minRaceCount" class="w-full px-3 py-2 border border-gray-300 rounded-lg" value="10" step="1">
+                </div>
+            </div>
+
+            <div class="mt-4">
+                <button onclick="saveSelectedFactors()" class="px-6 py-2 bg-green-600 text-white rounded-lg hover:bg-green-700 transition">
+                    <i class="fas fa-save mr-2"></i>選択したファクターを保存
+                </button>
+            </div>
+        </div>
         
         <!-- 集計結果テーブル -->
         <div class="bg-white shadow-sm rounded-lg p-6">
@@ -78,6 +180,198 @@
     </div>
 
     <script>
+        // グローバルで管理する計算結果
+        let calculatedFactors = [];
+
+        /**
+         * ファクター計算APIを呼び出す
+         */
+        async function calculateFactor() {
+            const loading = document.getElementById('loading');
+            const error = document.getElementById('error');
+            
+            // エラー表示をクリア
+            error.classList.add('hidden');
+            
+            // ローディング表示
+            loading.classList.add('active');
+            
+            try {
+                // キーを取得
+                const keys = [
+                    document.getElementById('key1').value.trim(),
+                    document.getElementById('key2').value.trim(),
+                    document.getElementById('key3').value.trim(),
+                    document.getElementById('key4').value.trim(),
+                    document.getElementById('key5').value.trim(),
+                    document.getElementById('key6').value.trim()
+                ];
+
+                // APIリクエスト
+                const response = await axios.post('/api/factors/calculate', {
+                    conditions: {
+                        keys: keys
+                    }
+                });
+
+                if (response.data.success) {
+                    // 計算結果を追加
+                    const result = response.data.result;
+                    // 既存の結果と重複チェック
+                    const existingIndex = calculatedFactors.findIndex(f => f.id === result.id);
+                    if (existingIndex >= 0) {
+                        calculatedFactors[existingIndex] = result;
+                    } else {
+                        calculatedFactors.push(result);
+                    }
+                    
+                    // テーブルを再描画
+                    renderTable(calculatedFactors);
+                    
+                    // 入力欄をクリア
+                    for (let i = 1; i <= 6; i++) {
+                        document.getElementById(`key${i}`).value = '';
+                    }
+                } else {
+                    showError('計算に失敗しました: ' + response.data.error);
+                }
+            } catch (err) {
+                console.error('API Error:', err);
+                showError('API呼び出しエラー: ' + (err.response?.data?.message || err.message));
+            } finally {
+                loading.classList.remove('active');
+            }
+        }
+
+        /**
+         * 保存済みファクターを読み込む
+         */
+        async function loadSavedFactors() {
+            const loading = document.getElementById('loading');
+            const error = document.getElementById('error');
+            
+            error.classList.add('hidden');
+            loading.classList.add('active');
+            
+            try {
+                const response = await axios.get('/api/factors/saved');
+                
+                if (response.data.success) {
+                    calculatedFactors = response.data.factors;
+                    renderTable(calculatedFactors);
+                } else {
+                    showError('読み込みに失敗しました: ' + response.data.error);
+                }
+            } catch (err) {
+                console.error('API Error:', err);
+                showError('API呼び出しエラー: ' + (err.response?.data?.message || err.message));
+            } finally {
+                loading.classList.remove('active');
+            }
+        }
+
+        /**
+         * 選択したファクターを保存
+         */
+        async function saveSelectedFactors() {
+            const checkboxes = document.querySelectorAll('.factor-checkbox:checked');
+            const selectedIds = Array.from(checkboxes).map(cb => cb.getAttribute('data-factor-id'));
+            
+            if (selectedIds.length === 0) {
+                showError('保存するファクターを選択してください');
+                return;
+            }
+
+            const loading = document.getElementById('loading');
+            const error = document.getElementById('error');
+            
+            error.classList.add('hidden');
+            loading.classList.add('active');
+            
+            try {
+                // 保存条件を取得
+                const saveCondition = {
+                    mode: document.getElementById('saveMode').value,
+                    aasThreshold: parseFloat(document.getElementById('aasThreshold').value),
+                    rgsThreshold: parseFloat(document.getElementById('rgsThreshold').value),
+                    minRaceCount: parseInt(document.getElementById('minRaceCount').value)
+                };
+
+                const response = await axios.post('/api/factors/save', {
+                    factors: selectedIds,
+                    saveCondition: saveCondition
+                });
+
+                if (response.data.success) {
+                    alert(`${response.data.saved}件のファクターを保存しました`);
+                    // チェックボックスをクリア
+                    checkboxes.forEach(cb => cb.checked = false);
+                } else {
+                    showError('保存に失敗しました: ' + response.data.error);
+                }
+            } catch (err) {
+                console.error('API Error:', err);
+                showError('API呼び出しエラー: ' + (err.response?.data?.message || err.message));
+            } finally {
+                loading.classList.remove('active');
+            }
+        }
+
+        /**
+         * エラーメッセージを表示
+         */
+        function showError(message) {
+            const error = document.getElementById('error');
+            const errorMessage = document.getElementById('errorMessage');
+            errorMessage.textContent = message;
+            error.classList.remove('hidden');
+        }
+
+        /**
+         * テーブルを描画
+         */
+        function renderTable(factors) {
+            const tbody = document.getElementById('factorTableBody');
+            tbody.innerHTML = '';
+
+            if (factors.length === 0) {
+                tbody.innerHTML = '<tr><td colspan="17" class="text-gray-500 text-center py-4">データがありません</td></tr>';
+                return;
+            }
+
+            factors.forEach(factor => {
+                const row = document.createElement('tr');
+                const aasClass = factor.aasScore >= 2.0 ? 'score-positive' : 
+                                factor.aasScore <= 0 ? 'score-negative' : 'score-neutral';
+                const rgsClass = factor.rgsScore >= 1.0 ? 'score-positive' : 
+                                factor.rgsScore <= 0 ? 'score-negative' : 'score-neutral';
+                
+                const keysCells = factor.keys.map(key => `<td>${key || ''}</td>`).join('');
+                
+                // adjWinReturnRate と adjPlaceReturnRate のフィールド名も処理
+                const winAdjRet = factor.adjWinReturnRate || factor.winAdjReturnRate || 0;
+                const placeAdjRet = factor.adjPlaceReturnRate || factor.placeAdjReturnRate || 0;
+                
+                row.innerHTML = `
+                    <td><input type="checkbox" class="factor-checkbox" data-factor-id="${factor.id}"></td>
+                    ${keysCells}
+                    <td>${factor.winCount}</td>
+                    <td>${factor.winHitRate.toFixed(1)}%</td>
+                    <td>${factor.winReturnRate.toFixed(1)}%</td>
+                    <td>${factor.placeCount}</td>
+                    <td>${factor.placeHitRate.toFixed(1)}%</td>
+                    <td>${factor.placeReturnRate.toFixed(1)}%</td>
+                    <td>${winAdjRet.toFixed(1)}%</td>
+                    <td class="${aasClass}">${factor.aasScore >= 0 ? '+' : ''}${factor.aasScore.toFixed(1)}</td>
+                    <td>${placeAdjRet.toFixed(1)}%</td>
+                    <td class="${rgsClass}">${factor.rgsScore >= 0 ? '+' : ''}${factor.rgsScore.toFixed(2)}</td>
+                `;
+                
+                tbody.appendChild(row);
+            });
+        }
+
+        // 初期表示（サンプルデータ）
         const sampleFactors = [
             {
                 id: 'F001',
@@ -88,9 +382,9 @@
                 placeCount: 16,
                 placeHitRate: 35.2,
                 placeReturnRate: 168.8,
-                winAdjReturnRate: 175.1,
+                adjWinReturnRate: 175.1,
                 aasScore: 3.4,
-                placeAdjReturnRate: 66.4,
+                adjPlaceReturnRate: 66.4,
                 rgsScore: 1.75,
             },
             {
@@ -102,9 +396,9 @@
                 placeCount: 38,
                 placeHitRate: 42.1,
                 placeReturnRate: 125.3,
-                winAdjReturnRate: 138.5,
+                adjWinReturnRate: 138.5,
                 aasScore: 2.8,
-                placeAdjReturnRate: 88.2,
+                adjPlaceReturnRate: 88.2,
                 rgsScore: 1.20,
             },
             {
@@ -116,9 +410,9 @@
                 placeCount: 22,
                 placeHitRate: 38.5,
                 placeReturnRate: 105.2,
-                winAdjReturnRate: 115.3,
+                adjWinReturnRate: 115.3,
                 aasScore: 1.5,
-                placeAdjReturnRate: 78.9,
+                adjPlaceReturnRate: 78.9,
                 rgsScore: 0.50,
             },
             {
@@ -130,46 +424,15 @@
                 placeCount: 45,
                 placeHitRate: 35.8,
                 placeReturnRate: 95.8,
-                winAdjReturnRate: 85.2,
+                adjWinReturnRate: 85.2,
                 aasScore: -0.8,
-                placeAdjReturnRate: 72.5,
+                adjPlaceReturnRate: 72.5,
                 rgsScore: -0.30,
             },
         ];
 
-        function renderTable(factors) {
-            const tbody = document.getElementById('factorTableBody');
-            tbody.innerHTML = '';
-
-            factors.forEach(factor => {
-                const row = document.createElement('tr');
-                const aasClass = factor.aasScore >= 2.0 ? 'score-positive' : 
-                                factor.aasScore <= 0 ? 'score-negative' : 'score-neutral';
-                const rgsClass = factor.rgsScore >= 1.0 ? 'score-positive' : 
-                                factor.rgsScore <= 0 ? 'score-negative' : 'score-neutral';
-                
-                const keysCells = factor.keys.map(key => `<td>${key || ''}</td>`).join('');
-                
-                row.innerHTML = `
-                    <td><input type="checkbox" class="factor-checkbox" data-factor-id="${factor.id}"></td>
-                    ${keysCells}
-                    <td>${factor.winCount}</td>
-                    <td>${factor.winHitRate.toFixed(1)}%</td>
-                    <td>${factor.winReturnRate.toFixed(1)}%</td>
-                    <td>${factor.placeCount}</td>
-                    <td>${factor.placeHitRate.toFixed(1)}%</td>
-                    <td>${factor.placeReturnRate.toFixed(1)}%</td>
-                    <td>${factor.winAdjReturnRate.toFixed(1)}%</td>
-                    <td class="${aasClass}">${factor.aasScore >= 0 ? '+' : ''}${factor.aasScore.toFixed(1)}</td>
-                    <td>${factor.placeAdjReturnRate.toFixed(1)}%</td>
-                    <td class="${rgsClass}">${factor.rgsScore >= 0 ? '+' : ''}${factor.rgsScore.toFixed(2)}</td>
-                `;
-                
-                tbody.appendChild(row);
-            });
-        }
-
-        renderTable(sampleFactors);
+        calculatedFactors = sampleFactors;
+        renderTable(calculatedFactors);
     </script>
 </body>
 </html>
