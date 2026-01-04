@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ファクター登録 - UMAYOMI</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css" rel="stylesheet">
+    <style>
+        .factor-table {
+            font-size: 14px;
+        }
+        .factor-table th {
+            background-color: #f3f4f6;
+            font-weight: 600;
+            padding: 8px 12px;
+            border: 1px solid #d1d5db;
+            text-align: center;
+        }
+        .factor-table td {
+            padding: 6px 12px;
+            border: 1px solid #e5e7eb;
+            text-align: center;
+        }
+        .factor-table tr:hover {
+            background-color: #f9fafb;
+        }
+        .score-positive {
+            color: #dc2626;
+            font-weight: 600;
+        }
+        .score-negative {
+            color: #2563eb;
+            font-weight: 600;
+        }
+        .score-neutral {
+            color: #6b7280;
+        }
+    </style>
+</head>
+<body class="bg-gray-50">
+    <div class="container mx-auto px-4 py-6">
+        <!-- 省略：ヘッダーと入力フォーム -->
+        
+        <!-- 集計結果テーブル -->
+        <div class="bg-white shadow-sm rounded-lg p-6">
+            <h2 class="text-lg font-bold text-gray-800 mb-4">集計結果一覧</h2>
+            
+            <div class="overflow-x-auto">
+                <table class="factor-table w-full border-collapse">
+                    <thead>
+                        <tr>
+                            <th style="width: 40px;">選択</th>
+                            <th style="width: 100px;">キー1</th>
+                            <th style="width: 100px;">キー2</th>
+                            <th style="width: 100px;">キー3</th>
+                            <th style="width: 100px;">キー4</th>
+                            <th style="width: 100px;">キー5</th>
+                            <th style="width: 100px;">キー6</th>
+                            <th style="width: 70px;">単勝<br>件数</th>
+                            <th style="width: 70px;">単勝<br>的中率</th>
+                            <th style="width: 70px;">単勝<br>回収率</th>
+                            <th style="width: 70px;">複勝<br>件数</th>
+                            <th style="width: 70px;">複勝<br>的中率</th>
+                            <th style="width: 70px;">複勝<br>回収率</th>
+                            <th style="width: 80px;">単勝<br>補正回収率</th>
+                            <th style="width: 80px;">AAS<br>得点</th>
+                            <th style="width: 80px;">複勝<br>補正回収率</th>
+                            <th style="width: 80px;">RGS<br>得点</th>
+                        </tr>
+                    </thead>
+                    <tbody id="factorTableBody">
+                        <!-- JavaScript で動的生成 -->
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const sampleFactors = [
+            {
+                id: 'F001',
+                keys: ['中山', '芝', '1200m', '3歳', 'えりも町', ''],
+                winCount: 11,
+                winHitRate: 30.5,
+                winReturnRate: 233.6,
+                placeCount: 16,
+                placeHitRate: 35.2,
+                placeReturnRate: 168.8,
+                winAdjReturnRate: 175.1,
+                aasScore: 3.4,
+                placeAdjReturnRate: 66.4,
+                rgsScore: 1.75,
+            },
+            {
+                id: 'F002',
+                keys: ['東京', '芝', '2000m', '', '新冠町', ''],
+                winCount: 25,
+                winHitRate: 28.3,
+                winReturnRate: 185.2,
+                placeCount: 38,
+                placeHitRate: 42.1,
+                placeReturnRate: 125.3,
+                winAdjReturnRate: 138.5,
+                aasScore: 2.8,
+                placeAdjReturnRate: 88.2,
+                rgsScore: 1.20,
+            },
+            {
+                id: 'F003',
+                keys: ['阪神', 'ダート', '1400m', '牡馬', '浦河町', '春'],
+                winCount: 18,
+                winHitRate: 25.1,
+                winReturnRate: 145.8,
+                placeCount: 22,
+                placeHitRate: 38.5,
+                placeReturnRate: 105.2,
+                winAdjReturnRate: 115.3,
+                aasScore: 1.5,
+                placeAdjReturnRate: 78.9,
+                rgsScore: 0.50,
+            },
+            {
+                id: 'F004',
+                keys: ['JRA', '3歳', '牡馬', '春', '', ''],
+                winCount: 32,
+                winHitRate: 22.1,
+                winReturnRate: 105.5,
+                placeCount: 45,
+                placeHitRate: 35.8,
+                placeReturnRate: 95.8,
+                winAdjReturnRate: 85.2,
+                aasScore: -0.8,
+                placeAdjReturnRate: 72.5,
+                rgsScore: -0.30,
+            },
+        ];
+
+        function renderTable(factors) {
+            const tbody = document.getElementById('factorTableBody');
+            tbody.innerHTML = '';
+
+            factors.forEach(factor => {
+                const row = document.createElement('tr');
+                const aasClass = factor.aasScore >= 2.0 ? 'score-positive' : 
+                                factor.aasScore <= 0 ? 'score-negative' : 'score-neutral';
+                const rgsClass = factor.rgsScore >= 1.0 ? 'score-positive' : 
+                                factor.rgsScore <= 0 ? 'score-negative' : 'score-neutral';
+                
+                const keysCells = factor.keys.map(key => `<td>${key || ''}</td>`).join('');
+                
+                row.innerHTML = `
+                    <td><input type="checkbox" class="factor-checkbox" data-factor-id="${factor.id}"></td>
+                    ${keysCells}
+                    <td>${factor.winCount}</td>
+                    <td>${factor.winHitRate.toFixed(1)}%</td>
+                    <td>${factor.winReturnRate.toFixed(1)}%</td>
+                    <td>${factor.placeCount}</td>
+                    <td>${factor.placeHitRate.toFixed(1)}%</td>
+                    <td>${factor.placeReturnRate.toFixed(1)}%</td>
+                    <td>${factor.winAdjReturnRate.toFixed(1)}%</td>
+                    <td class="${aasClass}">${factor.aasScore >= 0 ? '+' : ''}${factor.aasScore.toFixed(1)}</td>
+                    <td>${factor.placeAdjReturnRate.toFixed(1)}%</td>
+                    <td class="${rgsClass}">${factor.rgsScore >= 0 ? '+' : ''}${factor.rgsScore.toFixed(2)}</td>
+                `;
+                
+                tbody.appendChild(row);
+            });
+        }
+
+        renderTable(sampleFactors);
+    </script>
+</body>
+</html>
