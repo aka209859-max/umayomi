@@ -99,11 +99,12 @@ export class ZEDParser {
    * Parse entire ZED file buffer (Shift-JIS encoded)
    */
   static parseFile(buffer: Buffer): ZEDRecord[] {
+    // Use dynamic import for iconv-lite in ES modules
     const iconv = require('iconv-lite');
     
     try {
       const decoded = iconv.decode(buffer, 'shift_jis');
-      const lines = decoded.split(/\r?\n/).filter(l => l.trim().length > 0);
+      const lines = decoded.split(/\r?\n/).filter((l: string) => l.trim().length > 0);
       
       const records: ZEDRecord[] = [];
       for (const line of lines) {

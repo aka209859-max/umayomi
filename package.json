@@ -19,7 +19,11 @@
     "import:all": "npm run db:migrate && npm run import:jrdb && npm run import:jravan",
     "import:jrdb:d1": "tsx scripts/import_jrdb_data_d1.ts",
     "import:jravan:d1": "tsx scripts/import_jravan_data_d1.ts",
-    "import:all:d1": "npm run import:jrdb:d1 && npm run import:jravan:d1"
+    "import:all:d1": "npm run import:jrdb:d1 && npm run import:jravan:d1",
+    "import:zed": "tsx scripts/import_jrdb_zed_standalone.ts",
+    "import:zed:all": "tsx scripts/import_jrdb_zed_standalone.ts \"E:\\test_zed\\ZED*.txt\" 2014-01-01 2025-08-24",
+    "import:zed:2024": "tsx scripts/import_jrdb_zed_standalone.ts \"E:\\test_zed\\ZED*.txt\" 2024-01-01 2024-12-31",
+    "import:zed:2025": "tsx scripts/import_jrdb_zed_standalone.ts \"E:\\test_zed\\ZED*.txt\" 2025-01-01 2025-08-24"
   },
   "dependencies": {
     "better-sqlite3": "^9.0.0",
