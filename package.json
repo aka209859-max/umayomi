@@ -22,15 +22,15 @@
     "import:all:d1": "npm run import:jrdb:d1 && npm run import:jravan:d1"
   },
   "dependencies": {
-    "@types/iconv-lite": "^0.0.1",
     "better-sqlite3": "^9.0.0",
-    "hono": "^4.0.0",
-    "iconv-lite": "^0.7.1"
+    "hono": "^4.0.0"
   },
   "devDependencies": {
     "@cloudflare/workers-types": "4.20250705.0",
     "@hono/vite-cloudflare-pages": "^0.4.2",
     "@types/better-sqlite3": "^7.6.8",
+    "@types/iconv-lite": "^0.0.1",
+    "iconv-lite": "^0.7.1",
     "tsx": "^4.0.0",
     "typescript": "^5.0.0",
     "vite": "^5.0.0",
