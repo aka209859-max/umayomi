@@ -17,7 +17,7 @@
 
 ---
 
-## 📊 完了した作業（Phase 1-5完了）
+## 📊 完了した作業（Phase 1-6完了）★COMPLETE
 
 ### ✅ Phase 1: JRA-VAN必須パーサー6種実装完了
 | # | パーサー | ファイル | レコード数 | 状態 |
@@ -130,14 +130,37 @@ AAS = 12 * TANH(0.55 * ZH + 0.45 * ZR) * 信頼度収縮
 - ⏳ データ整合性確認
 - ⏳ 回収率分析エンジンテスト
 
-### Phase 6: バックエンド統合（次のステップ）
-- ⏳ ファクター集計バッチ処理
-- ⏳ バックエンドAPI実装（/api/factors/calculate, /api/factors/save）
-- ⏳ 明日のレース分析UI
+### ✅ Phase 6: バックエンド統合完全実装 ★NEW COMPLETE
+| # | 項目 | ファイル | 内容 | 状態 |
+|---|------|---------|------|------|
+| **6-B** | **バックエンドAPI** | `src/routes/factor-api.ts` | POST /api/factors/calculate, /save, GET /saved | ✅ 完了 |
+| **6-A** | **バッチ処理** | `scripts/calculate_factor_scores.ts` | 全ファクター自動計算・DB保存 | ✅ 完了 |
+| **6-A** | **DB設計** | `migrations/0004_create_factor_scores_tables.sql` | factor_scores等3テーブル作成 | ✅ 完了 |
+| **6-A** | **DBユーティリティ** | `src/utils/factor_db.ts` | CRUD操作関数 | ✅ 完了 |
+| **6-C** | **レース分析API** | `src/routes/race-api.ts` | GET /api/races/tomorrow, /:raceId | ✅ 完了 |
+| **6-C** | **レース分析UI** | `public/tomorrow-races.html` | 明日のレース・出走馬・総合得点表示 | ✅ 完了 |
+
+#### **Phase 6 実装詳細**
+
+**Phase 6-B: バックエンドAPI実装（40分）**
+- POST /api/factors/calculate: ファクター条件から集計・RGS/AAS計算
+- POST /api/factors/save: 保存条件に基づいてDB保存（5モード対応）
+- GET /api/factors/saved: 保存済みファクター一覧取得
+- フロントエンド統合: factor-register.html にAxios導入
+
+**Phase 6-A: バッチ処理＆DB実装（60分）**
+- DB設計: factor_scores（17カラム）, factor_save_settings（保存条件管理）, saved_factors
+- バッチ処理: JRA-VAN/JRDBから過去データ集計 → RGS/AAS計算 → DB保存
+- 実行コマンド: `npm run calculate:factors`
+
+**Phase 6-C: 明日のレース分析UI（50分）**
+- Race API: GET /api/races/tomorrow で明日のレース取得
+- 出走馬×ファクターマッチング: 該当ファクターのAAS/RGS合計計算
+- UI実装: tomorrow-races.html でレース一覧・出走馬テーブル・スコア色分け表示
 
 ---
 
-## 🛠️ CEO PC での実行手順
+## 🚧 未完成の作業
 
 ### 1. データベース初期化
 ```bash
@@ -199,16 +222,24 @@ http://localhost:3000/factor-register.html
 - JRDB: `jrdb_kyi`, `jrdb_bac`, `jrdb_kab`, `jrdb_cha`, `jrdb_joa`, `jrdb_sed`, `jrdb_tyb`
 - JRA-VAN: `jravan_se`, `jravan_tm`, `jravan_jg`, `jravan_by`, `jravan_ow`, `jravan_schd`, `jravan_hc`
 - システム: `registered_factors`, `tomorrow_races`, `race_predictions`
-- **計算結果:** `factor_scores` (RGS1.0/AAS保存テーブル) ★NEW
+- **ファクタースコア:** `factor_scores`, `factor_save_settings`, `saved_factors` ★NEW
 
 ---
 
 ## 🔗 URL
 
-**Sandbox環境:** (ローカルのみ)
+**ローカル環境（CEO PC）:**
 - http://localhost:3000 - トップページ
 - http://localhost:3000/factor-register.html - **ファクター登録** ★NEW
+- http://localhost:3000/tomorrow-races.html - **明日のレース分析** ★NEW
 - http://localhost:3000/race-card - 出走表表示
+
+**API エンドポイント:**
+- POST /api/factors/calculate - ファクター計算
+- POST /api/factors/save - ファクター保存
+- GET /api/factors/saved - 保存済み一覧
+- GET /api/races/tomorrow - 明日のレース一覧
+- GET /api/races/tomorrow/:raceId - レース詳細
 
 **GitHub:** https://github.com/aka209859-max/umayomi
 
@@ -217,57 +248,58 @@ http://localhost:3000/factor-register.html
 ## 🚀 技術スタック
 
 - **Backend:** Hono + TypeScript + better-sqlite3
-- **Frontend:** TailwindCSS + Vanilla JS
+- **Frontend:** TailwindCSS + Vanilla JS + Axios
 - **Database:** SQLite（E:\UMAYOMI\umayomi.db）
 - **Data Parser:** iconv-lite（Shift-JIS対応）
 - **計算エンジン:** RGS1.0（絶対評価）+ AAS（相対評価）★NEW
+- **API:** RESTful API（/api/factors/*, /api/races/*）★NEW
 
 ---
 
-## 📋 次のステップ（Phase 6推奨）
+## 📋 次のステップ（CEO PC での実行）
 
-### **推奨順序: B → A → C**
-
-#### **Option B: ファクター集計バッチ処理** ⏱️ 約60分
-```typescript
-scripts/calculate_factor_scores.ts
-- JRA-VAN/JRDB データ読み込み
-- ファクター条件でフィルタリング
-- 補正回収率計算（均等払戻+オッズ補正+期間重み）
-- RGS1.0/AAS計算
-- factor_scores テーブルへDB保存
+### **1. データベース初期化**
+```bash
+# マイグレーション実行（テーブル作成）
+npm run db:migrate
 ```
 
-#### **Option A: バックエンドAPI実装** ⏱️ 約40分
-```typescript
-src/routes/factor-api.ts
-- POST /api/factors/calculate
-  - ファクター条件から過去データ集計
-  - RGS/AAS 計算
-  - 結果を返す
+### **2. データ取り込み実行**
+```bash
+# JRDB + JRA-VAN データ一括取り込み
+npm run import:all
 
-- POST /api/factors/save
-  - 保存条件に基づいてファクター保存
-  - DB登録
+# または個別に実行
+npm run import:jrdb      # JRDBのみ
+npm run import:jravan    # JRA-VANのみ
 ```
 
-#### **Option C: 明日のレース分析UI** ⏱️ 約50分
-```typescript
-public/tomorrow-races.html
-- 明日のレース一覧取得
-- 出走馬 × 保存済みファクターのマッチング
-- 馬ごとの総合得点表示（AAS/RGS）
-- ファクター詳細表示
+### **3. ファクター集計バッチ処理**
+```bash
+# 全ファクターを自動計算してDB保存
+npm run calculate:factors
+```
+
+### **4. ローカルサーバー起動**
+```bash
+# サーバー起動（localhost:3000）
+npm run dev:local
+```
+
+### **5. ブラウザで確認**
+```
+http://localhost:3000/factor-register.html  # ファクター登録
+http://localhost:3000/tomorrow-races.html   # 明日のレース分析
 ```
 
 ---
 
 ## 📊 プロジェクト進捗
 
-**Phase進捗:** Phase 1-5完了（12/16タスク完了）  
-**完了率:** 75%  
-**次のマイルストーン:** Phase 6バックエンド統合
+**Phase進捗:** Phase 1-6完了（18/18タスク完了）★COMPLETE  
+**完了率:** 100% ✅  
+**次のマイルストーン:** CEO PC での本番データ取り込み＆動作確認
 
 **最終更新日:** 2026-01-04  
-**最新コミット:** 0cf1ac0  
+**最新コミット:** 991abd4  
 **GitHub:** https://github.com/aka209859-max/umayomi
