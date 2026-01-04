@@ -13,8 +13,8 @@ export interface AASHorseInput {
   cntPlace: number;         // 複勝件数
   rateWinHit: number;       // 単勝的中率（%）
   ratePlaceHit: number;     // 複勝的中率（%）
-  rateWinRet: number;       // 単勝補正回収率（%）
-  ratePlaceRet: number;     // 複勝補正回収率（%）
+  rateWinRet: number;       // 単勝補正回収率（%）← ⚠️ 必ず補正回収率を使用
+  ratePlaceRet: number;     // 複勝補正回収率（%）← ⚠️ 必ず補正回収率を使用
 }
 
 /**
@@ -58,7 +58,7 @@ interface AASGroupStats {
  * Step 1: 基礎値の算出
  *   N_min = MIN(cnt_win, cnt_plc)
  *   Hit_raw = 0.65 * rate_win_hit + 0.35 * rate_plc_hit
- *   Ret_raw = 0.35 * rate_win_ret + 0.65 * rate_plc_ret
+ *   Ret_raw = 0.35 * adj_win_ret + 0.65 * adj_plc_ret  ← ⚠️ 補正回収率を使用
  * 
  * Step 2: グループ統計の算出
  *   μH, σH: Hit_raw の平均と標準偏差
