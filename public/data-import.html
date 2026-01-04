@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>📥 データ取り込みシステム - UMAYOMI</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css" rel="stylesheet">
+    <style>
+        .progress-bar {
+            width: 100%;
+            height: 30px;
+            background: #e5e7eb;
+            border-radius: 8px;
+            overflow: hidden;
+            position: relative;
+        }
+        .progress-fill {
+            height: 100%;
+            background: linear-gradient(90deg, #3b82f6 0%, #2563eb 100%);
+            transition: width 0.3s ease;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-weight: bold;
+        }
+        .card {
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            padding: 24px;
+            margin-bottom: 24px;
+        }
+        .btn-primary {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 12px 32px;
+            border-radius: 8px;
+            font-weight: bold;
+            border: none;
+            cursor: pointer;
+            transition: transform 0.2s;
+        }
+        .btn-primary:hover {
+            transform: translateY(-2px);
+        }
+        .btn-primary:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
+        .log-box {
+            background: #1e293b;
+            color: #e2e8f0;
+            padding: 16px;
+            border-radius: 8px;
+            font-family: 'Courier New', monospace;
+            font-size: 14px;
+            max-height: 400px;
+            overflow-y: auto;
+        }
+        .log-line {
+            margin-bottom: 4px;
+        }
+        .log-success { color: #10b981; }
+        .log-error { color: #ef4444; }
+        .log-info { color: #3b82f6; }
+        .log-warning { color: #f59e0b; }
+    </style>
+</head>
+<body class="bg-gray-50">
+    <div class="container mx-auto max-w-4xl px-4 py-8">
+        <!-- Header -->
+        <div class="text-center mb-8">
+            <h1 class="text-4xl font-bold text-gray-800 mb-2">
+                <i class="fas fa-download mr-3"></i>
+                データ取り込みシステム
+            </h1>
+            <p class="text-gray-600">JRA-VAN / JRDB データを期間指定で自動取り込み</p>
+        </div>
+
+        <!-- Main Card -->
+        <div class="card">
+            <h2 class="text-2xl font-bold text-gray-800 mb-6">
+                <i class="fas fa-cog mr-2"></i>
+                取り込み設定
+            </h2>
+
+            <!-- Data Source Selection -->
+            <div class="mb-6">
+                <label class="block text-gray-700 font-bold mb-2">
+                    <i class="fas fa-database mr-2"></i>
+                    データソース
+                </label>
+                <select id="dataSource" class="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent">
+                    <option value="jrdb_zed">JRDB ZED（馬別レース成績）</option>
+                    <option value="jrdb_kka">JRDB KKA（確定着順）</option>
+                    <option value="jrdb_sed">JRDB SED（成績データ）</option>
+                    <option value="jrdb_bac">JRDB BAC（馬基本情報）</option>
+                    <option value="jravan_se">JRA-VAN SE（成績データ）</option>
+                    <option value="jravan_ra">JRA-VAN RA（払戻データ）</option>
+                </select>
+            </div>
+
+            <!-- Date Range -->
+            <div class="mb-6 grid grid-cols-2 gap-4">
+                <div>
+                    <label class="block text-gray-700 font-bold mb-2">
+                        <i class="fas fa-calendar-alt mr-2"></i>
+                        開始日
+                    </label>
+                    <input type="date" id="startDate" value="2024-01-01" 
+                           class="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent">
+                </div>
+                <div>
+                    <label class="block text-gray-700 font-bold mb-2">
+                        <i class="fas fa-calendar-alt mr-2"></i>
+                        終了日
+                    </label>
+                    <input type="date" id="endDate" value="2024-12-31"
+                           class="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent">
+                </div>
+            </div>
+
+            <!-- File Path -->
+            <div class="mb-6">
+                <label class="block text-gray-700 font-bold mb-2">
+                    <i class="fas fa-folder-open mr-2"></i>
+                    データフォルダパス
+                </label>
+                <input type="text" id="dataPath" 
+                       placeholder="例: E:\UMAYOMI\jrdb_data\PACI*\ZED*.txt"
+                       class="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent">
+                <p class="text-sm text-gray-500 mt-2">
+                    <i class="fas fa-info-circle mr-1"></i>
+                    ワイルドカード（*）使用可能
+                </p>
+            </div>
+
+            <!-- Start Button -->
+            <div class="text-center">
+                <button id="startButton" class="btn-primary" onclick="startImport()">
+                    <i class="fas fa-rocket mr-2"></i>
+                    取り込み開始
+                </button>
+            </div>
+        </div>
+
+        <!-- Progress Card -->
+        <div id="progressCard" class="card" style="display: none;">
+            <h2 class="text-2xl font-bold text-gray-800 mb-4">
+                <i class="fas fa-chart-line mr-2"></i>
+                進捗状況
+            </h2>
+
+            <div class="progress-bar mb-4">
+                <div id="progressFill" class="progress-fill" style="width: 0%">0%</div>
+            </div>
+
+            <div class="grid grid-cols-3 gap-4 mb-6">
+                <div class="text-center">
+                    <p class="text-gray-600 text-sm">処理済みファイル</p>
+                    <p class="text-2xl font-bold text-blue-600" id="fileCount">0 / 0</p>
+                </div>
+                <div class="text-center">
+                    <p class="text-gray-600 text-sm">取り込みレコード</p>
+                    <p class="text-2xl font-bold text-green-600" id="recordCount">0</p>
+                </div>
+                <div class="text-center">
+                    <p class="text-gray-600 text-sm">処理速度</p>
+                    <p class="text-2xl font-bold text-purple-600" id="speed">0 rec/s</p>
+                </div>
+            </div>
+
+            <!-- Log Box -->
+            <div class="log-box" id="logBox">
+                <div class="log-line log-info">📋 ログ表示エリア</div>
+            </div>
+        </div>
+
+        <!-- Result Card -->
+        <div id="resultCard" class="card" style="display: none;">
+            <h2 class="text-2xl font-bold text-green-600 mb-4">
+                <i class="fas fa-check-circle mr-2"></i>
+                取り込み完了
+            </h2>
+
+            <div class="grid grid-cols-2 gap-4 mb-6">
+                <div class="bg-blue-50 p-4 rounded-lg">
+                    <p class="text-gray-600 text-sm mb-1">処理ファイル数</p>
+                    <p class="text-3xl font-bold text-blue-600" id="resultFiles">0</p>
+                </div>
+                <div class="bg-green-50 p-4 rounded-lg">
+                    <p class="text-gray-600 text-sm mb-1">取り込みレコード数</p>
+                    <p class="text-3xl font-bold text-green-600" id="resultRecords">0</p>
+                </div>
+            </div>
+
+            <div class="bg-purple-50 p-4 rounded-lg mb-6">
+                <p class="text-gray-600 text-sm mb-1">処理時間</p>
+                <p class="text-2xl font-bold text-purple-600" id="resultTime">0.0秒</p>
+                <p class="text-gray-600 text-sm mt-2">
+                    平均速度: <span id="resultSpeed" class="font-bold">0</span> records/sec
+                </p>
+            </div>
+
+            <div class="text-center">
+                <button class="btn-primary" onclick="resetForm()">
+                    <i class="fas fa-redo mr-2"></i>
+                    新しい取り込みを開始
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.0/dist/axios.min.js"></script>
+    <script>
+        let importJob = null;
+
+        // データソース変更時のパス自動設定
+        document.getElementById('dataSource').addEventListener('change', function() {
+            const source = this.value;
+            const pathMap = {
+                'jrdb_zed': 'E:\\UMAYOMI\\jrdb_data\\PACI*\\ZED*.txt',
+                'jrdb_kka': 'E:\\UMAYOMI\\jrdb_data\\PACI*\\KKA*.txt',
+                'jrdb_sed': 'E:\\UMAYOMI\\jrdb_data\\PACI*\\SED*.txt',
+                'jrdb_bac': 'E:\\UMAYOMI\\jrdb_data\\PACI*\\BAC*.txt',
+                'jravan_se': 'E:\\JRDB\\unzipped_weekly\\se\\SE*.txt',
+                'jravan_ra': 'E:\\JRDB\\unzipped_weekly\\ra\\RA*.txt'
+            };
+            document.getElementById('dataPath').value = pathMap[source] || '';
+        });
+
+        // 初期パス設定
+        document.getElementById('dataSource').dispatchEvent(new Event('change'));
+
+        async function startImport() {
+            const dataSource = document.getElementById('dataSource').value;
+            const startDate = document.getElementById('startDate').value;
+            const endDate = document.getElementById('endDate').value;
+            const dataPath = document.getElementById('dataPath').value;
+
+            // Validation
+            if (!dataPath) {
+                alert('データフォルダパスを指定してください');
+                return;
+            }
+
+            // UI Update
+            document.getElementById('startButton').disabled = true;
+            document.getElementById('progressCard').style.display = 'block';
+            document.getElementById('resultCard').style.display = 'none';
+            resetProgress();
+
+            addLog('info', `🚀 取り込み開始: ${dataSource}`);
+            addLog('info', `📅 期間: ${startDate} ～ ${endDate}`);
+            addLog('info', `📂 パス: ${dataPath}`);
+
+            try {
+                const response = await axios.post('/api/data-import/start', {
+                    dataSource,
+                    startDate,
+                    endDate,
+                    dataPath
+                });
+
+                importJob = response.data.jobId;
+                pollProgress(importJob);
+            } catch (error) {
+                addLog('error', `❌ エラー: ${error.response?.data?.error || error.message}`);
+                document.getElementById('startButton').disabled = false;
+            }
+        }
+
+        async function pollProgress(jobId) {
+            const interval = setInterval(async () => {
+                try {
+                    const response = await axios.get(`/api/data-import/progress/${jobId}`);
+                    const data = response.data;
+
+                    updateProgress(data);
+
+                    if (data.status === 'completed') {
+                        clearInterval(interval);
+                        showResult(data);
+                    } else if (data.status === 'error') {
+                        clearInterval(interval);
+                        addLog('error', `❌ 取り込み失敗: ${data.error}`);
+                        document.getElementById('startButton').disabled = false;
+                    }
+                } catch (error) {
+                    clearInterval(interval);
+                    addLog('error', `❌ 進捗取得エラー: ${error.message}`);
+                    document.getElementById('startButton').disabled = false;
+                }
+            }, 500);
+        }
+
+        function updateProgress(data) {
+            const percent = data.totalFiles > 0 ? (data.processedFiles / data.totalFiles * 100).toFixed(1) : 0;
+            
+            document.getElementById('progressFill').style.width = percent + '%';
+            document.getElementById('progressFill').textContent = percent + '%';
+            
+            document.getElementById('fileCount').textContent = `${data.processedFiles} / ${data.totalFiles}`;
+            document.getElementById('recordCount').textContent = data.totalRecords.toLocaleString();
+            document.getElementById('speed').textContent = data.speed.toLocaleString() + ' rec/s';
+
+            if (data.lastFile) {
+                addLog('success', `✅ ${data.lastFile}: ${data.lastRecords.toLocaleString()} records`);
+            }
+        }
+
+        function showResult(data) {
+            document.getElementById('resultCard').style.display = 'block';
+            document.getElementById('resultFiles').textContent = data.totalFiles.toLocaleString();
+            document.getElementById('resultRecords').textContent = data.totalRecords.toLocaleString();
+            document.getElementById('resultTime').textContent = data.duration.toFixed(2) + '秒';
+            document.getElementById('resultSpeed').textContent = data.averageSpeed.toLocaleString();
+
+            addLog('success', `🎉 取り込み完了！`);
+            addLog('info', `📊 ファイル: ${data.totalFiles}件 / レコード: ${data.totalRecords.toLocaleString()}件`);
+            addLog('info', `⏱️ 処理時間: ${data.duration.toFixed(2)}秒`);
+
+            document.getElementById('startButton').disabled = false;
+        }
+
+        function addLog(type, message) {
+            const logBox = document.getElementById('logBox');
+            const line = document.createElement('div');
+            line.className = `log-line log-${type}`;
+            line.textContent = `[${new Date().toLocaleTimeString()}] ${message}`;
+            logBox.appendChild(line);
+            logBox.scrollTop = logBox.scrollHeight;
+        }
+
+        function resetProgress() {
+            document.getElementById('progressFill').style.width = '0%';
+            document.getElementById('progressFill').textContent = '0%';
+            document.getElementById('fileCount').textContent = '0 / 0';
+            document.getElementById('recordCount').textContent = '0';
+            document.getElementById('speed').textContent = '0 rec/s';
+            document.getElementById('logBox').innerHTML = '<div class="log-line log-info">📋 ログ表示エリア</div>';
+        }
+
+        function resetForm() {
+            document.getElementById('resultCard').style.display = 'none';
+            document.getElementById('progressCard').style.display = 'none';
+            resetProgress();
+        }
+    </script>
+</body>
+</html>

@@ -7,11 +7,13 @@ import analysis from './routes/analysis'
 import factorRegister from './routes/factor-register'
 import tomorrowRaces from './routes/tomorrow-races'
 import raceCard from './routes/race-card'
+import dataImport from './routes/data-import'
 
 const app = new Hono()
 
 // API Routes
 app.route('/api', api)
+app.route('/api/data-import', dataImport)
 // app.route('/', horses)  // Disabled: uses Node.js fs module
 app.route('/', conditionSettings)
 app.route('/', analysis)
@@ -165,6 +167,10 @@ app.get('/', (c) => {
             
             <!-- Bottom Menu -->
             <div class="mt-8 pt-8 border-t border-dark-border space-y-2">
+                <a href="/data-import.html" class="flex items-center space-x-3 px-4 py-3 rounded-lg text-gray-400 hover:bg-dark-card hover:text-white transition-smooth">
+                    <i class="fas fa-download w-5"></i>
+                    <span class="font-medium">データ取り込み</span>
+                </a>
                 <a href="#" class="flex items-center space-x-3 px-4 py-3 rounded-lg text-gray-400 hover:bg-dark-card hover:text-white transition-smooth">
                     <i class="fas fa-cog w-5"></i>
                     <span class="font-medium">設定</span>
